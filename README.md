@@ -8,5 +8,5 @@ Koppla Wikidata till Svenska badstränder
 * karta [hundbadplatser världen](https://w.wiki/3Gkg)
    * utan [koordinat](https://w.wiki/3Gkh)
 ## Entity schema
-* [https://www.wikidata.org/wiki/EntitySchema:E304 EntitySchema:E304] Hundbadplatser
-* [https://www.wikidata.org/wiki/EntitySchema:E304 EntitySchema:E305] Svenskaplatser med NUTS
+* [EntitySchema:E304](https://www.wikidata.org/wiki/EntitySchema:E304) Hundbadplatser
+* [EntitySchema:E305](https://www.wikidata.org/wiki/EntitySchema:E305) Svenskaplatser med NUTS
