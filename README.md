@@ -2,9 +2,9 @@
 Koppla Wikidata till Svenska badstränder
 * karta [badplatser](https://w.wiki/3GEr)
   * koppling Tillgänglighetsdatabasen
-  * Instagram location / [missing]() 
-  * kartra om [svensk Wikipedia artikel finns](https://w.wiki/3Gkm)
-    * vilka språk finns artiklar om Svenskaop bad på 
+  * karta om [svensk Wikipedia artikel finns](https://w.wiki/3Gkm)
+    * vilka språk finns artiklar om Svenska bad på 
+  * karta saknar [Instagramplatsid](https://w.wiki/3Gkw)
 * karta [hundbadplatser världen](https://w.wiki/3Gkg)
    * utan [koordinat](https://w.wiki/3Gkh)
 ## Entity schema
