@@ -15,6 +15,13 @@ Finns idag ingen koppling Wikidata till denna database men skapar en text
 * [Wikidata <-> Tillgänglighetsdatabasen](https://w.wiki/3Gou)
   * visar de bad jag hittat i Tillgänglighetsdatabasen och kopplat i Wikidata OBS alla har inte NUTS
 * exempel [wheelmap.org](https://wheelmap.org/search) hur man borde kunna hitta badplatser med rätt tillgänglighet
+  * <em>Wheelmap is a map for finding wheelchair accessible places. The map works similar to Wikipedia: Anyone can contribute and mark public places around the world according to their wheelchair accessibility. The criteria for marking places is based on a simple traffic light system:
+
+Green = Fully wheelchair accessible
+
+Orange = Partially wheelchair accessible
+
+Red = Not wheelchair accessible</em> [FAQ](https://news.wheelmap.org/en/FAQ/)
  
 ## Entity schema
 * [EntitySchema:E304](https://www.wikidata.org/wiki/EntitySchema:E304) Hundbadplatser
