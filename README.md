@@ -17,6 +17,9 @@ Finns idag ingen koppling Wikidata till denna database men skapar en "fusk varia
 * exempel [wheelmap.org](https://wheelmap.org/search) hur man borde kunna hitta badplatser med rätt tillgänglighet
   * <em>Wheelmap is a map for finding wheelchair accessible places. The map works similar to Wikipedia: Anyone can contribute and mark public places around the world according to their wheelchair accessibility. The criteria for marking places is based on a simple traffic light system:</em> [FAQ](https://news.wheelmap.org/en/FAQ/)
 ![](https://news.wheelmap.org/en/wp-content/uploads/sites/2/2018/03/FlowchartWheelmapEN-1797x2048.jpg) 
-## Entity schema
+## Entity schema - att göra definierar vilka egenskaper som skall finnas i Wikidata för dessa objekt
 * [EntitySchema:E304](https://www.wikidata.org/wiki/EntitySchema:E304) Hundbadplatser
 * [EntitySchema:E305](https://www.wikidata.org/wiki/EntitySchema:E305) Svenskaplatser med NUTS
+
+## Bilder Wikicommon som avbildar en badpild med NUTS
+* TBA
