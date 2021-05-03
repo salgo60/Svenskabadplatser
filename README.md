@@ -14,6 +14,8 @@ Finns idag ingen koppling Wikidata till denna database men skapar en text
 * [Tillgänglighetsdatabasen](https://www.t-d.se/)
 * [Wikidata <-> Tillgänglighetsdatabasen](https://w.wiki/3Gou)
   * visar de bad jag hittat i Tillgänglighetsdatabasen och kopplat i Wikidata OBS alla har inte NUTS
+* exempel [wheelmap.org](https://wheelmap.org/search) hur man borde kunna hitta badplatser med rätt tillgänglighet
+ 
 ## Entity schema
 * [EntitySchema:E304](https://www.wikidata.org/wiki/EntitySchema:E304) Hundbadplatser
 * [EntitySchema:E305](https://www.wikidata.org/wiki/EntitySchema:E305) Svenskaplatser med NUTS
