@@ -12,7 +12,8 @@ Koppla Wikidata till Svenska badstränder som har NUTS
 ## Tillgänglighetsdatabasen <-> badstränder
 Finns idag ingen koppling Wikidata till denna database men skapar en text 
 * [Tillgänglighetsdatabasen](https://www.t-d.se/)
-* Wikidata <-> Tillgänglighetsdatabasen
+* [Wikidata <-> Tillgänglighetsdatabasen](https://w.wiki/3Gor)
+  * visar de bad jag hittat i Tillgänglighetsdatabasen och kopplat i Wikidata
 ## Entity schema
 * [EntitySchema:E304](https://www.wikidata.org/wiki/EntitySchema:E304) Hundbadplatser
 * [EntitySchema:E305](https://www.wikidata.org/wiki/EntitySchema:E305) Svenskaplatser med NUTS
