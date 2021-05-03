@@ -11,7 +11,7 @@ badvattenkvalitét i Sverige länk ex. API [feature](https://badplatsen.havochva
 * karta [hundbadplatser världen](https://w.wiki/3Gkg)
    * utan [koordinat](https://w.wiki/3Gkh)
 ## Tillgänglighetsdatabasen <-> badstränder
-* (Video om Tillgänglighetsdatabasen](https://vimeo.com/325190731)
+* [Video om Tillgänglighetsdatabasen](https://vimeo.com/325190731)
 Finns idag ingen koppling Wikidata till denna database men skapar en "fusk variant" 
 * [Tillgänglighetsdatabasen](https://www.t-d.se/)
 * [Wikidata <-> Tillgänglighetsdatabasen](https://w.wiki/3Gou)
