@@ -12,6 +12,10 @@ Koppla Wikidata till Svenska badstränder som har NUTS dvs. det som finns hos [H
     * karta saknar [Facebook placeid](https://w.wiki/3Gon) - se WD egenskap FB place id = [](https://www.wikidata.org/wiki/Property:P1997)
 * karta [hundbadplatser världen](https://w.wiki/3Gkg)
    * utan [koordinat](https://w.wiki/3Gkh)
+## Feedback Havs- och vattenmyndighetens i Sverige
+Magnus Sälgö 0705937579 - salgo60@msn.com
+1) ange vid vilket vatten bad finns gärna med Sjöid [Property:P761](https://www.wikidata.org/wiki/Property:P761) eller Wikidata objekt
+1) ange om badet finns på en ö eller liknande med samma som Wikidata objekt
 ## Tillgänglighetsdatabasen <-> badstränder
 * [Video om Tillgänglighetsdatabasen](https://vimeo.com/325190731)
 Finns idag ingen koppling Wikidata till denna database men skapar en "fusk variant" 
