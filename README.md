@@ -1,4 +1,4 @@
-# Svenska Badstränder
+# Svenska badplatser
 Koppla Wikidata till Svenska badstränder som har NUTS dvs. det som finns hos [Havs- och vattenmyndighetens i Sverige länk](https://www.havochvatten.se/badplatser-och-badvatten.html) deras API [feature](https://badplatsen.havochvatten.se/badplatsen/api/feature) / [detail](https://badplatsen.havochvatten.se/badplatsen/api/detail) - karta [Wikidata med länk API](https://w.wiki/3GpF)
 * karta [badplatser](https://w.wiki/3GEr)
   * karta om [svensk Wikipedia artikel finns](https://w.wiki/3Gkm)
