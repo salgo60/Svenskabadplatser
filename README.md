@@ -32,6 +32,3 @@ Finns idag ingen koppling Wikidata till denna database men skapar en "fusk varia
 för att data skall bli mer konsistent så skapas olika schema se [video](https://www.youtube.com/watch?v=ZHdjwbLgzvE)
 * [EntitySchema:E304](https://www.wikidata.org/wiki/EntitySchema:E304) Hundbadplatser
 * [EntitySchema:E305](https://www.wikidata.org/wiki/EntitySchema:E305) Svenskaplatser med NUTS
-
-## Bilder Wikicommon som avbildar en badpild med NUTS
-* TBA
