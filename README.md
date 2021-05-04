@@ -6,6 +6,7 @@ Koppla Wikidata till Svenska badplatser som har NUTS dvs. det som finns hos [Hav
   * karta [saknar bild](https://w.wiki/3Gv$) 
   * karta [saknar vattenområde](https://w.wiki/3Gw4) - egenskap ligger vid vattenområde = [Property:P206](https://www.wikidata.org/wiki/Property:P206) 
   * karta [saknar plats](https://w.wiki/3Gw9) - egenskap plats e.g. Naturreservat = [Property:P276](https://www.wikidata.org/wiki/Property:P276) 
+    * bra [karta att hitta svenska Naturreservat i Wikidata](https://map.wikilovesearth.se/#59.44228,18.03698,13z)  
   * karta [saknar landform](https://w.wiki/3GwC) - egenskap placerad på landform e.g. ö = [Property:P706](https://www.wikidata.org/wiki/Property:P706) 
   * karta saknar [Instagramplatsid](https://w.wiki/3Gkw) 
     * karta saknar [HashTag](https://w.wiki/3Gom) 
@@ -27,6 +28,7 @@ Finns idag ingen koppling Wikidata till denna database men skapar en "fusk varia
   * <em>Wheelmap is a map for finding wheelchair accessible places. The map works similar to Wikipedia: Anyone can contribute and mark public places around the world according to their wheelchair accessibility. The criteria for marking places is based on a simple traffic light system:</em> [FAQ](https://news.wheelmap.org/en/FAQ/)
 ![](https://news.wheelmap.org/en/wp-content/uploads/sites/2/2018/03/FlowchartWheelmapEN-1797x2048.jpg) 
 ## Entity schema - att göra definierar vilka egenskaper som skall finnas i Wikidata för dessa objekt
+för att data skall bli mer konsistent så skapas olika schema se [video](https://www.youtube.com/watch?v=ZHdjwbLgzvE)
 * [EntitySchema:E304](https://www.wikidata.org/wiki/EntitySchema:E304) Hundbadplatser
 * [EntitySchema:E305](https://www.wikidata.org/wiki/EntitySchema:E305) Svenskaplatser med NUTS
 
