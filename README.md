@@ -9,9 +9,9 @@ Koppla Wikidata till Svenska badplatser som har NUTS dvs. det som finns hos [Hav
   * karta [saknar plats](https://w.wiki/3Gw9) - egenskap plats e.g. Naturreservat = [Property:P276](https://www.wikidata.org/wiki/Property:P276) 
     * bra [karta att hitta svenska Naturreservat i Wikidata](https://map.wikilovesearth.se/#59.44228,18.03698,13z)  
   * karta [saknar landform](https://w.wiki/3GwC) - egenskap placerad på landform e.g. ö = [Property:P706](https://www.wikidata.org/wiki/Property:P706) 
-  * karta saknar [Instagramplatsid](https://w.wiki/3Gkw) 
-    * karta saknar [HashTag](https://w.wiki/3Gom) 
-    * karta saknar [Facebook placeid](https://w.wiki/3Gon) - se WD egenskap FB place id = [](https://www.wikidata.org/wiki/Property:P1997)
+  * karta saknar [Instagramplatsid](https://w.wiki/3Gkw) - [Property:P4173](https://www.wikidata.org/wiki/Property:P4173)
+    * karta saknar [HashTag](https://w.wiki/3Gom) - [Property:P2572](https://www.wikidata.org/wiki/Property:P2572)
+    * karta saknar [Facebook placeid](https://w.wiki/3Gon) - [Property:P1997](https://www.wikidata.org/wiki/Property:P1997)
 * karta [hundbadplatser världen](https://w.wiki/3Gkg)
    * utan [koordinat](https://w.wiki/3Gkh)
 ## Feedback Havs- och vattenmyndighetens i Sverige
