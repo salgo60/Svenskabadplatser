@@ -1,8 +1,8 @@
 # Svenska badplatser
 Koppla Wikidata till Svenska badplatser som har NUTS dvs. det som finns hos [Havs- och vattenmyndighetens i Sverige länk](https://www.havochvatten.se/badplatser-och-badvatten.html) deras API [feature](https://badplatsen.havochvatten.se/badplatsen/api/feature) / [detail](https://badplatsen.havochvatten.se/badplatsen/api/detail) - karta [Wikidata med länk API](https://w.wiki/3GpF)
 * karta [badplatser](https://w.wiki/3GEr)
-  * karta om [svensk Wikipedia artikel finns](https://w.wiki/3Gkm)
-    * vilka språk finns artiklar om Svenska bad på 
+  * karta om [svensk Wikipedia artikel finns](https://w.wiki/3Gkm) - [video](https://youtu.be/uiHFgYUlHU8)
+    * vilka språk finns artiklar om Svenska badplatser med NUTS i Wikipedia - [sparql](https://w.wiki/3GyY)
   * karta [saknar bild](https://w.wiki/3Gv$) 
   * karta [saknar vattenområde](https://w.wiki/3Gw4) - egenskap ligger vid vattenområde = [Property:P206](https://www.wikidata.org/wiki/Property:P206) 
   * karta [saknar plats](https://w.wiki/3Gw9) - egenskap plats e.g. Naturreservat = [Property:P276](https://www.wikidata.org/wiki/Property:P276) 
