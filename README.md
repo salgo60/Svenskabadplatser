@@ -6,6 +6,7 @@ Koppla Wikidata till Svenska badstränder som har NUTS dvs. det som finns hos [H
   * karta [saknar bild](https://w.wiki/3Gv$) 
   * karta [saknar vattenområde](https://w.wiki/3Gw4) - egenskap ligger vid vattenområde = [Property:P206](https://www.wikidata.org/wiki/Property:P206) 
   * karta [saknar plats](https://w.wiki/3Gw9) - egenskap plats e.g. Naturreservat = [Property:P276](https://www.wikidata.org/wiki/Property:P276) 
+  * karta [saknar landform](https://w.wiki/3GwC) - egenskap placerad på landform e.g. ö = [Property:P706](https://www.wikidata.org/wiki/Property:P706) 
   * karta saknar [Instagramplatsid](https://w.wiki/3Gkw) 
     * karta saknar [HashTag](https://w.wiki/3Gom) 
     * karta saknar [Facebook placeid](https://w.wiki/3Gon) - se WD egenskap FB place id = [](https://www.wikidata.org/wiki/Property:P1997)
