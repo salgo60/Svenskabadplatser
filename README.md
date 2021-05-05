@@ -10,7 +10,7 @@
      * [Bathing Mater Quality Information for Public in Europe -Availability and Issue of Integration of Data for the European Level](https://www.researchgate.net/publication/267766499_Bathing_Mater_Quality_Information_for_Public_in_Europe_-Availability_and_Issue_of_Integration_of_Data_for_the_European_Level)
 
 * [European bathing water quality in 2019](https://www.eea.europa.eu/publications/european-bathing-water-quality-in-2019/european-bathing-water-quality-in-2019)
-* [eea.europa.eu/Bathingwater](https://discomap.eea.europa.eu/Bathingwater/)
+* [eea.europa.eu/Bathingwater](https://discomap.eea.europa.eu/Bathingwater/) - database med alla EU bad
 * havochvatten.se [Kontroll av badvattenkvalitet](https://www.havochvatten.se/overvakning-och-uppfoljning/miljoovervakning/marin-miljoovervakning/kontroll-av-badvattenkvalitet.html#:~:text=Kommunerna%20ansvarar%20f%C3%B6r%20%C3%B6vervakningen%20av,och%20rapportering%20till%20EU%2Dkommissionen.)
 
 ## Wikidata
