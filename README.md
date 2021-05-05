@@ -1,7 +1,7 @@
 # Svenska badplatser
 * [diskussion](https://github.com/salgo60/Svenskabadplatser/discussions)
 
-**Status:** 2695 bad har importerats och kopplats till kommuner se [karta](https://w.wiki/3GEr). Nästa steg är att länka datat till sjö den finns vid, sociala medier som Instagram plats id, naturreservat eller annat badet finns vid 
+**Status:** 2695 badplatser har importerats och kopplats till kommuner se [karta](https://w.wiki/3GEr). Nästa steg är att länka datat till sjö den finns vid, sociala medier som Instagram plats id, naturreservat eller annat badet finns vid 
 
 **Task:** koppla Wikidata till Svenska badplatser som har NUTS dvs. det som finns hos [Havs- och vattenmyndighetens i Sverige länk](https://www.havochvatten.se/badplatser-och-badvatten.html) deras API [feature](https://badplatsen.havochvatten.se/badplatsen/api/feature) / [detail](https://badplatsen.havochvatten.se/badplatsen/api/detail) - karta [Wikidata med länk API](https://w.wiki/3GpF) - [deras dokumentation](https://drive.google.com/file/d/1vjv9B5a4gLU2k5jXCjXoB9_2Xwy1mDfU/view?usp=sharing)
 
