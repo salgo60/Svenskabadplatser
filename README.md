@@ -33,6 +33,8 @@
 Magnus Sälgö 0705937579 - salgo60@msn.com
 1) ange vid vilket vatten bad finns gärna med Sjöid [Property:P761](https://www.wikidata.org/wiki/Property:P761) eller Wikidata objekt
 1) ange om badet finns på en ö eller liknande med samma som Wikidata objekt
+### Fel i datat
+* koordinat Kullöbadet saknas [SE0110187000005215](https://badplatsen.havochvatten.se/badplatsen/karta/#/bath/SE0110187000005215) = [https://www.wikidata.org/wiki/Q106712251 Q106712251]
 ## Tillgänglighetsdatabasen <-> badstränder
 För att alla skull kunna använda exem pelvis badstränder behöv s tillgänglighetsinformation en variant är Tillgänglighatesdatabasen (dåligt använd men känns som den har stor potential, tveksam dock om det är bra maskinläsbardata) en annan är exempelvis [Open Street Map](https://wiki.openstreetmap.org/wiki/Accessibility)
 * [Video om Tillgänglighetsdatabasen](https://vimeo.com/325190731)
