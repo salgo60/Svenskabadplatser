@@ -1,6 +1,8 @@
 # Svenska badplatser
 * [diskussion](https://github.com/salgo60/Svenskabadplatser/discussions)
 
+**Status:** 2695 bad har importerats och kopplats till kommuner se [karta](https://w.wiki/3GEr). Nästa steg är att länka datat till sjö den finns vid, sociala medier som Instagram plats id, naturreservat eller annat badet finns vid 
+
 **Task:** koppla Wikidata till Svenska badplatser som har NUTS dvs. det som finns hos [Havs- och vattenmyndighetens i Sverige länk](https://www.havochvatten.se/badplatser-och-badvatten.html) deras API [feature](https://badplatsen.havochvatten.se/badplatsen/api/feature) / [detail](https://badplatsen.havochvatten.se/badplatsen/api/detail) - karta [Wikidata med länk API](https://w.wiki/3GpF) - [deras dokumentation](https://drive.google.com/file/d/1vjv9B5a4gLU2k5jXCjXoB9_2Xwy1mDfU/view?usp=sharing)
 
 **Lesson learned:** finns tydliga fördningar [2001:100](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/forordning-2001100-om-den-officiella_sfs-2001-100) vilka myndigheter som är ansvariga för statistik där Havs- och vattenmyndigheten har ett ansvar som sedan i deras regleringsbrev [2011:619](https://www.riksdagen.se/sv/dokument-lagar/dokument/_sfs-2011-619) kanske lite vagt beskrivs som *"miljöövervakning, uppföljning av miljökvalitetsmålen och internationell rapportering"* 
@@ -54,12 +56,16 @@ för att data skall bli mer konsistent så skapas olika schema se [video](https:
 * [SMHI Open Data API Docs](https://opendata.smhi.se/apidocs/metfcst/parameters.html)
 
 ## Open Data Badplatser
-* Uppsala kommun
+* [Uppsala kommun](https://opendata.uppsala.se/datasets/aadc5420e8884d32b2efe0d10fbfdfe5_0/geoservice?geometry=15.925%2C59.642%2C19.874%2C60.125)
   * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
   * ej kontaktad 
 * Södertälje
   * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
-  * ej kontaktad 
-* Gävle kommjun
+  * ej kontaktad
+* [Karlskrona kommun](https://service.karlskrona.se/FileStorageArea/Documents/bad/swimAreas.geojson)
+  * [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+  * ej kontaktad
+* Gävle kommun
   * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
   * ej kontaktad 
+* .....
