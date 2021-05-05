@@ -3,7 +3,14 @@
 
 Task: koppla Wikidata till Svenska badplatser som har NUTS dvs. det som finns hos [Havs- och vattenmyndighetens i Sverige länk](https://www.havochvatten.se/badplatser-och-badvatten.html) deras API [feature](https://badplatsen.havochvatten.se/badplatsen/api/feature) / [detail](https://badplatsen.havochvatten.se/badplatsen/api/detail) - karta [Wikidata med länk API](https://w.wiki/3GpF) - [deras dokumentation](https://drive.google.com/file/d/1vjv9B5a4gLU2k5jXCjXoB9_2Xwy1mDfU/view?usp=sharing)
 
-![](https://community.dataportal.se/assets/uploads/files/1620115933238-84ccdfe1-eadc-4c49-9e7a-cb030a664a93-image.png)
+Lesson learned: finns tydliga fördningar [2001:100](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/forordning-2001100-om-den-officiella_sfs-2001-100) vilka myndigheter som är ansvariga för statistik där Havs- och vattenmyndigheten har ett ansvar som sedan i deras regleringsbrev [2011:619](https://www.riksdagen.se/sv/dokument-lagar/dokument/_sfs-2011-619) kanske lite vagt beskrivs som *"miljöövervakning, uppföljning av miljökvalitetsmålen och internationell rapportering"* 
+   * [Badvattendirektivet](https://www.svensktvatten.se/om-oss/europeiska-unionen/badvattendirektivet/) *Alla EU-bad finns registrerade på webbplatsen Badplatsen och kommunerna får även registrera övriga bad.*
+   * [2006/7/EG Europaparlamentets och rådets direktiv 2006/7/EG av den 15 februari 2006 om förvaltning av badvattenkvaliteten och om upphävande av direktiv 76/160/EEG](https://eur-lex.europa.eu/legal-content/SV/TXT/PDF/?uri=CELEX:32006L0007&from=EN)
+   * [Bathing water management in Europe:Successes and challenges](https://www.eea.europa.eu//publications/bathing-water-quality-2020)
+     * [Bathing Mater Quality Information for Public in Europe -Availability and Issue of Integration of Data for the European Level](https://www.researchgate.net/publication/267766499_Bathing_Mater_Quality_Information_for_Public_in_Europe_-Availability_and_Issue_of_Integration_of_Data_for_the_European_Level)
+
+![](https://community.dataportal.se/assets/uploads/files/1620115933238-84ccdfe1-eadc-4c49-9e7a-cb030a664a93-image.png). På deras hemsida [Kontroll av badvattenkvalitet](https://www.havochvatten.se/overvakning-och-uppfoljning/miljoovervakning/marin-miljoovervakning/kontroll-av-badvattenkvalitet.html#:~:text=Kommunerna%20ansvarar%20f%C3%B6r%20%C3%B6vervakningen%20av,och%20rapportering%20till%20EU%2Dkommissionen.)
+
 
 * karta [badplatser](https://w.wiki/3GEr) - [video](https://youtu.be/uiHFgYUlHU8)
   * karta om [svensk Wikipedia artikel finns](https://w.wiki/3Gkm) 
@@ -37,3 +44,12 @@ Finns idag ingen koppling Wikidata till denna database men skapar en "fusk varia
 för att data skall bli mer konsistent så skapas olika schema se [video](https://www.youtube.com/watch?v=ZHdjwbLgzvE)
 * [EntitySchema:E304](https://www.wikidata.org/wiki/EntitySchema:E304) Hundbadplatser
 * [EntitySchema:E305](https://www.wikidata.org/wiki/EntitySchema:E305) Svenskaplatser med NUTS
+## API 
+
+* [SMHI Open Data API Docs](https://opendata.smhi.se/apidocs/metfcst/parameters.html)
+
+## Open Data Badplatser
+* Uppsala kommun
+  * sahnar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+  * ej kontaktad 
+  * 
