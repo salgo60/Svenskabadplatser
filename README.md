@@ -90,3 +90,6 @@ för att data skall bli mer konsistent så skapas olika schema se [video](https:
 * Sundbybergs stad
 * Linköpings kommun
 * .....
+
+## Kontakter
+* [Mathias Andersson](https://www.linkedin.com/in/mattiasrandersson) badvatten@havochvatten.se [Enheten för utveckling och systemförvaltning](https://www.havochvatten.se/om-oss-kontakt-och-karriar/organisation/avdelningen-for-digitalisering/enheten-for-utveckling-och-systemforvaltning.html) email: tel: 010-6986296
