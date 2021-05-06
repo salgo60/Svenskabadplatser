@@ -1,6 +1,7 @@
 # Svenska badplatser
 * [Issues](https://github.com/salgo60/Svenskabadplatser/issues?q=is%3Aissue+) / [closed](https://github.com/salgo60/Svenskabadplatser/issues?q=is%3Aissue+is%3Aclosed)
-* [diskussion](https://github.com/salgo60/Svenskabadplatser/discussions)
+* [diskussion på GITHUB](https://github.com/salgo60/Svenskabadplatser/discussions)
+  * [community.dataportal.se Hjälp folk att bada i sommar med Öppna Data!](https://community.dataportal.se/topic/87/hj%C3%A4lp-folk-att-bada-i-sommar-med-%C3%B6ppna-data-tips-och-hj%C3%A4lp-beh%C3%B6vs)
 
 **Status:** 2695 badplatser har importerats och kopplats till kommuner se [karta](https://w.wiki/3Hmy). Nästa steg är att länka datat till sjö den finns vid, sociala medier som [Instagram plats id](https://www.wikidata.org/wiki/Property:P4173), naturreservat eller annat badet finns vid, försöka hitta kommunens egen beskrivning av badet, se om vi kan få svar från Tillgänglighetsdatabasen och skapa en koppling
 
