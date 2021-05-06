@@ -1,5 +1,5 @@
 # Svenska badplatser
-* [Issues](https://github.com/salgo60/Svenskabadplatser/issues?q=is%3Aissue+)
+* [Issues](https://github.com/salgo60/Svenskabadplatser/issues?q=is%3Aissue+) / [closed](https://github.com/salgo60/Svenskabadplatser/issues?q=is%3Aissue+is%3Aclosed)
 * [diskussion](https://github.com/salgo60/Svenskabadplatser/discussions)
 
 **Status:** 2695 badplatser har importerats och kopplats till kommuner se [karta](https://w.wiki/3GEr). Nästa steg är att länka datat till sjö den finns vid, sociala medier som [Instagram plats id](https://www.wikidata.org/wiki/Property:P4173), naturreservat eller annat badet finns vid, försöka hitta kommunens egen beskrivning av badet, se om vi kan få svar från Tillgänglighetsdatabasen och skapa en koppling
