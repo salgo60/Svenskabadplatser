@@ -1,4 +1,5 @@
 # Svenska badplatser
+* [Issues](https://github.com/salgo60/Svenskabadplatser/issues?q=is%3Aissue+)
 * [diskussion](https://github.com/salgo60/Svenskabadplatser/discussions)
 
 **Status:** 2695 badplatser har importerats och kopplats till kommuner se [karta](https://w.wiki/3GEr). Nästa steg är att länka datat till sjö den finns vid, sociala medier som [Instagram plats id](https://www.wikidata.org/wiki/Property:P4173), naturreservat eller annat badet finns vid, försöka hitta kommunens egen beskrivning av badet, se om vi kan få svar från Tillgänglighetsdatabasen och skapa en koppling
@@ -41,7 +42,7 @@ Magnus Sälgö 0705937579 - salgo60@msn.com
 ### Fel i datat
 * koordinat Kullöbadet saknas [SE0110187000005215](https://badplatsen.havochvatten.se/badplatsen/karta/#/bath/SE0110187000005215) = [Q106712251](https://www.wikidata.org/wiki/Q106712251)
 * [SE0622031000005258](https://badplatsen.havochvatten.se/badplatsen/karta/#/bath/SE0622031000005258) - WD [Q106712254](https://www.wikidata.org/wiki/Q106712254) - badplats Glistjärn
-* koordinat [SE0A21492000005899](https://badplatsen.havochvatten.se/badplatsen/karta/#/bath/SE0A21492000005899) - WD [Q106712312](https://www.wikidata.org/wiki/Q106712312) - badplats Ärr - Fröskog - [issues/7](https://github.com/salgo60/Svenskabadplatser/issues/7)
+* koordinat [SE0A21492000005899](https://badplatsen.havochvatten.se/badplatsen/karta/#/bath/SE0A21492000005899) - WD [Q106712312](https://www.wikidata.org/wiki/Q106712312) - badplats Ärr - Fröskog - [issues/8](https://github.com/salgo60/Svenskabadplatser/issues/8)
 * [SE0230509000004536](https://badplatsen.havochvatten.se/badplatsen/karta/#/bath/SE0230509000004536) se [Issue 2](https://github.com/salgo60/Svenskabadplatser/issues/2)
 * koordinat Kullöbadet saknas [SE0110187000005215](https://badplatsen.havochvatten.se/badplatsen/karta/#/bath/SE0110187000005215) = [Q106712251](https://www.wikidata.org/wiki/Q106712251)
 * koordinat [SE0611785000005779](https://badplatsen.havochvatten.se/badplatsen/karta/#/bath/SE0611785000005779) - Strandbad, Ekenäs , Säffle se [Issue 4](https://github.com/salgo60/Svenskabadplatser/issues/4)
