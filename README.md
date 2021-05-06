@@ -77,6 +77,9 @@ för att data skall bli mer konsistent så skapas olika schema se [video](https:
 * Gävle kommun
   * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
   * ej kontaktad 
+* [Skövde kommun](https://geodata.skovde.se/linkdokument/OpenData/Skovde_Badanlaggningar_Badplatser.json)
+  * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+  * ej kontaktad 
 * Umeå kommun
 * Sundbybergs stad
 * Linköpings kommun
