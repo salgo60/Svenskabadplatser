@@ -47,7 +47,7 @@ Magnus Sälgö 0705937579 - salgo60@msn.com
 * koordinat [SE0611785000005779](https://badplatsen.havochvatten.se/badplatsen/karta/#/bath/SE0611785000005779) - Strandbad, Ekenäs , Säffle se [Issue 4](https://github.com/salgo60/Svenskabadplatser/issues/4)
 * koordinat fel [SE0110188000005455](https://badplatsen.havochvatten.se/badplatsen/karta/#/bath/SE0110188000005455) WD [Q106712277](https://www.wikidata.org/wiki/Q106712277) - badplats Lågarö-Örn
 * [SE0611763000005739](https://badplatsen.havochvatten.se/badplatsen/karta/#/bath/SE0611763000005739) - WD [Q106712301](https://www.wikidata.org/wiki/Q106712301) - [ssues/5](https://github.com/salgo60/Svenskabadplatser/issues/5)
-* [SE0230581000005959]((https://badplatsen.havochvatten.se/badplatsen/karta/#/bath/SE0230581000005959) - WD [Q106712315](https://www.wikidata.org/wiki/Q106712315) - badplats Dalbystrand - [issues/6](https://github.com/salgo60/Svenskabadplatser/issues/6)
+* [SE0230581000005959](https://badplatsen.havochvatten.se/badplatsen/karta/#/bath/SE0230581000005959) - WD [Q106712315](https://www.wikidata.org/wiki/Q106712315) - badplats Dalbystrand - [issues/6](https://github.com/salgo60/Svenskabadplatser/issues/6)
 
 ## Tillgänglighetsdatabasen <-> badstränder
 För att alla skull kunna använda exem pelvis badstränder behöv s tillgänglighetsinformation en variant är Tillgänglighatesdatabasen (dåligt använd men känns som den har stor potential, tveksam dock om det är bra maskinläsbardata) en annan är exempelvis [Open Street Map](https://wiki.openstreetmap.org/wiki/Accessibility)
