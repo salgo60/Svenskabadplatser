@@ -80,7 +80,9 @@ för att data skall bli mer konsistent så skapas olika schema se [video](https:
 * [Skövde kommun](https://geodata.skovde.se/linkdokument/OpenData/Skovde_Badanlaggningar_Badplatser.json)
   * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
   * ej kontaktad 
-* Umeå kommun
+* [Umeå kommun](https://www.dataportal.se/sv/datasets/43_43844/badplatser)
+  * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+  * ej kontaktad 
 * Sundbybergs stad
 * Linköpings kommun
 * .....
