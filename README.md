@@ -87,8 +87,10 @@ för att data skall bli mer konsistent så skapas olika schema se [video](https:
 * [Umeå kommun](https://www.dataportal.se/sv/datasets/43_43844/badplatser)
   * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
   * ej kontaktad 
-* Sundbybergs stad
-* Linköpings kommun
+* [Sundbybergs stad](https://www.dataportal.se/sv/datasets/281_1606/badplatser-i-sundbyberg#ref=?p=1&q=Badplatser&s=2&t=20&f=&rt=dataset%24esterms_IndependentDataService%24esterms_ServedByDataService)
+  * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+  * ej kontaktad 
+* [Linköpings kommun](http://waterqualityobserved.linkoping.se/swagger/index.html)
 * .....
 
 ## Kontakter
