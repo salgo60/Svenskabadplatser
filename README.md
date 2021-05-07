@@ -70,6 +70,8 @@ för att data skall bli mer konsistent så skapas olika schema se [video](https:
 ## API 
 
 * [SMHI Open Data API Docs](https://opendata.smhi.se/apidocs/metfcst/parameters.html)
+* [Badkartan](https://www.tedvalentin.com/2009/06/ett-api-for-mina-kartsajter.html)
+ 
 
 ## [Open Data Badplatser](https://www.dataportal.se/sv/datasets?p=1&q=Badplatser&s=2&t=20&f=&rt=dataset%24esterms_IndependentDataService%24esterms_ServedByDataService)
 Nedan den öppen data vi hittar idag som tyvärr inte är kopplad med NUTS
@@ -96,7 +98,7 @@ Nedan den öppen data vi hittar idag som tyvärr inte är kopplad med NUTS
   * ej kontaktad 
 * [Linköpings kommun](http://waterqualityobserved.linkoping.se/swagger/index.html)
   * behöver nyckel [länk](http://opendata.linkoping.se/)
-    * gist med [deras xxx data](https://gist.github.com/salgo60/3c9b28ca6281ea9fc234baea0776de86) 
+    * gist med [deras badtemp data?!?!](https://gist.github.com/salgo60/3c9b28ca6281ea9fc234baea0776de86) 
       * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
 * .....
 
