@@ -94,6 +94,7 @@ Nedan den öppen data vi hittar idag som tyvärr inte är kopplad med NUTS
   * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
   * ej kontaktad 
 * [Linköpings kommun](http://waterqualityobserved.linkoping.se/swagger/index.html)
+  * need key 
 * .....
 
 ## [Kontakter](#havvatten)
