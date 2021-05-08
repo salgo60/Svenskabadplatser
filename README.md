@@ -100,6 +100,7 @@ Nedan den öppen data vi hittar idag som tyvärr inte är kopplad med NUTS --> d
   * behöver nyckel [länk](http://opendata.linkoping.se/)
     * gist med [Linköping WaterQualityObserved](https://gist.github.com/salgo60/3c9b28ca6281ea9fc234baea0776de86) 
       * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+  * ej kontaktad 
 * .....
 
 ## [Kontakter](#havvatten)
