@@ -78,7 +78,7 @@ Nedan den öppen data vi hittar idag som tyvärr inte är kopplad med NUTS
 * [Uppsala kommun](https://opendata.uppsala.se/datasets/aadc5420e8884d32b2efe0d10fbfdfe5_0/geoservice?geometry=15.925%2C59.642%2C19.874%2C60.125)
   * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
   * ej kontaktad 
-* Södertälje
+* [Södertälje](https://www.sodertalje.se/kommun-och-politik/for-medborgare/oppna-data/oppen-data/#esc_entry=500&esc_context=1)
   * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
   * ej kontaktad
 * [Karlskrona kommun](https://service.karlskrona.se/FileStorageArea/Documents/bad/swimAreas.geojson)
