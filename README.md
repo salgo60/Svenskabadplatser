@@ -62,7 +62,7 @@ Finns idag ingen koppling Wikidata till denna database men skapar en "fusk varia
 * [Tillgänglighetsdatabasen](https://www.t-d.se/)
 * [Wikidata <-> Tillgänglighetsdatabasen](https://w.wiki/3Gou)
   * visar de bad jag hittat i Tillgänglighetsdatabasen och kopplat i Wikidata OBS alla har inte NUTS
-  * vilka kommuner har vi hittat flest [badplatser i Tillgänglighetsdatabasen](https://w.wiki/3JR$) / [karta](https://w.wiki/3JS8)
+  * vilka kommuner har vi hittat flest [badplatser i Tillgänglighetsdatabasen](https://w.wiki/3JR$) / [karta](https://w.wiki/3JSK)
 * exempel [wheelmap.org](https://wheelmap.org/search) hur man borde kunna hitta badplatser med rätt tillgänglighet
   * <em>Wheelmap is a map for finding wheelchair accessible places. The map works similar to Wikipedia: Anyone can contribute and mark public places around the world according to their wheelchair accessibility. The criteria for marking places is based on a simple traffic light system:</em> [FAQ](https://news.wheelmap.org/en/FAQ/)
 ![](https://news.wheelmap.org/en/wp-content/uploads/sites/2/2018/03/FlowchartWheelmapEN-1797x2048.jpg) 
