@@ -77,7 +77,7 @@ Nedan den öppen data vi hittar idag som tyvärr inte är kopplad med NUTS --> d
   * ej kontaktad 
 * [Södertälje](https://www.sodertalje.se/kommun-och-politik/for-medborgare/oppna-data/oppen-data/#esc_entry=500&esc_context=1)
   * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
-  * ej kontaktad
+  * kontaktat se [issue 14](https://github.com/salgo60/Svenskabadplatser/issues/14)
 * [Karlskrona kommun](https://service.karlskrona.se/FileStorageArea/Documents/bad/swimAreas.geojson)
   * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
   * ej kontaktad
