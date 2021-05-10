@@ -46,7 +46,7 @@ Magnus Sälgö 0705937579 - salgo60@msn.com
 1) ange vid vilket vatten bad finns gärna med Sjöid [Property:P761](https://www.wikidata.org/wiki/Property:P761) eller Wikidata objekt
 1) ange om badet finns på en ö eller liknande med samma som Wikidata objekt
 ### Fel i datat
-see [Issues](https://github.com/salgo60/Svenskabadplatser/issues?q=is%3Aissue+) / [closed](https://github.com/salgo60/Svenskabadplatser/issues?q=is%3Aissue+is%3Aclosed
+see [Issues](https://github.com/salgo60/Svenskabadplatser/issues?q=is%3Aissue+) / [closed](https://github.com/salgo60/Svenskabadplatser/issues?q=is%3Aissue+is%3Aclosed)
 
 ## Tillgänglighetsdatabasen <-> badstränder
 För att alla skull kunna använda exem pelvis badstränder behöv s tillgänglighetsinformation en variant är Tillgänglighatesdatabasen (dåligt använd men känns som den har stor potential, tveksam dock om det är bra maskinläsbardata) en annan är exempelvis [Open Street Map](https://wiki.openstreetmap.org/wiki/Accessibility)
