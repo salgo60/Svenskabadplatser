@@ -1,10 +1,15 @@
 # Svenska badplatser
+---
+* Change log
+  * ny egenskap föreslagen [bathingWaterIdentifier](https://www.wikidata.org/wiki/Wikidata:Property_proposal/bathingWaterIdentifier) i Wikidata/[andra egenskaper föreslagna](https://www.wikidata.org/wiki/Wikidata:Property_proposal/Authority_control)
+    * kan ta någon vecka eller aldrig bli av    
+---
 * [Issues](https://github.com/salgo60/Svenskabadplatser/issues?q=is%3Aissue+) / [closed](https://github.com/salgo60/Svenskabadplatser/issues?q=is%3Aissue+is%3Aclosed)
 * [diskussion på GITHUB](https://github.com/salgo60/Svenskabadplatser/discussions)
   * [community.dataportal.se Hjälp folk att bada i sommar med Öppna Data!](https://community.dataportal.se/topic/87/hj%C3%A4lp-folk-att-bada-i-sommar-med-%C3%B6ppna-data-tips-och-hj%C3%A4lp-beh%C3%B6vs)
 * [Wikidata egenskaper](https://w.wiki/3Ho8) på uppladdade badplatser
 * [Wikidata:WikiProject Sweden/Svenska badplatser](https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Svenska_badplatser)
-
+* [bathingWaterIdentifier](https://www.wikidata.org/wiki/Wikidata:Property_proposal/bathingWaterIdentifier)
 **Status:** 2695 badplatser har importerats och kopplats till kommuner se [karta](https://w.wiki/3Hmy). Nästa steg är att länka datat till sjö den finns vid, sociala medier som [Instagram plats id](https://www.wikidata.org/wiki/Property:P4173), naturreservat eller annat badet finns vid, försöka hitta kommunens egen beskrivning av badet, se om vi kan få svar från Tillgänglighetsdatabasen och skapa en koppling. Fråga hur vi kopplar detta på [bästa sätt till Open Street Map](https://www.facebook.com/groups/osmsweden/permalink/5460751970662625/).
 
 **Task:** koppla Wikidata till Svenska badplatser som har [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter) dvs. det som finns hos [Havs- och vattenmyndighetens i Sverige länk](https://www.havochvatten.se/badplatser-och-badvatten.html) deras API [feature](https://badplatsen.havochvatten.se/badplatsen/api/feature) / [detail](https://badplatsen.havochvatten.se/badplatsen/api/detail) - karta [Wikidata med länk API](https://w.wiki/3GpF) - [deras dokumentation](https://drive.google.com/file/d/1vjv9B5a4gLU2k5jXCjXoB9_2Xwy1mDfU/view?usp=sharing)
