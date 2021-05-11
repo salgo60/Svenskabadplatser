@@ -3,6 +3,7 @@
 * Change log
   * ny egenskap föreslagen [bathingWaterIdentifier](https://www.wikidata.org/wiki/Wikidata:Property_proposal/bathingWaterIdentifier) i Wikidata/[andra egenskaper föreslagna](https://www.wikidata.org/wiki/Wikidata:Property_proposal/Authority_control)
     * kan ta någon vecka eller aldrig bli av    
+    * saknas bra formatteringsURL för karta "[StateOfBathingWaters](https://maps.eea.europa.eu/wab/StateOfBathingWaters/)" hos EU EnvironmentAgency se fråga [tweet](https://twitter.com/salgo60/status/1392032878490488832?s=20)
 ---
 * [Issues](https://github.com/salgo60/Svenskabadplatser/issues?q=is%3Aissue+) / [closed](https://github.com/salgo60/Svenskabadplatser/issues?q=is%3Aissue+is%3Aclosed)
 * [diskussion på GITHUB](https://github.com/salgo60/Svenskabadplatser/discussions)
