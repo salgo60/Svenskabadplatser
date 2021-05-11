@@ -1,7 +1,7 @@
 # Svenska badplatser
 ---
 * Change log
-  * ny egenskap föreslagen [bathingWaterIdentifier](https://www.wikidata.org/wiki/Wikidata:Property_proposal/bathingWaterIdentifier) i Wikidata/[exempel vad andra  föreslår](https://www.wikidata.org/wiki/Wikidata:Property_proposal/Authority_control)
+  * ny egenskap föreslagen [bathingWaterIdentifier](https://www.wikidata.org/wiki/Wikidata:Property_proposal/bathingWaterIdentifier) i Wikidata/[exempel vad andra  föreslår](https://www.wikidata.org/wiki/Wikidata:Property_proposal/Authority_control) - **RÖSTA GÄRNA PÅ DETTA** alla kan rösta som registrerat ett wiki konto
     * kan ta någon vecka eller aldrig bli av    
     * saknas bra formatteringsURL för karta "[StateOfBathingWaters](https://maps.eea.europa.eu/wab/StateOfBathingWaters/)" hos EU EnvironmentAgency se fråga [tweet](https://twitter.com/salgo60/status/1392032878490488832?s=20)
 ---
