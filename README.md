@@ -1,6 +1,7 @@
 # Svenska badplatser
 ---
 * Change log
+  * 2020-03-23 en koll vilken data som levereras till Europeiska miljöbyrån (|Q632988](https://w.wiki/3KWh)) se [Notebook](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/BathWater.ipynb)
   * ny egenskap föreslagen [bathingWaterIdentifier](https://www.wikidata.org/wiki/Wikidata:Property_proposal/bathingWaterIdentifier) i Wikidata/[exempel vad andra  föreslår](https://www.wikidata.org/wiki/Wikidata:Property_proposal/Authority_control) - **RÖSTA GÄRNA PÅ DETTA** alla kan rösta som registrerat ett [wiki konto](https://sv.wikipedia.org/wiki/Wikipedia:Varf%C3%B6r_skapa_ett_anv%C3%A4ndarkonto%3F)
     * kan ta någon vecka eller aldrig bli av    
     * saknas bra formatteringsURL för karta "[StateOfBathingWaters](https://maps.eea.europa.eu/wab/StateOfBathingWaters/)" hos EU EnvironmentAgency se fråga [tweet](https://twitter.com/salgo60/status/1392032878490488832?s=20)
@@ -14,7 +15,8 @@
 
 **Status:** 2695 badplatser har importerats och kopplats till kommuner se [karta](https://w.wiki/3KP5). Nästa steg är att länka datat till sjö den finns vid, sociala medier som [Instagram plats id](https://www.wikidata.org/wiki/Property:P4173), naturreservat eller annat badet finns vid, försöka hitta kommunens egen beskrivning av badet, se om vi kan få svar från Tillgänglighetsdatabasen och skapa en koppling. Fråga hur vi kopplar detta på [bästa sätt till Open Street Map](https://www.facebook.com/groups/osmsweden/permalink/5460751970662625/).
 
-**Task:** koppla Wikidata till Svenska badplatser som har [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter) dvs. det som finns hos [Havs- och vattenmyndighetens i Sverige länk](https://www.havochvatten.se/badplatser-och-badvatten.html) deras API [feature](https://badplatsen.havochvatten.se/badplatsen/api/feature) / [detail](https://badplatsen.havochvatten.se/badplatsen/api/detail) - karta [Wikidata med länk API](https://w.wiki/3GpF) - [deras dokumentation](https://drive.google.com/file/d/1vjv9B5a4gLU2k5jXCjXoB9_2Xwy1mDfU/view?usp=sharing)
+**Task:** koppla Wikidata till Svenska badplatser som har [bathingWaterIdentifier](https://www.wikidata.org/wiki/Wikidata:Property_proposal/bathingWaterIdentifier) dvs. det som finns hos [Havs- och vattenmyndighetens i Sverige länk](https://www.havochvatten.se/badplatser-och-badvatten.html) deras API [feature](https://badplatsen.havochvatten.se/badplatsen/api/feature) / [detail](https://badplatsen.havochvatten.se/badplatsen/api/detail) - karta [Wikidata med länk API](https://w.wiki/3GpF) - [deras dokumentation](https://drive.google.com/file/d/1vjv9B5a4gLU2k5jXCjXoB9_2Xwy1mDfU/view?usp=sharing)
+* samma men på Europa nivå se 
 
 **Lesson learned:** finns tydliga fördningar [2001:100](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/forordning-2001100-om-den-officiella_sfs-2001-100) vilka myndigheter som är ansvariga för statistik där Havs- och vattenmyndigheten har ett ansvar som sedan i deras regleringsbrev [2011:619](https://www.riksdagen.se/sv/dokument-lagar/dokument/_sfs-2011-619) kanske lite vagt beskrivs som *"miljöövervakning, uppföljning av miljökvalitetsmålen och internationell rapportering"* 
    * [Badvattendirektivet](https://www.svensktvatten.se/om-oss/europeiska-unionen/badvattendirektivet/) 
