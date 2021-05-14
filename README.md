@@ -2,7 +2,7 @@
 ---
 * Change log
   * 2020-05-13 feedback in Wikidata by User Latske that we have some errors see [Issue 16](https://github.com/salgo60/Svenskabadplatser/issues/16)
-  * 2020-05-12 en koll vilken data som levereras till Europeiska miljöbyrån ([Q632988](https://w.wiki/3KWh)) se [Notebook](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/BathWater.ipynb)
+  * 2020-05-12 en koll vilken data som levereras till Europeiska miljöbyrån ([Q632988](https://w.wiki/3KWh)) se [Notebook](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/BathWater.ipynb) see [issues/18](https://github.com/salgo60/Svenskabadplatser/issues/18)
   * 2020-05-11 ny egenskap föreslagen [bathingWaterIdentifier](https://www.wikidata.org/wiki/Wikidata:Property_proposal/bathingWaterIdentifier) i Wikidata/[exempel vad andra  föreslår](https://www.wikidata.org/wiki/Wikidata:Property_proposal/Authority_control) - **RÖSTA GÄRNA PÅ DETTA** alla kan rösta som registrerat ett [wiki konto](https://sv.wikipedia.org/wiki/Wikipedia:Varf%C3%B6r_skapa_ett_anv%C3%A4ndarkonto%3F)
     * kan ta någon vecka eller aldrig bli av    
     * saknas bra formatteringsURL för karta "[StateOfBathingWaters](https://maps.eea.europa.eu/wab/StateOfBathingWaters/)" hos EU EnvironmentAgency se fråga [tweet](https://twitter.com/salgo60/status/1392032878490488832?s=20)
