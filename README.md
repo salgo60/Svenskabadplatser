@@ -18,8 +18,12 @@
 * [Wikidata:WikiProject Sweden/Svenska badplatser](https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Svenska_badplatser)
 * [bathingWaterIdentifier](https://www.wikidata.org/wiki/Wikidata:Property_proposal/bathingWaterIdentifier)
 
-**Status:** 2695 badplatser har importerats och kopplats till kommuner se [karta](https://w.wiki/3KP5). Nästa steg är att länka datat till sjö den finns vid, sociala medier som [Instagram plats id](https://www.wikidata.org/wiki/Property:P4173), naturreservat eller annat badet finns vid, försöka hitta kommunens egen beskrivning av badet, se om vi kan få svar från Tillgänglighetsdatabasen och skapa en koppling. Fråga hur vi kopplar detta på [bästa sätt till Open Street Map](https://www.facebook.com/groups/osmsweden/permalink/5460751970662625/).
-
+**Status:** 2695 badplatser har importerats och kopplats till kommuner se [karta](https://w.wiki/3KP5). Nästa steg är att 
+1) länka datat till sjö den finns vid, sociala medier som [Instagram plats id](https://www.wikidata.org/wiki/Property:P4173), naturreservat eller annat badet finns vid
+1) försöka hitta kommunens egen beskrivning av badet
+1) se om vi kan få svar från Tillgänglighetsdatabasen och skapa en koppling. Fråga hur vi kopplar detta på [bästa sätt till Open Street Map](https://www.facebook.com/groups/osmsweden/permalink/5460751970662625/).
+1) skapa en ny egenskap i Wikidata se [bathingWaterIdentifier](https://www.wikidata.org/wiki/Wikidata:Property_proposal/bathingWaterIdentifier)
+1) koppla badplats till historiska bilder i ex. [Digitaltmuseum](https://digitaltmuseum.se/search/?q=badplats&aq=owner%3F%3A%22S-OLM%22%20license%3F%3A%22CC%20pdm%22%2C%22CC%20by%22%2C%22CC%20by-sa%22%2C%22zero%22&o=0&n=80) och ladda ned dom (DM har tydlig copyright]
 
 **Lesson learned:** finns tydliga fördningar [2001:100](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/forordning-2001100-om-den-officiella_sfs-2001-100) vilka myndigheter som är ansvariga för statistik där Havs- och vattenmyndigheten har ett ansvar som sedan i deras regleringsbrev [2011:619](https://www.riksdagen.se/sv/dokument-lagar/dokument/_sfs-2011-619) kanske lite vagt beskrivs som *"miljöövervakning, uppföljning av miljökvalitetsmålen och internationell rapportering"* 
    * [Badvattendirektivet](https://www.svensktvatten.se/om-oss/europeiska-unionen/badvattendirektivet/) 
