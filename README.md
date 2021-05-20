@@ -4,6 +4,7 @@
 
 ---
 * Change log 
+  * 2020-05-20 [tweet Havsmiljöinstitutet](https://twitter.com/havsmiljo/status/1395294755035258881?s=20) "Miljögifter finns i alla Sveriges vatten" hur påverkar detta Svenska badvatten [diskutera detta](https://github.com/salgo60/Svenskabadplatser/discussions/71), kan wikidata ha data om detta?
   * 2020-05-20 ny Wikidata egenskap föreslagen för [Badkartan](https://www.wikidata.org/wiki/Wikidata:Property_proposal/Badkartan.se_ID#%7B%7Bint%3ATalk%7D%7D) tack [@dpriskorn](https://github.com/dpriskorn) IN OCH RÖSTA
   * 2020-05-19 SPARQL [för att se koppling badvatten, närliggande vatten](https://github.com/salgo60/Svenskabadplatser/issues/60#issuecomment-843576672) i Wikidata
   * 2020-05-18 nya [verktyg](https://github.com/salgo60/Svenskabadplatser/discussions/46#discussioncomment-750114) - [Notebook](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/OSM_Wikidata_Bathwater.ipynb) som kollar antal OSM som har koppling bad i Wikidata i detta projekt 
