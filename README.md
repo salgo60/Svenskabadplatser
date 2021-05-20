@@ -1,6 +1,6 @@
 # Svenska badplatser
 
-**Task:** koppla Wikidata till Svenska badplatser som har [bathingWaterIdentifier](https://www.wikidata.org/wiki/Wikidata:Property_proposal/bathingWaterIdentifier) dvs. det som finns hos [Havs- och vattenmyndighetens i Sverige länk](https://www.havochvatten.se/badplatser-och-badvatten.html) deras API [feature](https://badplatsen.havochvatten.se/badplatsen/api/feature) / [detail](https://badplatsen.havochvatten.se/badplatsen/api/detail) - karta [Wikidata med länk API](https://w.wiki/3GpF) - [deras dokumentation](https://drive.google.com/file/d/1vjv9B5a4gLU2k5jXCjXoB9_2Xwy1mDfU/view?usp=sharing)
+**Task:** koppla Wikidata till Svenska badplatser som har [bathingWaterIdentifier](https://www.wikidata.org/wiki/Wikidata:Property_proposal/bathingWaterIdentifier) dvs. det som finns hos [Havs- och vattenmyndighetens i Sverige länk](https://www.havochvatten.se/badplatser-och-badvatten.html) deras API [feature](https://badplatsen.havochvatten.se/badplatsen/api/feature) / [detail](https://badplatsen.havochvatten.se/badplatsen/api/detail) - karta [Wikidata med länk API](https://w.wiki/3MZg) - [deras dokumentation](https://drive.google.com/file/d/1vjv9B5a4gLU2k5jXCjXoB9_2Xwy1mDfU/view?usp=sharing)
 
 ---
 * Change log 
