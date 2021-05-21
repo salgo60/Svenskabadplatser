@@ -4,7 +4,7 @@
 
 ---
 * Change log 
-  * Weekend todo listen to [Wikipedia listen.hatnote.com](http://listen.hatnote.com/)
+  * Weekend todo listen to [Wikipedia listen.hatnote.com](http://listen.hatnote.com/) or more speedy [Wikidata sounds](http://listen.hatnote.com/#wikidata)
   * 2020-05-21 task att koppla badplatser som finns i ett Naturreservat [issues/77](https://github.com/salgo60/Svenskabadplatser/issues/77)
   * 2020-05-20 [tweet Havsmiljöinstitutet](https://twitter.com/havsmiljo/status/1395294755035258881?s=20) "Miljögifter finns i alla Sveriges vatten" hur påverkar detta Svenska badvatten [diskutera detta](https://github.com/salgo60/Svenskabadplatser/discussions/71), kan wikidata ha data om detta?
   * 2020-05-20 ny Wikidata egenskap föreslagen för [Badkartan](https://www.wikidata.org/wiki/Wikidata:Property_proposal/Badkartan.se_ID#%7B%7Bint%3ATalk%7D%7D) tack [@dpriskorn](https://github.com/dpriskorn) IN OCH RÖSTA
