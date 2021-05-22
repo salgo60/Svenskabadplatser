@@ -93,7 +93,7 @@ för att data skall bli mer konsistent så skapas olika schema se [video](https:
 
 * [SMHI Open Data API Docs](https://opendata.smhi.se/apidocs/metfcst/parameters.html)
 * [Badkartan](https://www.tedvalentin.com/2009/06/ett-api-for-mina-kartsajter.html)
- 
+* [mediawiki API:RecentChanges](https://www.mediawiki.org/wiki/API:RecentChanges) 
 
 ## [Open Data Badplatser](https://www.dataportal.se/sv/datasets?p=1&q=Badplatser&s=2&t=20&f=&rt=dataset%24esterms_IndependentDataService%24esterms_ServedByDataService)
 Nedan den öppen data vi hittar idag som tyvärr inte är kopplad med NUTS --> data silos och svårt att använda
