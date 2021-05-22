@@ -4,6 +4,7 @@
 
 ---
 * Change log 
+  *  This weekend [Wikimedia Remote hack](https://www.mediawiki.org/wiki/Wikimedia_Hackathon_2021) 21-23 may [video channel](https://www.youtube.com/watch?v=VujfdGnUnp0)
   * Weekend todo listen to [Wikipedia listen.hatnote.com](http://listen.hatnote.com/) or more speedy [Wikidata sounds](http://listen.hatnote.com/#wikidata)
   * 2020-05-22 [data kvalitet i Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Svenska_badplatser/Coverage2) 2758 badplatser registrerade där 97.9% har "Nutskod", 35.97% är kopplade till närliggande vatten [P206](https://www.wikidata.org/wiki/Property:P206)  
     * [WD badplatser <-> OSM](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/OSM_Wikidata_Bathwater.ipynb) ej kopplade 2142, vatten ej kopplade 216
