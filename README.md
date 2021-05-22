@@ -6,7 +6,7 @@
 * Change log 
   *  This weekend [Wikimedia Remote hack](https://www.mediawiki.org/wiki/Wikimedia_Hackathon_2021) 21-23 may [video channel](https://www.youtube.com/watch?v=VujfdGnUnp0)
   *  :boom::boom::boom:'''[GISpyssel](https://github.com/salgo60/Svenskabadplatser/labels/GISPyssel)''':boom::boom::boom:
-  * Weekend todo listen to [Wikipedia listen.hatnote.com](http://listen.hatnote.com/) or more speedy [Wikidata sounds](http://listen.hatnote.com/#wikidata)
+<!---  * Weekend todo listen to [Wikipedia listen.hatnote.com](http://listen.hatnote.com/) or more speedy [Wikidata sounds](http://listen.hatnote.com/#wikidata) --->
   * 2020-05-22 [data kvalitet i Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Svenska_badplatser/Coverage2) 2758 badplatser registrerade där 97.9% har "Nutskod", 35.97% är kopplade till närliggande vatten [P206](https://www.wikidata.org/wiki/Property:P206)  
     * [WD badplatser <-> OSM](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/OSM_Wikidata_Bathwater.ipynb) ej kopplade 2142, vatten ej kopplade 216
   * 2020-05-21 task att koppla badplatser som finns i ett Naturreservat [issues/77](https://github.com/salgo60/Svenskabadplatser/issues/77)
@@ -93,7 +93,7 @@ för att data skall bli mer konsistent så skapas olika schema se [video](https:
 
 * [SMHI Open Data API Docs](https://opendata.smhi.se/apidocs/metfcst/parameters.html)
 * [Badkartan](https://www.tedvalentin.com/2009/06/ett-api-for-mina-kartsajter.html)
-* [mediawiki API:RecentChanges](https://www.mediawiki.org/wiki/API:RecentChanges) 
+* [mediawiki API:RecentChanges](https://www.mediawiki.org/wiki/API:RecentChanges) se exempel [listen.hatnote.com](http://listen.hatnote.com/#wikidata) / [wikidata change stream](https://wikidata-todo.toolforge.org/rcvis.html)
 
 ## [Open Data Badplatser](https://www.dataportal.se/sv/datasets?p=1&q=Badplatser&s=2&t=20&f=&rt=dataset%24esterms_IndependentDataService%24esterms_ServedByDataService)
 Nedan den öppen data vi hittar idag som tyvärr inte är kopplad med NUTS --> data silos och svårt att använda
