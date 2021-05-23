@@ -5,6 +5,7 @@
 ---
 * Change log 
   *  This weekend [Wikimedia Remote hack](https://www.mediawiki.org/wiki/Wikimedia_Hackathon_2021) 21-23 may [video channel](https://www.youtube.com/watch?v=VujfdGnUnp0) at 6:22:00 [Lucas Werkmeister do Live SPARQL on Wikidata](https://www.youtube.com/watch?v=VujfdGnUnp0&t=22930s)
+     * Nya [verktyg som skapats i helgen](https://etherpad.wikimedia.org/p/wmhackshowcase2021) 
   *  :boom::boom::boom:'''[GISpyssel](https://github.com/salgo60/Svenskabadplatser/labels/GISPyssel)''':boom::boom::boom:
 <!---  * Weekend todo listen to [Wikipedia listen.hatnote.com](http://listen.hatnote.com/) or more speedy [Wikidata sounds](http://listen.hatnote.com/#wikidata) --->
   * 2020-05-23 hur anger vi i vårt data så att det går enkelt att ta sig dit kommunalt se [discussions/88](https://github.com/salgo60/Svenskabadplatser/discussions/88)
