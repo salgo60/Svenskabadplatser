@@ -3,18 +3,19 @@
 **Task:** koppla Wikidata till Svenska badplatser som har [bathingWaterIdentifier](https://www.wikidata.org/wiki/Wikidata:Property_proposal/bathingWaterIdentifier) dvs. det som finns hos [Havs- och vattenmyndighetens i Sverige länk](https://www.havochvatten.se/badplatser-och-badvatten.html) deras API [feature](https://badplatsen.havochvatten.se/badplatsen/api/feature) / [detail](https://badplatsen.havochvatten.se/badplatsen/api/detail) - karta [Wikidata med länk API](https://w.wiki/3MZg) - [deras dokumentation](https://drive.google.com/file/d/1vjv9B5a4gLU2k5jXCjXoB9_2Xwy1mDfU/view?usp=sharing)
 
 ---
-* Change log 
-  *  This weekend [Wikimedia Remote hack](https://www.mediawiki.org/wiki/Wikimedia_Hackathon_2021) 21-23 may [video channel](https://www.youtube.com/watch?v=VujfdGnUnp0) at 6:22:00 [Lucas Werkmeister do Live SPARQL on Wikidata](https://www.youtube.com/watch?v=VujfdGnUnp0&t=22930s)
-     * Nya [verktyg som skapats i helgen](https://etherpad.wikimedia.org/p/wmhackshowcase2021) 
-  *  :boom::boom::boom:'''[GISpyssel](https://github.com/salgo60/Svenskabadplatser/labels/GISPyssel)''':boom::boom::boom:
+*  This weekend [Wikimedia Remote hack](https://www.mediawiki.org/wiki/Wikimedia_Hackathon_2021) 21-23 may [video channel](https://www.youtube.com/watch?v=VujfdGnUnp0) at 6:22:00 [Lucas Werkmeister do Live SPARQL on Wikidata](https://www.youtube.com/watch?v=VujfdGnUnp0&t=22930s)
+   * Nya [verktyg som skapats i helgen](https://etherpad.wikimedia.org/p/wmhackshowcase2021) 
+   *  :boom::boom::boom:'''[GISpyssel](https://github.com/salgo60/Svenskabadplatser/labels/GISPyssel)''':boom::boom::boom:
 <!---  * Weekend todo listen to [Wikipedia listen.hatnote.com](http://listen.hatnote.com/) or more speedy [Wikidata sounds](http://listen.hatnote.com/#wikidata) --->
-  * 2020-05-23 hur anger vi i vårt data så att det går enkelt att ta sig dit kommunalt se [discussions/88](https://github.com/salgo60/Svenskabadplatser/discussions/88)
-  * 2020-05-22 **[Data kvalitet i Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Svenska_badplatser/Coverage2)** 2758 badplatser registrerade där 97.9% har "Nutskod", 35.97% är kopplade till närliggande vatten [P206](https://www.wikidata.org/wiki/Property:P206)  
+* **[Data kvalitet i Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Svenska_badplatser/Coverage2)** 2758 badplatser registrerade där 97.9% har "Nutskod", 35.97% är kopplade till närliggande vatten [P206](https://www.wikidata.org/wiki/Property:P206)  
     * **Issues/frågor** 
        * [Havs- och vattenmyndigheten](https://github.com/salgo60/Svenskabadplatser/issues?q=label%3A%22Havs-+och+vattenmyndighetens%22)
        * [Koordinater som uppfattas felaktiga](https://github.com/salgo60/Svenskabadplatser/issues?q=label%3A%22invalid+coordinate%22+) - [SPARQL](https://w.wiki/3NFk)
     * [Wikidata badplatser <-> Open Street Map](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/OSM_Wikidata_Bathwater.ipynb) ej kopplade 2142, vatten ej kopplade 216, naturreservat ej kopplade 87
-    * **Nya egenskaper i WD** att rösta på
+
+* **Change log** 
+  * 2020-05-23 hur anger vi i vårt data så att det går enkelt att ta sig dit kommunalt se [discussions/88](https://github.com/salgo60/Svenskabadplatser/discussions/88)
+  * 2020-05-22 **Nya egenskaper i WD** att rösta på
        * [Naturkartan](https://www.wikidata.org/wiki/Wikidata:Property_proposal/naturkartan.se_ID#%7B%7Bint%3ATalk%7D%7D)
        * [Badkartan](https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/Badkartan.se_ID) 
        * [Eionet bathingWaterIdentifier](https://www.wikidata.org/wiki/Wikidata:Property_proposal/bathingWaterIdentifier)
