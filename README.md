@@ -7,8 +7,10 @@
   *  This weekend [Wikimedia Remote hack](https://www.mediawiki.org/wiki/Wikimedia_Hackathon_2021) 21-23 may [video channel](https://www.youtube.com/watch?v=VujfdGnUnp0) at 6:22:00 [Lucas Werkmeister do Live SPARQL on Wikidata](https://www.youtube.com/watch?v=VujfdGnUnp0&t=22930s)
   *  :boom::boom::boom:'''[GISpyssel](https://github.com/salgo60/Svenskabadplatser/labels/GISPyssel)''':boom::boom::boom:
 <!---  * Weekend todo listen to [Wikipedia listen.hatnote.com](http://listen.hatnote.com/) or more speedy [Wikidata sounds](http://listen.hatnote.com/#wikidata) --->
-  * 2020-05-22 [data kvalitet i Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Svenska_badplatser/Coverage2) 2758 badplatser registrerade där 97.9% har "Nutskod", 35.97% är kopplade till närliggande vatten [P206](https://www.wikidata.org/wiki/Property:P206)  
-    * **Issues/frågor** [Hav](https://github.com/salgo60/Svenskabadplatser/issues?q=label%3A%22Havs-+och+vattenmyndighetens%22), [koordinater som uppfattas felaktiga](https://github.com/salgo60/Svenskabadplatser/issues?q=label%3A%22invalid+coordinate%22+) - [SPARQL](https://w.wiki/3NFk)
+  * 2020-05-22 [Data kvalitet i Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Svenska_badplatser/Coverage2) 2758 badplatser registrerade där 97.9% har "Nutskod", 35.97% är kopplade till närliggande vatten [P206](https://www.wikidata.org/wiki/Property:P206)  
+    * **Issues/frågor** 
+       * [Havs- och vattenmyndigheten](https://github.com/salgo60/Svenskabadplatser/issues?q=label%3A%22Havs-+och+vattenmyndighetens%22)
+       * [Koordinater som uppfattas felaktiga](https://github.com/salgo60/Svenskabadplatser/issues?q=label%3A%22invalid+coordinate%22+) - [SPARQL](https://w.wiki/3NFk)
     * [Wikidata badplatser <-> Open Street Map](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/OSM_Wikidata_Bathwater.ipynb) ej kopplade 2142, vatten ej kopplade 216, naturreservat ej kopplade 87
   * 2020-05-21 task att koppla badplatser som finns i ett Naturreservat [issues/77](https://github.com/salgo60/Svenskabadplatser/issues/77)
   * 2020-05-20 [tweet Havsmiljöinstitutet](https://twitter.com/havsmiljo/status/1395294755035258881?s=20) "Miljögifter finns i alla Sveriges vatten" hur påverkar detta Svenska badvatten [diskutera detta](https://github.com/salgo60/Svenskabadplatser/discussions/71), kan wikidata ha data om detta?
