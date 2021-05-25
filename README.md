@@ -9,6 +9,7 @@
        * [Koordinater som uppfattas felaktiga](https://github.com/salgo60/Svenskabadplatser/issues?q=label%3A%22invalid+coordinate%22+) - [SPARQL](https://w.wiki/3NFk)
     * [Wikidata badplatser <-> Open Street Map](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/OSM_Wikidata_Bathwater.ipynb) ej kopplade 2080, vatten ej kopplade 230, naturreservat ej kopplade 84
 
+![](https://github.com/salgo60/Svenskabadplatser/blob/main/img/QA.png)
 * **Change log** 
   * 2020-05-23 hur anger vi i vårt data så att det går enkelt att ta sig dit kommunalt se [discussions/88](https://github.com/salgo60/Svenskabadplatser/discussions/88)
   * 2020-05-22 **Nya egenskaper i WD** att rösta på
