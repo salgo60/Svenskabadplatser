@@ -11,7 +11,7 @@
 
 ![](https://github.com/salgo60/Svenskabadplatser/blob/main/img/QA.png)
 * **Change log** 
-  * 2020-05-23 hur anger vi i vårt data så att det går enkelt att ta sig dit kommunalt se [discussions/88](https://github.com/salgo60/Svenskabadplatser/discussions/88)
+  * 2020-05-23 hur anger vi i vårt data så att det går enkelt att ta sig dit kommunalt se [discussions/88](https://github.com/salgo60/Svenskabadplatser/discussions/88). **Lösning** [SPARQL](https://w.wiki/3MwX)
   * 2020-05-22 **Nya egenskaper i WD** att rösta på
        * [Naturkartan](https://www.wikidata.org/wiki/Wikidata:Property_proposal/naturkartan.se_ID#%7B%7Bint%3ATalk%7D%7D)
        * [Badkartan](https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/Badkartan.se_ID) 
