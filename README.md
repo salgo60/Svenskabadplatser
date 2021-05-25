@@ -30,7 +30,7 @@
     * kan ta någon vecka eller aldrig bli av    
     * saknas bra formatteringsURL för karta "[StateOfBathingWaters](https://maps.eea.europa.eu/wab/StateOfBathingWaters/)" hos EU EnvironmentAgency se fråga [tweet](https://twitter.com/salgo60/status/1392032878490488832?s=20)
 ---
-* [Wikidata:Status updates/2021 05 24](https://www.wikidata.org/wiki/Wikidata:Status_updates/2021_05_24)
+* [Wikidata:Status updates/2021 05 24](https://www.wikidata.org/wiki/Wikidata:Status_updates/2021_05_24) mentioning new proposed properties e.g. [Badkartan.se ID](https://www.wikidata.org/wiki/Wikidata:Property_proposal/Badkartan.se_ID) /  [bathingWaterIdentifier](https://www.wikidata.org/wiki/Wikidata:Property_proposal/bathingWaterIdentifier) 
 * This weekend [Wikimedia Remote hack](https://www.mediawiki.org/wiki/Wikimedia_Hackathon_2021) 21-23 may [video channel](https://www.youtube.com/watch?v=VujfdGnUnp0) at 6:22:00 [Lucas Werkmeister do Live SPARQL on Wikidata](https://www.youtube.com/watch?v=VujfdGnUnp0&t=22930s)
    * Nya [verktyg som skapats i helgen](https://etherpad.wikimedia.org/p/wmhackshowcase2021) 
    *  :boom::boom::boom:'''[GISpyssel](https://github.com/salgo60/Svenskabadplatser/labels/GISPyssel)''':boom::boom::boom:
