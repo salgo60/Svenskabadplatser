@@ -10,7 +10,10 @@
     * **Issues/frågor** 
        * [Havs- och vattenmyndigheten](https://github.com/salgo60/Svenskabadplatser/issues?q=label%3A%22Havs-+och+vattenmyndighetens%22)
        * [Koordinater som uppfattas felaktiga](https://github.com/salgo60/Svenskabadplatser/issues?q=label%3A%22invalid+coordinate%22+) - [SPARQL](https://w.wiki/3NFk)
-    * [Wikidata badplatser <-> Open Street Map](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/OSM_Wikidata_Bathwater.ipynb) ej kopplade 2050 vatten ej kopplade 254 , naturreservat ej kopplade 84 
+    * [Wikidata badplatser <-> Open Street Map](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/OSM_Wikidata_Bathwater.ipynb) ej kopplade 
+      * 2050 badplatser [csv](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/WD%20-%20OSM%20Badplatser%20saknas.csv)
+      * 254 vatten [csv](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/WD%20-%20OSM%20Vatten%20saknas.csv) 
+      * 84 naturreservat [csv](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/WD%20-%20OSM%20Naturereservat%20saknas.csv) 
 
 ![](https://github.com/salgo60/Svenskabadplatser/blob/main/img/QA.png)
 * **Change log** 
