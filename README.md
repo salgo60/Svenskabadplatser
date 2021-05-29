@@ -12,7 +12,7 @@
     
 ![](https://github.com/salgo60/Svenskabadplatser/blob/main/img/Digitaltmuseumbilder.png)
 ---
-* **[Data kvalitet i Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Svenska_badplatser/Coverage2)** 2791 badplatser registrerade där 96.74% har "Nutskod", 42.53% är kopplade till närliggande vatten [P206](https://www.wikidata.org/wiki/Property:P206)  
+* **[Data kvalitet i Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Svenska_badplatser/Coverage2)** 2795 badplatser registrerade där 96.6% har "Nutskod", 44.47% är kopplade till närliggande vatten [P206](https://www.wikidata.org/wiki/Property:P206)  
     * **Issues/frågor** 
        * [Havs- och vattenmyndigheten](https://github.com/salgo60/Svenskabadplatser/issues?q=label%3A%22Havs-+och+vattenmyndighetens%22)
        * [Koordinater som uppfattas felaktiga](https://github.com/salgo60/Svenskabadplatser/issues?q=label%3A%22invalid+coordinate%22+) - [SPARQL](https://w.wiki/3NFk)
