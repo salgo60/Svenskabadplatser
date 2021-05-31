@@ -2,7 +2,7 @@
 
 * Telegram [SvenskaBadvattenNU](https://t.me/joinchat/Lir2U9S3nT5jMjBk)
 * Tankar medborgarforskning <-> Hav se Smörbult [discussions/134](https://github.com/salgo60/Svenskabadplatser/discussions/134) och nya plattformen [Akva](https://github.com/salgo60/Svenskabadplatser/discussions/132)
-
+  
 **Task:** koppla Wikidata till Svenska badplatser som har [Eionet bathingWaterIdentifier](https://www.wikidata.org/wiki/Wikidata:Property_proposal/bathingWaterIdentifier) dvs. det som finns hos [Havs- och vattenmyndighetens i Sverige länk](https://www.havochvatten.se/badplatser-och-badvatten.html) deras API [feature](https://badplatsen.havochvatten.se/badplatsen/api/feature) / [detail](https://badplatsen.havochvatten.se/badplatsen/api/detail) - karta [Wikidata med länk API](https://w.wiki/3MZg) - [deras dokumentation](https://drive.google.com/file/d/1vjv9B5a4gLU2k5jXCjXoB9_2Xwy1mDfU/view?usp=sharing)
 * **vilka dataset skall badvatten kopplas till?**
   * badplatser i [Naturreservat](https://w.wiki/3MwX)
@@ -22,7 +22,8 @@
       * 2026 badplatser [csv](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/WD%20-%20OSM%20Badplatser%20saknas.csv)
       * 235 vatten [csv](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/WD%20-%20OSM%20Vatten%20saknas.csv) 
       * 16 naturreservat [csv](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/WD%20-%20OSM%20Naturereservat%20saknas.csv) 
-
+    * [Wikidata:OpenStreetMap](https://www.wikidata.org/wiki/Wikidata:OpenStreetMap)
+   
 ![](https://github.com/salgo60/Svenskabadplatser/blob/main/img/QA.png)
 * **Change log** 
   * 2020-05-23 hur anger vi i vårt data så att det går enkelt att ta sig dit kommunalt se [discussions/88](https://github.com/salgo60/Svenskabadplatser/discussions/88).
