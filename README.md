@@ -29,7 +29,7 @@
   * 2020-05-23 hur anger vi i vårt data så att det går enkelt att ta sig dit kommunalt se [discussions/88](https://github.com/salgo60/Svenskabadplatser/discussions/88).
   * 2020-05-22 **Nya egenskaper i WD** att rösta på - (podcast på [Svenska om saker som detta i WD](https://wikipediapodden.se/avsnitt-137-var-med-i-datalagen/))
        * [Naturkartan](https://www.wikidata.org/wiki/Wikidata:Property_proposal/naturkartan.se_ID#%7B%7Bint%3ATalk%7D%7D)
-       * [Badkartan](https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/Badkartan.se_ID) 
+       * ~~[Badkartan](https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/Badkartan.se_ID)~~ -  godkänd blev [Property:P9615](https://www.wikidata.org/wiki/Property:P9615)
        * [Eionet bathingWaterIdentifier](https://www.wikidata.org/wiki/Wikidata:Property_proposal/bathingWaterIdentifier)
   * 2020-05-21 task att koppla badplatser som finns i ett Naturreservat [issues/77](https://github.com/salgo60/Svenskabadplatser/issues/77)  **Lösning** [SPARQL](https://w.wiki/3MwX)
   * 2020-05-20 [tweet Havsmiljöinstitutet](https://twitter.com/havsmiljo/status/1395294755035258881?s=20) "Miljögifter finns i alla Sveriges vatten" hur påverkar detta Svenska badvatten [diskutera detta](https://github.com/salgo60/Svenskabadplatser/discussions/71), kan wikidata ha data om detta?
