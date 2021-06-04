@@ -7,6 +7,7 @@
 * karta [Wikidata med länk Hav API](https://w.wiki/3RZu) - [Hav API dokumentation](https://drive.google.com/file/d/1vjv9B5a4gLU2k5jXCjXoB9_2Xwy1mDfU/view?usp=sharing)
 * test skala detta till [Europa bad SPARQL](https://w.wiki/3RZx) för bad med **Eionet bathingWaterIdentifier** WD [Property:P9616](https://www.wikidata.org/wiki/Property:P9616)
   * [video](https://youtu.be/5Isx4Ngi6Bw)  
+  * **new** GITHUB repository [EuropeanBathingWater](https://github.com/salgo60/EuropeanBathingWater/blob/main/README.md)
 ![](https://github.com/salgo60/Svenskabadplatser/blob/main/img/Eionet%20bathidentifier%20in%20Wikidata.png?raw=true)
 * **vilka dataset skall badvatten kopplas till?**
   * badplatser i [Naturreservat](https://w.wiki/3RHU)
