@@ -19,7 +19,7 @@
     
 ![](https://github.com/salgo60/Svenskabadplatser/blob/main/img/Digitaltmuseumbilder.png)
 ---
-* **[Data kvalitet i Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Svenska_badplatser/Coverage2)** 2795 badplatser registrerade där 96.6% har "Nutskod", 44.47% är kopplade till närliggande vatten [P206](https://www.wikidata.org/wiki/Property:P206)  
+* **[Data kvalitet i Sverige Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Svenska_badplatser/Coverage2)** 2795 badplatser registrerade där 96.6% har "Nutskod", 44.47% är kopplade till närliggande vatten [P206](https://www.wikidata.org/wiki/Property:P206)  
     * **Issues/frågor** 
        * [Havs- och vattenmyndigheten](https://github.com/salgo60/Svenskabadplatser/issues?q=label%3A%22Havs-+och+vattenmyndighetens%22)
        * [Koordinater som uppfattas felaktiga](https://github.com/salgo60/Svenskabadplatser/issues?q=label%3A%22invalid+coordinate%22+) - [SPARQL](https://w.wiki/3NFk)
@@ -28,6 +28,7 @@
       * 201 vatten [csv](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/WD%20-%20OSM%20Vatten%20saknas.csv) 
       * 16 naturreservat [csv](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/WD%20-%20OSM%20Naturereservat%20saknas.csv) 
     * [Wikidata:OpenStreetMap](https://www.wikidata.org/wiki/Wikidata:OpenStreetMap)
+* **[Data kvalitet Europa Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_European_Bath_Waters/Coverage)** 3090 badplatser    
    
 ![](https://github.com/salgo60/Svenskabadplatser/blob/main/img/QA.png)
 * **Change log** 
