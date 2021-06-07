@@ -29,7 +29,7 @@
       * 201 vatten [csv](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/WD%20-%20OSM%20Vatten%20saknas.csv) 
       * 16 naturreservat [csv](https://github.com/salgo60/Svenskabadplatser/blob/main/Jupyter/WD%20-%20OSM%20Naturereservat%20saknas.csv) 
     * [Wikidata:OpenStreetMap](https://www.wikidata.org/wiki/Wikidata:OpenStreetMap)
-* **[Data kvalitet Europa Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_European_Bath_Waters/Coverage)** 3090 badplatser    
+* **[Data kvalitet Europa Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_European_Bath_Waters)** 3090 badplatser    
    
 ![](https://github.com/salgo60/Svenskabadplatser/blob/main/img/QA.png)
 * **Change log** 
