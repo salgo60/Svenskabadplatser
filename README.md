@@ -8,6 +8,7 @@
 * test skala detta till [Europa bad SPARQL](https://w.wiki/3RZx) för bad med **Eionet bathingWaterIdentifier** WD [Property:P9616](https://www.wikidata.org/wiki/Property:P9616)
   * [video](https://youtu.be/5Isx4Ngi6Bw)  
   * **new** GITHUB repository [EuropeanBathingWater](https://github.com/salgo60/EuropeanBathingWater/blob/main/README.md)
+  * Wikidata project area [WikiProject European Bath Waters](https://www.wikidata.org/wiki/Wikidata:WikiProject_European_Bath_Waters)
 ![](https://github.com/salgo60/Svenskabadplatser/blob/main/img/Eionet%20bathidentifier%20in%20Wikidata.png?raw=true)
 * **vilka dataset skall badvatten kopplas till?**
   * badplatser i [Naturreservat](https://w.wiki/3S53)
