@@ -132,31 +132,33 @@ för att data skall bli mer konsistent så skapas olika schema se [video](https:
 ## [Open Data Badplatser](https://www.dataportal.se/sv/datasets?p=1&q=Badplatser&s=2&t=20&f=&rt=dataset%24esterms_IndependentDataService%24esterms_ServedByDataService)
 Nedan den öppen data vi hittar idag som tyvärr inte är kopplad med NUTS --> data silos och svårt att använda
 * [Uppsala kommun](https://opendata.uppsala.se/datasets/aadc5420e8884d32b2efe0d10fbfdfe5_0/geoservice?geometry=15.925%2C59.642%2C19.874%2C60.125)
-  * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+  * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
   * ej kontaktad 
 * [Södertälje](https://www.sodertalje.se/kommun-och-politik/for-medborgare/oppna-data/oppen-data/#esc_entry=500&esc_context=1)
-  * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+  * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
   * kontaktat se [issue 14](https://github.com/salgo60/Svenskabadplatser/issues/14)
 * [Karlskrona kommun](https://service.karlskrona.se/FileStorageArea/Documents/bad/swimAreas.geojson)
-  * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+  * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
   * ej kontaktad
 * [Gävle kommun](https://www.gavle.se/kommunens-service/kommun-och-politik/statistik-fakta-och-oppna-data/oppna-data/datakatalog/data/#esc_entry=234&esc_context=1)
-  * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+  * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
   * ej kontaktad 
 * [Skövde kommun](https://geodata.skovde.se/linkdokument/OpenData/Skovde_Badanlaggningar_Badplatser.json)
-  * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+  * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
   * ej kontaktad 
 * [Umeå kommun](https://www.dataportal.se/sv/datasets/43_43844/badplatser)
-  * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+  * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
   * ej kontaktad 
 * [Sundbybergs stad](https://www.dataportal.se/sv/datasets/281_1606/badplatser-i-sundbyberg#ref=?p=1&q=Badplatser&s=2&t=20&f=&rt=dataset%24esterms_IndependentDataService%24esterms_ServedByDataService)
-  * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+  * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
   * ej kontaktad 
 * [Linköpings kommun](http://waterqualityobserved.linkoping.se/swagger/index.html)
   * behöver nyckel [länk](http://opendata.linkoping.se/)
     * gist med [Linköping WaterQualityObserved](https://gist.github.com/salgo60/3c9b28ca6281ea9fc234baea0776de86) 
-      * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+      * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
   * ej kontaktad 
+* [Badplatser i Vaxholm](https://storsthlm.dataplatform.se/#/data/0592eadf-66fc-4d1a-9cd8-330f5167763f)
+  * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
 * .....
 
 ## [Kontakter](#havvatten)
