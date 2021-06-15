@@ -88,7 +88,7 @@
   * karta om [svensk Wikipedia artikel finns](https://w.wiki/3KP8) 
     * vilka språk finns artiklar om Svenska badplatser med NUTS i Wikipedia - [sparql](https://w.wiki/3GyY) / [lista](https://w.wiki/3Gya)
     * bilder om avbildar dessa badplatser [SPARQL Federation](https://wcqs-beta.wmflabs.org/embed.html#%23defaultView%3AImageGrid%0ASELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Fimage%20%3FNUTSid%20%3FNUTS%0AWITH%20%0A%7B%20SELECT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3FNUTSid%20%3FNUTS%20WHERE%0A%20%20%7B%20SERVICE%20%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E%0A%20%20%20%20%7B%20%3Fitem%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ567998.%0A%20%20%20%20%20%20%3Fitem%20wdt%3AP605%20%3FNUTSid%3B%0A%20%20%20%20%20%20%20%20%20%20wdt%3AP17%20wd%3AQ34.%0A%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22sv%2Cen%22.%20%3Fitem%20rdfs%3Alabel%20%3FitemLabel%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Adescription%20%3FitemDescription%20.%7D%0A%20%20%20%20%20BIND%28URI%28CONCAT%28%22https%3A%2F%2Fbadplatsen.havochvatten.se%2Fbadplatsen%2Fkarta%2F%23%2Fbath%2F%22%2C%3FNUTSid%29%29%20AS%20%3FNUTS%29%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%20AS%20%25Wikidataitems%0A%0AWHERE%20%0A%7B%20%20INCLUDE%20%25Wikidataitems%20.%0A%20%20%3Ffile%20wdt%3AP180%20%3Fitem.%0A%20%20%3Ffile%20schema%3AcontentUrl%20%3Furl.%20%0A%20%20bind%28iri%28concat%28%22http%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FSpecial%3AFilePath%2F%22%2C%20wikibase%3AdecodeUri%28substr%28str%28%3Furl%29%2C53%29%29%29%29%20AS%20%3Fimage%29%0A%7D) - OBS [är en beta](https://diff.wikimedia.org/2020/10/29/sparql-in-the-shadow-of-structured-data-on-commons/)
-  * karta [saknar bild](https://w.wiki/3Sv4) 
+  * karta [saknar bild](https://w.wiki/3VB8) 
     * badplatser [utan bild med länk Wikishootme](https://w.wiki/3LUz) - mer om [Wikishootme](https://meta.wikimedia.org/wiki/WikiShootMe)
   * karta [saknar ligger vid vattenområde](https://w.wiki/3LUs) - egenskap ligger vid vattenområde = [Property:P206](https://www.wikidata.org/wiki/Property:P206) 
   * karta [saknar "plats"](https://w.wiki/3Gw9) - egenskap plats e.g. Naturreservat = [Property:P276](https://www.wikidata.org/wiki/Property:P276) 
@@ -98,6 +98,7 @@
     * karta saknar [HashTag](https://w.wiki/3Gom) - [Property:P2572](https://www.wikidata.org/wiki/Property:P2572)
     * karta saknar [Facebook placeid](https://w.wiki/3Gon) - [Property:P1997](https://www.wikidata.org/wiki/Property:P1997)
   * [Wikidata egenskaper dessa badplatser har](https://w.wiki/3LV2)
+  * karta [saknar koppling badkartan](https://w.wiki/3VB4) 
 * karta [hundbadplatser världen](https://w.wiki/3Gkg)
    * utan [koordinat](https://w.wiki/3Gkh)
 ## Feedback Havs- och vattenmyndighetens i Sverige
