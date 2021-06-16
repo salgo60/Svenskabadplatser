@@ -101,6 +101,8 @@
   * karta [saknar koppling badkartan](https://w.wiki/3VB4) 
 * karta [hundbadplatser världen](https://w.wiki/3Gkg)
    * utan [koordinat](https://w.wiki/3Gkh)
+### OSM SPARQL 
+* [Most prolific mappers of swimming_area](https://sophox.org/embed.html#%23Most%20prolific%20mappers%20of%20fire%20stations%0ASELECT%20%3Fuser%20(COUNT(*)%20AS%20%3Fcount)%20WHERE%20%7B%0A%20%20%23%20Query%20OpenStreetMap%20for%20fire%20stations%20and%20the%20users%20who%20last%20edited%20them%0A%20%20%3Ffire_station%20osmt%3Aleisure%20%22swimming_area%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20osmm%3Auser%20%3Fuser.%0A%20%20%0A%20%20%23%20Exclude%20user%20names%20that%20end%20with%20the%20word%20%22bot%22%0A%20%20FILTER(!REGEX(%3Fuser%2C%20%22%5C%5Cbbot%24%22))%0A%7D%0AGROUP%20BY%20%3Fuser%0AORDER%20BY%20DESC(%3Fcount)%0ALIMIT%2010) 
 ## Feedback Havs- och vattenmyndighetens i Sverige
 Magnus Sälgö 0705937579 - salgo60@msn.com
 1) ange vid vilket vatten bad finns gärna med Sjöid [Property:P761](https://www.wikidata.org/wiki/Property:P761) eller Wikidata objekt
