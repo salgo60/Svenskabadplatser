@@ -99,7 +99,7 @@
     * karta saknar [Facebook placeid](https://w.wiki/3Gon) - [Property:P1997](https://www.wikidata.org/wiki/Property:P1997)
   * [Wikidata egenskaper dessa badplatser har](https://w.wiki/3LV2)
   * karta [saknar koppling badkartan](https://w.wiki/3VB4) 
-  * karta |artiklar i Wikipedia på andra språk en svenska om badplatser](https://w.wiki/3W92)
+  * karta [artiklar i Wikipedia på olika språk om badplatser](https://w.wiki/3W9G)
 * karta [hundbadplatser världen](https://w.wiki/3Gkg)
    * utan [koordinat](https://w.wiki/3Gkh)
 ### Open Street map - SPARQL endpoint 
