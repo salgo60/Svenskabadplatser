@@ -87,8 +87,8 @@
 * karta [badplatser](https://w.wiki/3KP5) - [video](https://youtu.be/uiHFgYUlHU8)
   * karta om [svensk Wikipedia artikel finns](https://w.wiki/3KP8) 
     * vilka språk finns artiklar om Svenska badplatser med NUTS i Wikipedia - [sparql](https://w.wiki/3GyY) / [lista](https://w.wiki/3Gya)
-    * bilder om avbildar dessa badplatser [SPARQL Federation](https://wcqs-beta.wmflabs.org/embed.html#%23defaultView%3AImageGrid%0ASELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Fimage%20%3FNUTSid%20%3FNUTS%0AWITH%20%0A%7B%20SELECT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3FNUTSid%20%3FNUTS%20WHERE%0A%20%20%7B%20SERVICE%20%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E%0A%20%20%20%20%7B%20%3Fitem%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ567998.%0A%20%20%20%20%20%20%3Fitem%20wdt%3AP605%20%3FNUTSid%3B%0A%20%20%20%20%20%20%20%20%20%20wdt%3AP17%20wd%3AQ34.%0A%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22sv%2Cen%22.%20%3Fitem%20rdfs%3Alabel%20%3FitemLabel%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Adescription%20%3FitemDescription%20.%7D%0A%20%20%20%20%20BIND%28URI%28CONCAT%28%22https%3A%2F%2Fbadplatsen.havochvatten.se%2Fbadplatsen%2Fkarta%2F%23%2Fbath%2F%22%2C%3FNUTSid%29%29%20AS%20%3FNUTS%29%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%20AS%20%25Wikidataitems%0A%0AWHERE%20%0A%7B%20%20INCLUDE%20%25Wikidataitems%20.%0A%20%20%3Ffile%20wdt%3AP180%20%3Fitem.%0A%20%20%3Ffile%20schema%3AcontentUrl%20%3Furl.%20%0A%20%20bind%28iri%28concat%28%22http%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FSpecial%3AFilePath%2F%22%2C%20wikibase%3AdecodeUri%28substr%28str%28%3Furl%29%2C53%29%29%29%29%20AS%20%3Fimage%29%0A%7D) - OBS [är en beta](https://diff.wikimedia.org/2020/10/29/sparql-in-the-shadow-of-structured-data-on-commons/)
-  * karta [saknar bild](https://w.wiki/3Sv4) 
+    * bilder som avbildar dessa badplatser [SPARQL Federation](https://wcqs-beta.wmflabs.org/embed.html#%23defaultView%3AImageGrid%0ASELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Fimage%20%3FNUTSid%20%3FNUTS%0AWITH%20%0A%7B%20SELECT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3FNUTSid%20%3FNUTS%20WHERE%0A%20%20%7B%20SERVICE%20%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E%0A%20%20%20%20%7B%20%3Fitem%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ567998.%0A%20%20%20%20%20%20%3Fitem%20wdt%3AP605%20%3FNUTSid%3B%0A%20%20%20%20%20%20%20%20%20%20wdt%3AP17%20wd%3AQ34.%0A%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22sv%2Cen%22.%20%3Fitem%20rdfs%3Alabel%20%3FitemLabel%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3Adescription%20%3FitemDescription%20.%7D%0A%20%20%20%20%20BIND%28URI%28CONCAT%28%22https%3A%2F%2Fbadplatsen.havochvatten.se%2Fbadplatsen%2Fkarta%2F%23%2Fbath%2F%22%2C%3FNUTSid%29%29%20AS%20%3FNUTS%29%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%20AS%20%25Wikidataitems%0A%0AWHERE%20%0A%7B%20%20INCLUDE%20%25Wikidataitems%20.%0A%20%20%3Ffile%20wdt%3AP180%20%3Fitem.%0A%20%20%3Ffile%20schema%3AcontentUrl%20%3Furl.%20%0A%20%20bind%28iri%28concat%28%22http%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FSpecial%3AFilePath%2F%22%2C%20wikibase%3AdecodeUri%28substr%28str%28%3Furl%29%2C53%29%29%29%29%20AS%20%3Fimage%29%0A%7D) - OBS [är en beta](https://diff.wikimedia.org/2020/10/29/sparql-in-the-shadow-of-structured-data-on-commons/)
+  * karta [saknar bild](https://w.wiki/3VB8) 
     * badplatser [utan bild med länk Wikishootme](https://w.wiki/3LUz) - mer om [Wikishootme](https://meta.wikimedia.org/wiki/WikiShootMe)
   * karta [saknar ligger vid vattenområde](https://w.wiki/3LUs) - egenskap ligger vid vattenområde = [Property:P206](https://www.wikidata.org/wiki/Property:P206) 
   * karta [saknar "plats"](https://w.wiki/3Gw9) - egenskap plats e.g. Naturreservat = [Property:P276](https://www.wikidata.org/wiki/Property:P276) 
@@ -98,8 +98,16 @@
     * karta saknar [HashTag](https://w.wiki/3Gom) - [Property:P2572](https://www.wikidata.org/wiki/Property:P2572)
     * karta saknar [Facebook placeid](https://w.wiki/3Gon) - [Property:P1997](https://www.wikidata.org/wiki/Property:P1997)
   * [Wikidata egenskaper dessa badplatser har](https://w.wiki/3LV2)
+  * karta [saknar koppling badkartan](https://w.wiki/3VB4) 
 * karta [hundbadplatser världen](https://w.wiki/3Gkg)
    * utan [koordinat](https://w.wiki/3Gkh)
+### Open Street map - SPARQL endpoint 
+* [Most prolific mappers of swimming_area](https://sophox.org/embed.html#%23Most%20prolific%20mappers%20of%20fire%20stations%0ASELECT%20%3Fuser%20(COUNT(*)%20AS%20%3Fcount)%20WHERE%20%7B%0A%20%20%23%20Query%20OpenStreetMap%20for%20fire%20stations%20and%20the%20users%20who%20last%20edited%20them%0A%20%20%3Ffire_station%20osmt%3Aleisure%20%22swimming_area%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20osmm%3Auser%20%3Fuser.%0A%20%20%0A%20%20%23%20Exclude%20user%20names%20that%20end%20with%20the%20word%20%22bot%22%0A%20%20FILTER(!REGEX(%3Fuser%2C%20%22%5C%5Cbbot%24%22))%0A%7D%0AGROUP%20BY%20%3Fuser%0AORDER%20BY%20DESC(%3Fcount)%0ALIMIT%2010) 
+   * [same but  osmt:natural "beach"](https://tinyurl.com/yjvvvokw) 
+* [leisure Swimming area utan Wikidata koppling](https://sophox.org/embed.html#%23%20leisure%20swimming_area%20in%20OSM%20with%20no%20Wikidata%20tag%0A%23defaultView%3AMap%0ASELECT%20DISTINCT%20%3Fosm%20%3Fcoordinates%20%20%20WHERE%20%7B%0A%20%20%23%20Prevent%20optimizer%20from%20querying%20for%20everything%20tagged%20with%20wikidata%3D%2a%20before%20querying%20the%20service.%0A%20%20hint%3AQuery%20hint%3Aoptimizer%20%22None%22%20.%0A%20%20%0A%20%20%23%20Query%20OpenStreetMap%20for%20leisure%20swimming_area%0A%20%20%3Fosm%20osmt%3Aleisure%20%22swimming_area%22.%0A%20%20minus%20%7B%3Fosm%20%28osmt%3Awikidata%29%20%3FWD%7D%0A%20%20%0A%20%20%23%20Get%20coordinates%20to%20display%20on%20a%20map%0A%20%20%3Fosm%20osmm%3Aloc%20%3Fcoordinates.%0A%7D%0AORDER%20BY%20ASC%28%3FmakeLabel%29)
+* svenska badplatser [med koppling Wikidata svenska badplatser, länk Havsapi och har bild i WIkidata](https://sophox.org/embed.html#%23defaultView%3AMap%0ASELECT%20DISTINCT%20%3Fosm%20%3Fcoordinates%20%3Fwd%20%3FHAVid%20%20%3FHav%20%3Fimg%20%3Fwww%20WHERE%20%7B%0A%20%20hint%3AQuery%20hint%3Aoptimizer%20%22None%22%20.%0A%20%20%0A%20%20%3Fosm%20osmt%3Aleisure%20%22swimming_area%22.%0A%20%20%3Fosm%20osmt%3Awikidata%20%3Fwd.%0A%20%20SERVICE%20%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E%20%7B%0A%20%20%20%20%3Fwd%20wdt%3AP9616%20%3FHAVid.%0A%20%20%20%20%3Fwd%20wdt%3AP17%20wd%3AQ34.%0A%20%20%20%20OPTIONAL%20%7B%3Fwd%20wdt%3AP856%20%3Fwww%7D%0A%20%20%20%20%20%7B%3Fwd%20wdt%3AP18%20%3Fimg%7D%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%20%20%20%20%3Fwd%20rdfs%3Alabel%20%3FwdLabel.%0A%20%20%20%20%20%20%20%20%20%20FILTER%28LANG%28%3FwdLabel%29%20%3D%20%22sv%22%29%7D%20%20%20%20%0A%20%20%20%20BIND%20%28URI%28CONCAT%28%22https%3A%2F%2Fbadplatsen.havochvatten.se%2Fbadplatsen%2Fkarta%2F%23%2Fbath%2F%22%2C%3FHAVid%29%29%20AS%20%3FHav%29%0A%20%20%7D%20%20%0A%20%20%20%3Fosm%20osmm%3Aloc%20%3Fcoordinates.%0A%7D%0AORDER%20BY%20ASC%28%3FmakeLabel%29)  
+  * [även de som icke har bild](https://sophox.org/embed.html#%23defaultView%3AMap%0ASELECT%20DISTINCT%20%3Fosm%20%3Fcoordinates%20%3Fwd%20%3FHAVid%20%20%3FHav%20%3Fimg%20%3Fwww%20WHERE%20%7B%0A%20%20hint%3AQuery%20hint%3Aoptimizer%20%22None%22%20.%0A%20%20%0A%20%20%3Fosm%20osmt%3Aleisure%20%22swimming_area%22.%0A%20%20%3Fosm%20osmt%3Awikidata%20%3Fwd.%0A%20%20SERVICE%20%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E%20%7B%0A%20%20%20%20%3Fwd%20wdt%3AP9616%20%3FHAVid.%0A%20%20%20%20%3Fwd%20wdt%3AP17%20wd%3AQ34.%0A%20%20%20%20OPTIONAL%20%7B%3Fwd%20wdt%3AP856%20%3Fwww%7D%0A%20%20%20%20OPTIONAL%20%20%7B%3Fwd%20wdt%3AP18%20%3Fimg%7D%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%20%20%20%20%3Fwd%20rdfs%3Alabel%20%3FwdLabel.%0A%20%20%20%20%20%20%20%20%20%20FILTER%28LANG%28%3FwdLabel%29%20%3D%20%22sv%22%29%7D%20%20%20%20%0A%20%20%20%20BIND%20%28URI%28CONCAT%28%22https%3A%2F%2Fbadplatsen.havochvatten.se%2Fbadplatsen%2Fkarta%2F%23%2Fbath%2F%22%2C%3FHAVid%29%29%20AS%20%3FHav%29%0A%20%20%7D%20%20%0A%20%20%20%3Fosm%20osmm%3Aloc%20%3Fcoordinates.%0A%7D%0AORDER%20BY%20ASC%28%3FmakeLabel%29) 
+* [tag natural beach med Wikidata tag](https://sophox.org/embed.html#%23defaultView%3AMap%0ASELECT%20DISTINCT%20%3Fosm%20%3Fcoordinates%20%3Fwd%20%3FHAVid%20%20%3FHav%20%3Fimg%20%3Fwww%20WHERE%20%7B%0A%20%20hint%3AQuery%20hint%3Aoptimizer%20%22None%22%20.%0A%20%20%0A%20%20%3Fosm%20osmt%3Anatural%20%22beach%22.%0A%20%20%3Fosm%20osmt%3Awikidata%20%3Fwd.%0A%20%20SERVICE%20%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E%20%7B%0A%20%20%20%20%3Fwd%20wdt%3AP9616%20%3FHAVid.%0A%20%20%20%20%3Fwd%20wdt%3AP17%20wd%3AQ34.%0A%20%20%20%20OPTIONAL%20%7B%3Fwd%20wdt%3AP856%20%3Fwww%7D%0A%20%20%20%20OPTIONAL%20%20%7B%3Fwd%20wdt%3AP18%20%3Fimg%7D%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%20%20%20%20%3Fwd%20rdfs%3Alabel%20%3FwdLabel.%0A%20%20%20%20%20%20%20%20%20%20FILTER%28LANG%28%3FwdLabel%29%20%3D%20%22sv%22%29%7D%20%20%20%20%0A%20%20%20%20BIND%20%28URI%28CONCAT%28%22https%3A%2F%2Fbadplatsen.havochvatten.se%2Fbadplatsen%2Fkarta%2F%23%2Fbath%2F%22%2C%3FHAVid%29%29%20AS%20%3FHav%29%0A%20%20%7D%20%20%0A%20%20%20%3Fosm%20osmm%3Aloc%20%3Fcoordinates.%0A%7D%0AORDER%20BY%20ASC%28%3FmakeLabel%29) 
 ## Feedback Havs- och vattenmyndighetens i Sverige
 Magnus Sälgö 0705937579 - salgo60@msn.com
 1) ange vid vilket vatten bad finns gärna med Sjöid [Property:P761](https://www.wikidata.org/wiki/Property:P761) eller Wikidata objekt
@@ -130,33 +138,35 @@ för att data skall bli mer konsistent så skapas olika schema se [video](https:
 * [viss.lansstyrelsen.se/API](https://viss.lansstyrelsen.se/API)
 
 ## [Open Data Badplatser](https://www.dataportal.se/sv/datasets?p=1&q=Badplatser&s=2&t=20&f=&rt=dataset%24esterms_IndependentDataService%24esterms_ServedByDataService)
-Nedan den öppen data vi hittar idag som tyvärr inte är kopplad med NUTS --> data silos och svårt att använda
+Nedan den öppen data vi hittar idag som tyvärr inte är kopplad med Havsmyndigheten --> data silos och svårt att använda - se även [Issues relaterade](https://github.com/salgo60/Svenskabadplatser/issues?q=+label%3AOpenDataSweden+)
 * [Uppsala kommun](https://opendata.uppsala.se/datasets/aadc5420e8884d32b2efe0d10fbfdfe5_0/geoservice?geometry=15.925%2C59.642%2C19.874%2C60.125)
-  * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+  * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
   * ej kontaktad 
 * [Södertälje](https://www.sodertalje.se/kommun-och-politik/for-medborgare/oppna-data/oppen-data/#esc_entry=500&esc_context=1)
-  * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+  * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
   * kontaktat se [issue 14](https://github.com/salgo60/Svenskabadplatser/issues/14)
 * [Karlskrona kommun](https://service.karlskrona.se/FileStorageArea/Documents/bad/swimAreas.geojson)
-  * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+  * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
   * ej kontaktad
 * [Gävle kommun](https://www.gavle.se/kommunens-service/kommun-och-politik/statistik-fakta-och-oppna-data/oppna-data/datakatalog/data/#esc_entry=234&esc_context=1)
-  * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+  * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
   * ej kontaktad 
 * [Skövde kommun](https://geodata.skovde.se/linkdokument/OpenData/Skovde_Badanlaggningar_Badplatser.json)
-  * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+  * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
   * ej kontaktad 
 * [Umeå kommun](https://www.dataportal.se/sv/datasets/43_43844/badplatser)
-  * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
-  * ej kontaktad 
+  * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
+  * kontaktad se [Svenskabadplatser/issues/154](https://github.com/salgo60/Svenskabadplatser/issues/154) 
 * [Sundbybergs stad](https://www.dataportal.se/sv/datasets/281_1606/badplatser-i-sundbyberg#ref=?p=1&q=Badplatser&s=2&t=20&f=&rt=dataset%24esterms_IndependentDataService%24esterms_ServedByDataService)
-  * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+  * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
   * ej kontaktad 
 * [Linköpings kommun](http://waterqualityobserved.linkoping.se/swagger/index.html)
   * behöver nyckel [länk](http://opendata.linkoping.se/)
     * gist med [Linköping WaterQualityObserved](https://gist.github.com/salgo60/3c9b28ca6281ea9fc234baea0776de86) 
-      * saknar [NUTS](https://sv.wikipedia.org/wiki/Nomenklaturen_f%C3%B6r_statistiska_territoriella_enheter)
+      * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
   * ej kontaktad 
+* [Badplatser i Vaxholm](https://storsthlm.dataplatform.se/#/data/0592eadf-66fc-4d1a-9cd8-330f5167763f)
+  * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
 * .....
 
 ## [Kontakter](#havvatten)
