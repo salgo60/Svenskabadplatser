@@ -156,7 +156,7 @@ Nedan den öppen data vi hittar idag som tyvärr inte är kopplad med NUTS --> d
   * ej kontaktad 
 * [Umeå kommun](https://www.dataportal.se/sv/datasets/43_43844/badplatser)
   * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
-  * ej kontaktad 
+  * kontaktad se [Svenskabadplatser/issues/154](https://github.com/salgo60/Svenskabadplatser/issues/154) 
 * [Sundbybergs stad](https://www.dataportal.se/sv/datasets/281_1606/badplatser-i-sundbyberg#ref=?p=1&q=Badplatser&s=2&t=20&f=&rt=dataset%24esterms_IndependentDataService%24esterms_ServedByDataService)
   * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
   * ej kontaktad 
