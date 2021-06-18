@@ -138,7 +138,7 @@ för att data skall bli mer konsistent så skapas olika schema se [video](https:
 * [viss.lansstyrelsen.se/API](https://viss.lansstyrelsen.se/API)
 
 ## [Open Data Badplatser](https://www.dataportal.se/sv/datasets?p=1&q=Badplatser&s=2&t=20&f=&rt=dataset%24esterms_IndependentDataService%24esterms_ServedByDataService)
-Nedan den öppen data vi hittar idag som tyvärr inte är kopplad med NUTS --> data silos och svårt att använda
+Nedan den öppen data vi hittar idag som tyvärr inte är kopplad med Havsmyndigheten --> data silos och svårt att använda - se även [Issues relaterade](https://github.com/salgo60/Svenskabadplatser/issues?q=+label%3AOpenDataSweden+)
 * [Uppsala kommun](https://opendata.uppsala.se/datasets/aadc5420e8884d32b2efe0d10fbfdfe5_0/geoservice?geometry=15.925%2C59.642%2C19.874%2C60.125)
   * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
   * ej kontaktad 
