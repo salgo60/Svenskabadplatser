@@ -1,13 +1,13 @@
 # Svenska badplatser
 
-* Se också [Wikidata:WikiProject European Bath Waters](https://www.wikidata.org/wiki/Wikidata:WikiProject_European_Bath_Waters) 
+* Se också [Wikidata:WikiProject European Bathing Waters](https://www.wikidata.org/wiki/Wikidata:WikiProject_European_Bathing_Waters) 
   
 **Task:** koppla Wikidata till Svenska badplatser som har [Eionet bathingWaterIdentifier](https://www.wikidata.org/wiki/Wikidata:Property_proposal/bathingWaterIdentifier) dvs. det som finns hos [Havs- och vattenmyndighetens i Sverige länk](https://www.havochvatten.se/badplatser-och-badvatten.html) deras API [feature](https://badplatsen.havochvatten.se/badplatsen/api/feature) / [detail](https://badplatsen.havochvatten.se/badplatsen/api/detail) - 
 * karta [Wikidata med länk Hav API](https://w.wiki/3RZu) - [Hav API dokumentation](https://drive.google.com/file/d/1vjv9B5a4gLU2k5jXCjXoB9_2Xwy1mDfU/view?usp=sharing)
 * test skala detta till [Europa bad SPARQL](https://w.wiki/3RZx) för bad med **Eionet bathingWaterIdentifier** WD [Property:P9616](https://www.wikidata.org/wiki/Property:P9616)
   * [video](https://youtu.be/5Isx4Ngi6Bw)  
   * **new** GITHUB repository [EuropeanBathingWater](https://github.com/salgo60/EuropeanBathingWater/blob/main/README.md)
-  * Wikidata project area [WikiProject European Bath Waters](https://www.wikidata.org/wiki/Wikidata:WikiProject_European_Bath_Waters)
+  * Wikidata project area [WikiProject European Bathing Waters](https://www.wikidata.org/wiki/Wikidata:WikiProject_European_Bathing_Waters)
 ![](https://github.com/salgo60/Svenskabadplatser/blob/main/img/Eionet%20bathidentifier%20in%20Wikidata.png?raw=true)
 * **vilka dataset skall badvatten kopplas till?**
   * badplatser i [Naturreservat](https://w.wiki/3TVi)
