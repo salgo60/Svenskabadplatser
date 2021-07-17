@@ -1,7 +1,8 @@
 # Svenska badplatser
 
 * Se också [Wikidata:WikiProject European Bathing Waters](https://www.wikidata.org/wiki/Wikidata:WikiProject_European_Bathing_Waters) 
-  
+  * [Wikidata:WikiProject_Sweden/Svenska_badplatser](https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Svenska_badplatser)  
+
 **Task:** koppla Wikidata till Svenska badplatser som har [Eionet bathingWaterIdentifier](https://www.wikidata.org/wiki/Wikidata:Property_proposal/bathingWaterIdentifier) dvs. det som finns hos [Havs- och vattenmyndighetens i Sverige länk](https://www.havochvatten.se/badplatser-och-badvatten.html) deras API [feature](https://badplatsen.havochvatten.se/badplatsen/api/feature) / [detail](https://badplatsen.havochvatten.se/badplatsen/api/detail) - 
 * karta skapad i [Wikidata](https://w.wiki/3KP5) 
   * [samma med länk Hav API](https://w.wiki/3RZu) - [Hav API dokumentation](https://drive.google.com/file/d/1vjv9B5a4gLU2k5jXCjXoB9_2Xwy1mDfU/view?usp=sharing)
