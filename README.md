@@ -175,3 +175,4 @@ Nedan den öppen data vi hittar idag som tyvärr inte är kopplad med Havsmyndig
 ## [Kontakter](#havvatten)
 * [Mattias Andersson](https://www.linkedin.com/in/mattiasrandersson) badvatten@havochvatten.se [Enheten för utveckling och systemförvaltning](https://www.havochvatten.se/om-oss-kontakt-och-karriar/organisation/avdelningen-for-digitalisering/enheten-for-utveckling-och-systemforvaltning.html) email: tel: 010-6986286
 * [Stina Lindqvist](https://www.havochvatten.se/om-oss-kontakt-och-karriar/organisation/avdelningen-for-miljoanalys/miljoovervakningsenheten.html) Miljöövervakningsenheten 010-6986454
+* [Fredrik Ängdervik](https://www.linkedin.com/in/fredrik-%C3%A4ngdervik-52980416) Digitaliseringsledare på Havs- och vattenmyndigheten 
