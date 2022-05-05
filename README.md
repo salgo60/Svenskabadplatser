@@ -12,7 +12,7 @@ En veckolång aktivitet --> [2954 badplatser](https://www.wikidata.org/wiki/Wiki
 * Se också [Wikidata:WikiProject European Bathing Waters](https://www.wikidata.org/wiki/Wikidata:WikiProject_European_Bathing_Waters) 
   * [Wikidata:WikiProject_Sweden/Svenska_badplatser](https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Svenska_badplatser)  
 
-*** Varför händer inget ***
+***Varför händer inget***
 Min tro
 * **rädsla hos aktörer att byta laguppställning** idag går det inte att ha en vettig dialog om persistenta identifierare / [SSOT](https://github.com/salgo60/Svenskabadplatser/discussions/113) jmf hur [IKEA agerar 2018](https://rapidus.se/chock-bland-ikeas-tjansteman-efter-storvarslet/) för att fungera "digitalt"
   * idag är det så katastrofalt att man inte ens kan upphandla kompetens... dvs. vi ser samma galenskap som [Stockholms skolplattform](https://www.svd.se/a/y48MdE/slarv-och-sloseri-kring-stockholms-skolplattform). Min gissning är att alla trivs i denna resutat och kravlösa miljö så en konsult som inte ställer krav eller våga ryta till **trivs alla med** ingen ser hur mycket skattepengar man bärnner upp... DIGG den nya myndigheten bränner ung. [50 miljoner per kvartal enl. leverantörsfakturor](https://github.com/salgo60/dataportal.se-leveransfakturor) så totalen är nog snart en miljard...
