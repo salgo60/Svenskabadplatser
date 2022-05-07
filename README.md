@@ -1,10 +1,14 @@
 # Svenska badplatser
 
-En veckolång aktivitet --> [2954 badplatser](https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Svenska_badplatser) och [1300 utegym](https://www.wikidata.org/wiki/Wikidata:WikiProject_Outdoor_Gyms) som Öppna data i Wikidata
+En veckolång aktivitet --> [2954 badplatser](https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Svenska_badplatser)/[karta](https://w.wiki/58cy) och [1300 utegym](https://www.wikidata.org/wiki/Wikidata:WikiProject_Outdoor_Gyms)/[karta](https://w.wiki/58d5) som Öppna data i Wikidata
 
+### badplatser 
 <img width="1273" alt="image" src="https://user-images.githubusercontent.com/14206509/166695227-1732a30e-7a90-460c-92d4-dec818f8994f.png">
+<img width="828" alt="image" src="https://user-images.githubusercontent.com/14206509/167242867-f42554c1-37fa-40d3-9e39-5b6933688161.png">
 
+### utegym
 <img width="1274" alt="image" src="https://user-images.githubusercontent.com/14206509/166695474-058ce176-74f1-4468-81a7-75cf54609af4.png">
+<img width="822" alt="image" src="https://user-images.githubusercontent.com/14206509/167243402-0c7bca96-4a0f-44b5-8370-0b81e247da5a.png">
 
 
 **Mission completed:** jobbar man rätt är detta lätt det behövs folk som [EU EEA som kan svara med vändande post](https://github.com/salgo60/EuropeanBathingWater/blob/main/Email/Gmail%20-%20Eionet%20bathingWaterIdentifier%20_-_%20Wikidata_Wikipedia.pdf) motsvarande svenska myndigheten blev 3 veckor med ett [intetsägande svar](https://github.com/salgo60/Svenskabadplatser/blob/main/Email/Gmail%20-%20Saknar%20svar%20och%20%C3%A4rendenummer.pdf)
