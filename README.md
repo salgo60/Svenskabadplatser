@@ -19,11 +19,11 @@ En veckolång aktivitet --> [2954 badplatser](https://www.wikidata.org/wiki/Wiki
 ***Varför händer inget***
 Min tro
 * **rädsla hos aktörer att byta laguppställning** idag går det inte att ha en vettig dialog om [persistenta identifierare](https://meta.wikimedia.org/wiki/Structured_data_for_GLAM-Wiki/Roundtripping/KMB#Runestones_and_unique_persistant_identifiers_since_1750) / [SSOT](https://github.com/salgo60/Svenskabadplatser/discussions/113) / [DOI](https://github.com/DIGGSweden/DCAT-AP-SE/issues/72#issuecomment-653731898) / naiv [tro att massa API:er löser allt](https://rubenverborgh.github.io/Knowledge-Graph-Conference-2022/) jmf hur [IKEA agerar 2018](https://rapidus.se/chock-bland-ikeas-tjansteman-efter-storvarslet/) för att fungera "digitalt" och hur NSÖD ett Öppen data projekt efter 16 miljoner och 3 år inte vet vad en persistent identifierare är [länk](https://community.dataportal.se/topic/169/projektet-ns%C3%B6d-nationell-skalning-%C3%B6ppna-data/11?_=1652106670609)
-* [Wikishootme](https://wikishootme.toolforge.org/#lat=59.879286341964615&lng=14.912163466215137&zoom=6&interface_language=sv&layers=wikidata_image,wikidata_no_image&sparql_filter=%3Fq%20wdt%3AP6104%20wd%3AQ106774536&worldwide=1) --> ta bilder enkelt med mobil och ladda upp 
 
 **Task:** koppla Wikidata till Svenska badplatser som har [Eionet bathingWaterIdentifier](https://www.wikidata.org/wiki/Wikidata:Property_proposal/bathingWaterIdentifier) dvs. det som finns hos [Havs- och vattenmyndighetens i Sverige länk](https://www.havochvatten.se/badplatser-och-badvatten.html) deras API [feature](https://badplatsen.havochvatten.se/badplatsen/api/feature) / [detail](https://badplatsen.havochvatten.se/badplatsen/api/detail) - 
 * karta skapad i [Wikidata](https://w.wiki/3$mk) 
   * [samma med länk Hav API](https://w.wiki/3RZu) - [Hav API dokumentation](https://drive.google.com/file/d/1vjv9B5a4gLU2k5jXCjXoB9_2Xwy1mDfU/view?usp=sharing)
+  * [Wikishootme](https://wikishootme.toolforge.org/#lat=59.879286341964615&lng=14.912163466215137&zoom=6&interface_language=sv&layers=wikidata_image,wikidata_no_image&sparql_filter=%3Fq%20wdt%3AP6104%20wd%3AQ106774536&worldwide=1) --> ta bilder enkelt med mobil och ladda upp 
 * test skala detta till [Europa bad SPARQL](https://w.wiki/3RZx) för bad med **Eionet bathingWaterIdentifier** WD [Property:P9616](https://www.wikidata.org/wiki/Property:P9616)
   * [video](https://youtu.be/5Isx4Ngi6Bw)  
   * **new** GITHUB repository [EuropeanBathingWater](https://github.com/salgo60/EuropeanBathingWater/blob/main/README.md)
