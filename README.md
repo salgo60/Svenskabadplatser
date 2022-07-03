@@ -163,9 +163,9 @@ Nedan den öppen data vi hittar idag som tyvärr inte är kopplad med Havsmyndig
 * [Uppsala kommun](https://opendata.uppsala.se/datasets/aadc5420e8884d32b2efe0d10fbfdfe5_0/geoservice?geometry=15.925%2C59.642%2C19.874%2C60.125)
   * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
   * ej kontaktad 
-* [Södertälje](https://www.sodertalje.se/kommun-och-politik/for-medborgare/oppna-data/oppen-data/#esc_entry=500&esc_context=1)
-  * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
-  * kontaktat se [issue 14](https://github.com/salgo60/Svenskabadplatser/issues/14)
+* <del>[Södertälje](https://www.sodertalje.se/kommun-och-politik/for-medborgare/oppna-data/oppen-data/#esc_entry=500&esc_context=1)</del> - *Fixed*
+  * <del>saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
+  * <del>kontaktat se [issue 14](https://github.com/salgo60/Svenskabadplatser/issues/14)
 * [Karlskrona kommun](https://service.karlskrona.se/FileStorageArea/Documents/bad/swimAreas.geojson)
   * saknar [bathwaterIdentifier](https://dd.eionet.europa.eu/dataelements/99263)
   * ej kontaktad
