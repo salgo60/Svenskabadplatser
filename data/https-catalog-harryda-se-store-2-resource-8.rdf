@@ -1,0 +1,250 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:j.0="http://entryscape.com/terms/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:j.1="http://www.w3.org/ns/dx/prof/">
+  <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-catalog-harryda-se-store-2-resource-8">
+    <dct:title xml:lang="en">Bathing place</dct:title>
+    <dct:description xml:lang="fr-t-sv-t0-mtec">Données sur les zones de baignade publiques. Informations sur la localisation géographique, l’équipement, etc. et les identifiants uniques pour relier la zone de baignade au registre de l’Agence suédoise de gestion marine et de gestion de l’eau et Wikidata.</dct:description>
+    <dct:description xml:lang="ro-t-sv-t0-mtec">Date privind zonele publice pentru scăldat. Informații privind localizarea geografică, echipamentele etc. și identificatorii unici pentru a lega zona de scăldat de registrul Agenției suedeze pentru gestionarea marină și a apei și de Wikidata.</dct:description>
+    <dct:title xml:lang="pt-t-sv-t0-mtec">Zonas balneares</dct:title>
+    <dct:description xml:lang="es-t-sv-t0-mtec">Datos sobre las zonas de baño públicas. Información sobre ubicación geográfica, equipos, etc. e identificadores únicos para vincular la zona de baño con el registro de la Agencia Sueca para la Gestión Marina y del Agua y Wikidata.</dct:description>
+    <dct:description xml:lang="hr-t-sv-t0-mtec">Podaci o javnim kupalištima. Informacije o zemljopisnom položaju, opremi itd. i jedinstvenim identifikatorima za povezivanje kupališta s registrom Švedske agencije za morsko i vodno gospodarstvo i Wikipodacima.</dct:description>
+    <dct:title xml:lang="de-t-sv-t0-mtec">Badegebiete</dct:title>
+    <dct:title xml:lang="it-t-sv-t0-mtec">Zone di balneazione</dct:title>
+    <dct:title xml:lang="hu-t-sv-t0-mtec">Fürdőhelyek</dct:title>
+    <dct:temporal>
+      <dct:PeriodOfTime>
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2023-01-01</dcat:startDate>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+    <dct:title xml:lang="fr-t-sv-t0-mtec">Zones de baignade</dct:title>
+    <dct:description xml:lang="sv">Data över offentliga badplatser. Information om geografisk placering, utrustning med mera samt unika identifierare för att länka badplatsen till Hav- och vattenmyndighetens register samt Wikidata.</dct:description>
+    <dct:title xml:lang="es-t-sv-t0-mtec">Zonas de baño</dct:title>
+    <dct:description xml:lang="hu-t-sv-t0-mtec">Nyilvános fürdőhelyekre vonatkozó adatok. A földrajzi elhelyezkedésre, berendezésekre stb. vonatkozó információk, valamint a fürdőterület és a svéd Tengerügyi és Vízügyi Ügynökség nyilvántartása és a Wikidata egyedi azonosítói.</dct:description>
+    <dcat:keyword xml:lang="sv">Badplats</dcat:keyword>
+    <dct:description xml:lang="da-t-sv-t0-mtec">Data om offentlige badeområder. Oplysninger om geografisk placering, udstyr m.v. og entydige identifikatorer for at forbinde badeområdet med det svenske hav- og vandforvaltningsregister og Wikidata.</dct:description>
+    <dct:title xml:lang="sv">Badplatser</dct:title>
+    <dct:description xml:lang="pl-t-sv-t0-mtec">Dane dotyczące kąpielisk publicznych. Informacje na temat położenia geograficznego, sprzętu itp. i niepowtarzalnych identyfikatorów łączących kąpielisko z rejestrem szwedzkiej Agencji Gospodarki Morskiej i Wodnej oraz Wikidata.</dct:description>
+    <dct:title xml:lang="el-t-sv-t0-mtec">Περιοχές κολύμβησης</dct:title>
+    <dct:publisher>
+      <foaf:Agent rdf:about="https://catalog.harryda.se/store/2/resource/9">
+        <foaf:name xml:lang="sv">Härryda kommun</foaf:name>
+        <foaf:homepage rdf:resource="https://harryda.se"/>
+        <foaf:mbox rdf:resource="mailto:oppnadata@harryda.se"/>
+      </foaf:Agent>
+    </dct:publisher>
+    <dct:description xml:lang="fi-t-sv-t0-mtec">Julkisia uimarantoja koskevat tiedot. Tiedot maantieteellisestä sijainnista, laitteista jne. ja yksilöllisistä tunnisteista, joiden avulla uimaranta voidaan yhdistää Ruotsin meri- ja vesihallintoviraston rekisteriin ja Wikidataan.</dct:description>
+    <dcat:keyword>Härryda kommun</dcat:keyword>
+    <dcat:keyword xml:lang="sv">Brygga</dcat:keyword>
+    <dct:description xml:lang="it-t-sv-t0-mtec">Dati sulle zone di balneazione pubbliche. Informazioni sulla posizione geografica, attrezzature, ecc. e identificatori univoci per collegare la zona di balneazione al registro e a Wikidata dell'Agenzia svedese per la gestione marina e delle acque.</dct:description>
+    <dcat:keyword xml:lang="sv">Badplatser</dcat:keyword>
+    <dct:description xml:lang="sl-t-sv-t0-mtec">Podatki o javnih kopališčih. Informacije o geografski lokaciji, opremi itd. in edinstvenih identifikatorjih za povezavo območja kopalnih voda z registrom švedske agencije za upravljanje morja in vode ter Wikipodatki.</dct:description>
+    <prov:qualifiedAttribution>
+      <prov:Attribution>
+        <prov:agent rdf:resource="https://catalog.harryda.se/store/2/resource/9"/>
+        <dcat:hadRole rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/ResponsiblePartyRole/owner"/>
+      </prov:Attribution>
+    </prov:qualifiedAttribution>
+    <dct:description xml:lang="mt-t-sv-t0-mtec">Data dwar iż-żoni pubbliċi tal-għawm. Informazzjoni dwar il-pożizzjoni ġeografika, it-tagħmir eċċ. u l-identifikaturi uniċi biex iż-żona tal-għawm tintrabat mar-reġistru tal-Aġenzija Żvediża għall-Ġestjoni tal-Baħar u tal-Ilma u mal-Wikidata.</dct:description>
+    <dct:title xml:lang="mt-t-sv-t0-mtec">Żoni għall-għawm</dct:title>
+    <dct:title xml:lang="lv-t-sv-t0-mtec">Peldvietas</dct:title>
+    <dct:title xml:lang="uk-t-sv-t0-mtec">Зони для купання</dct:title>
+    <dct:title xml:lang="sk-t-sv-t0-mtec">Oblasti určené na kúpanie</dct:title>
+    <dct:description xml:lang="pt-t-sv-t0-mtec">Dados relativos às zonas balneares públicas. Informações sobre localização geográfica, equipamento, etc. e identificadores únicos para ligar a zona balnear ao registo e Wikidata da Agência Sueca de Gestão do Mar e das Águas.</dct:description>
+    <dct:description xml:lang="cs-t-sv-t0-mtec">Údaje o veřejných koupalištích. Informace o zeměpisné poloze, vybavení atd. a jedinečné identifikátory pro propojení oblasti koupání s registrem švédské agentury pro námořní a vodohospodářství a Wikidata.</dct:description>
+    <dct:spatial>
+      <dct:Location>
+        <dcat:bbox rdf:datatype="http://replacement.io/ont/geosparql#wktLiteral"
+        >POLYGON((12.079516946886804 57.69139545511214,12.51289001986392 57.69139545511214,12.51289001986392 57.60942357469662,12.079516946886804 57.60942357469662,12.079516946886804 57.69139545511214))</dcat:bbox>
+      </dct:Location>
+    </dct:spatial>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/814b5d1a-d83a-4f80-8fad-ba132322449d">
+        <dct:description xml:lang="it-t-sv-t0-mtec">Formato della tabella in csv</dct:description>
+        <dct:description xml:lang="hu-t-sv-t0-mtec">Táblázatformátum csv-ben</dct:description>
+        <dct:title xml:lang="da-t-sv-t0-mtec">Badeområder — Harryda</dct:title>
+        <dcat:accessURL>
+          <j.0:File rdf:about="https://catalog.harryda.se/store/2/resource/27">
+            <dct:title>Badplatser_Harryda.csv</dct:title>
+            <dct:format>text/csv</dct:format>
+          </j.0:File>
+        </dcat:accessURL>
+        <dct:title xml:lang="sk-t-sv-t0-mtec">Oblasti na kúpanie_Harryda</dct:title>
+        <dct:description xml:lang="es-t-sv-t0-mtec">Formato de tabla en csv</dct:description>
+        <dct:description xml:lang="nl-t-sv-t0-mtec">Tabelformaat in csv</dct:description>
+        <dct:description xml:lang="uk-t-sv-t0-mtec">Формат таблиці в csv</dct:description>
+        <dct:title xml:lang="el-t-sv-t0-mtec">Περιοχές κολύμβησης_Harryda</dct:title>
+        <dct:title xml:lang="et-t-sv-t0-mtec">Supelrand _Harryda</dct:title>
+        <dct:title xml:lang="bg-t-sv-t0-mtec">Зони за къпане_Harryda</dct:title>
+        <dct:title xml:lang="nl-t-sv-t0-mtec">Badzones_Harryda</dct:title>
+        <dct:description xml:lang="fi-t-sv-t0-mtec">Taulukkomuoto csv:nä</dct:description>
+        <dct:description xml:lang="mt-t-sv-t0-mtec">Format tat-tabella f’csv</dct:description>
+        <dct:title xml:lang="en-t-sv-t0-mtec">Bathing areas_Harryda</dct:title>
+        <dct:description xml:lang="bg-t-sv-t0-mtec">Формат на таблицата в csv</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2023-09-27T13:23:15.522Z</dct:modified>
+        <dct:title xml:lang="ro-t-sv-t0-mtec">Zone pentru scăldat_Harryda</dct:title>
+        <dct:title xml:lang="cs-t-sv-t0-mtec">Koupaliště_Harryda</dct:title>
+        <dct:title xml:lang="fr-t-sv-t0-mtec">Zones de baignade_Harryda</dct:title>
+        <dct:description xml:lang="el-t-sv-t0-mtec">Μορφή πίνακα σε csv</dct:description>
+        <dct:description xml:lang="sk-t-sv-t0-mtec">Formát tabuľky v csv</dct:description>
+        <dct:title xml:lang="fi-t-sv-t0-mtec">Uimarannat_Harryda</dct:title>
+        <dct:title xml:lang="hu-t-sv-t0-mtec">Fürdőhelyek_Harryda</dct:title>
+        <dct:description xml:lang="pt-t-sv-t0-mtec">Formato do quadro em csv</dct:description>
+        <dct:description xml:lang="de-t-sv-t0-mtec">Tabellenformat in csv</dct:description>
+        <dct:description xml:lang="hr-t-sv-t0-mtec">Format tablice u csv</dct:description>
+        <dct:title xml:lang="it-t-sv-t0-mtec">Zone di balneazione_Harryda</dct:title>
+        <dct:description xml:lang="da-t-sv-t0-mtec">Tabelformat i csv</dct:description>
+        <dct:identifier>https://catalog.harryda.se/store/2/resource/28</dct:identifier>
+        <dct:title xml:lang="sv">Badplatser_Harryda</dct:title>
+        <dct:description xml:lang="ro-t-sv-t0-mtec">Formatul tabelului în csv</dct:description>
+        <dct:description xml:lang="lt-t-sv-t0-mtec">Lentelės formatas csv</dct:description>
+        <dct:description xml:lang="fr-t-sv-t0-mtec">Format du tableau en csv</dct:description>
+        <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+        <dct:title xml:lang="lv-t-sv-t0-mtec">Peldvietas_Harryda</dct:title>
+        <dct:title xml:lang="pt-t-sv-t0-mtec">Zonas balneares_Harryda</dct:title>
+        <dct:title xml:lang="lt-t-sv-t0-mtec">Maudymosi zonos_Harryda</dct:title>
+        <dct:title xml:lang="mt-t-sv-t0-mtec">Żoni għall-għawm_Harryda</dct:title>
+        <dct:description xml:lang="ga-t-sv-t0-mtec">Formáid tábla i csv</dct:description>
+        <dct:description xml:lang="sv">Tabellformat i csv</dct:description>
+        <dct:description xml:lang="cs-t-sv-t0-mtec">Formát tabulky v csv</dct:description>
+        <dct:description xml:lang="lv-t-sv-t0-mtec">Tabulas formāts csv</dct:description>
+        <dct:title xml:lang="pl-t-sv-t0-mtec">Kąpieliska_Harryda</dct:title>
+        <dct:title xml:lang="es-t-sv-t0-mtec">Zonas de baño_Harryda</dct:title>
+        <dct:title xml:lang="uk-t-sv-t0-mtec">Купальні зони_Гаррида</dct:title>
+        <dct:description xml:lang="et-t-sv-t0-mtec">Tabeli vorming csv-s</dct:description>
+        <dct:description xml:lang="pl-t-sv-t0-mtec">Format tabeli w csv</dct:description>
+        <dct:title xml:lang="sl-t-sv-t0-mtec">Kopališča_Harryda</dct:title>
+        <dcat:downloadURL rdf:resource="https://catalog.harryda.se/store/2/resource/27"/>
+        <dct:title xml:lang="hr-t-sv-t0-mtec">Kupališta_Harryda</dct:title>
+        <dct:description xml:lang="en-t-sv-t0-mtec">Table format in csv</dct:description>
+        <dct:format>text/csv</dct:format>
+        <dct:title xml:lang="de-t-sv-t0-mtec">Badegebiete_Harryda</dct:title>
+        <dct:title xml:lang="ga-t-sv-t0-mtec">Limistéir snámha_Harryda</dct:title>
+        <dct:description xml:lang="sl-t-sv-t0-mtec">Oblika tabele v csv</dct:description>
+        <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:keyword xml:lang="en">Beach</dcat:keyword>
+    <dct:description xml:lang="bg-t-sv-t0-mtec">Данни за обществените зони за къпане. Информация за географското местоположение, оборудването и т.н. и уникални идентификатори за свързване на зоната за къпане с регистъра и уикиданните на Шведската агенция за управление на морската среда и водите.</dct:description>
+    <dct:description xml:lang="lv-t-sv-t0-mtec">Dati par publiskajām peldvietām. Informācija par ģeogrāfisko atrašanās vietu, aprīkojumu u. c. un unikālajiem identifikatoriem, lai savienotu peldvietu ar Zviedrijas Jūras un ūdens resursu apsaimniekošanas aģentūras reģistru un Wikidata.</dct:description>
+    <dct:title xml:lang="cs-t-sv-t0-mtec">Koupací plochy</dct:title>
+    <dct:title xml:lang="lt-t-sv-t0-mtec">Maudymosi zonos</dct:title>
+    <dct:description xml:lang="sk-t-sv-t0-mtec">Údaje o verejných priestoroch určených na kúpanie. Informácie o geografickej polohe, vybavení atď. a jedinečné identifikátory na prepojenie oblasti určenej na kúpanie so švédskou agentúrou pre morskú a vodohospodársku správu a Wikiúdaje.</dct:description>
+    <dct:title xml:lang="bg-t-sv-t0-mtec">Зони за къпане</dct:title>
+    <dcat:keyword xml:lang="en">Bridge</dcat:keyword>
+    <dct:title xml:lang="ga-t-sv-t0-mtec">Limistéir snámha</dct:title>
+    <prov:qualifiedAttribution>
+      <prov:Attribution>
+        <prov:agent rdf:resource="https://catalog.harryda.se/store/2/resource/9"/>
+        <dcat:hadRole rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/ResponsiblePartyRole/user"/>
+      </prov:Attribution>
+    </prov:qualifiedAttribution>
+    <dct:description xml:lang="ga-t-sv-t0-mtec">Sonraí maidir le limistéir snámha phoiblí. Faisnéis maidir le suíomh geografach, trealamh etc. agus aitheantóirí uathúla chun an limistéar snámha a nascadh le clár agus Wikidata Ghníomhaireacht na Sualainne um Bainistíocht Mara agus Uisce.</dct:description>
+    <dct:conformsTo>
+      <dct:Standard rdf:about="https://dataportal.se/specifications/badplatser/1.0">
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2021-06-18T16:00:00.000Z</dct:issued>
+        <dct:title xml:lang="sv">Badplatser</dct:title>
+        <j.1:hasResource rdf:resource="https://gitlab.com/lankadedata/spec/badplatser/-/raw/main/dataset-example.xlsx?inline=false"/>
+        <dcat:keyword xml:lang="en">beach</dcat:keyword>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://dataportal.se/organisation/vgr">
+            <dct:type rdf:resource="http://purl.org/adms/publishertype/RegionalAuthority"/>
+            <foaf:name xml:lang="sv">Västra Götalandsregionen</foaf:name>
+            <foaf:name xml:lang="en">Västra Götaland Regional Council</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <j.1:hasResource rdf:resource="https://editera.dataportal.se/store/86/resource/9"/>
+        <j.1:hasResource rdf:resource="https://gitlab.com/lankadedata/spec/badplatser/-/raw/main/dataset-example.ods?inline=false"/>
+        <j.1:hasResource rdf:resource="https://gitlab.com/lankadedata/spec/badplatser"/>
+        <j.1:hasResource rdf:resource="https://lankadedata.se/spec/badplatser"/>
+        <dcat:keyword xml:lang="en">swimming area</dcat:keyword>
+        <j.1:hasResource rdf:resource="https://lankadedata.se/spec/badplatser/schema.json"/>
+        <dct:description xml:lang="sv">Information om badplatser, naturliga eller särskilt anordnade.</dct:description>
+        <dcat:keyword xml:lang="sv">strand</dcat:keyword>
+        <dcat:keyword xml:lang="en">swimming spot</dcat:keyword>
+        <dcat:keyword xml:lang="sv">stränder</dcat:keyword>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+        <adms:last rdf:resource="https://dataportal.se/specifications/badplatser/1.0"/>
+        <j.1:hasResource rdf:resource="https://community.dataportal.se/topic/673/v%C3%A4gledning-om-att-publicera-data-om-badplatser?_=1694690489432"/>
+        <dcat:keyword xml:lang="en">beaches</dcat:keyword>
+        <dcat:keyword xml:lang="sv">bad</dcat:keyword>
+        <dcat:contactPoint>
+          <vcard:Individual rdf:about="https://editera.dataportal.se/store/86/resource/1">
+            <vcard:hasEmail rdf:resource="mailto:tomas.monsen@toreboda.se"/>
+            <vcard:fn>Tomas Monsén</vcard:fn>
+            <vcard:hasTelephone rdf:parseType="Resource">
+              <vcard:hasValue rdf:resource="tel:+46506777087"/>
+            </vcard:hasTelephone>
+            <vcard:hasTelephone rdf:parseType="Resource">
+              <vcard:hasValue rdf:resource="tel:+46506777087"/>
+            </vcard:hasTelephone>
+            <vcard:hasTelephone rdf:parseType="Resource">
+              <vcard:hasValue rdf:resource="tel:+46506777087"/>
+            </vcard:hasTelephone>
+          </vcard:Individual>
+        </dcat:contactPoint>
+        <dcat:keyword xml:lang="sv">badplatser</dcat:keyword>
+        <adms:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+        <j.1:hasResource rdf:resource="https://gitlab.com/lankadedata/spec/badplatser/-/raw/master/dataset-example.xlsx"/>
+        <dcat:keyword xml:lang="en">swimming</dcat:keyword>
+        <adms:status rdf:resource="http://purl.org/adms/status/Completed"/>
+        <j.1:hasToken>badplatser</j.1:hasToken>
+        <dcat:keyword xml:lang="en">swimming pool</dcat:keyword>
+        <j.1:hasResource rdf:resource="https://gitlab.com/lankadedata/spec/badplatser/-/raw/master/dataset-example.ods"/>
+        <dcat:keyword xml:lang="en">bathing place</dcat:keyword>
+      </dct:Standard>
+    </dct:conformsTo>
+    <dct:title xml:lang="ro-t-sv-t0-mtec">Zone pentru scăldat</dct:title>
+    <dct:description xml:lang="lt-t-sv-t0-mtec">Duomenys apie viešąsias maudymosi zonas. Informacija apie geografinę padėtį, įrangą ir t. t. ir unikalūs identifikatoriai, pagal kuriuos maudymosi zona susiejama su Švedijos jūrų ir vandentvarkos agentūros registru ir Wikidata.</dct:description>
+    <dct:title xml:lang="pl-t-sv-t0-mtec">Kąpieliska</dct:title>
+    <dcat:contactPoint>
+      <vcard:Organization rdf:about="https://catalog.harryda.se/store/2/resource/24">
+        <vcard:hasEmail rdf:resource="mailto:oppnadata@harryda.se"/>
+        <vcard:fn>Enheten för digital utveckling</vcard:fn>
+      </vcard:Organization>
+    </dcat:contactPoint>
+    <dct:description xml:lang="el-t-sv-t0-mtec">Δεδομένα για τις δημόσιες κολυμβητικές περιοχές. Πληροφορίες σχετικά με τη γεωγραφική θέση, τον εξοπλισμό κ.λπ. και μοναδικά αναγνωριστικά στοιχεία για τη σύνδεση της περιοχής κολύμβησης με το μητρώο και τα Wikidata της Σουηδικής Υπηρεσίας Θαλάσσιας Διαχείρισης και Διαχείρισης Υδάτων.</dct:description>
+    <dct:title xml:lang="fi-t-sv-t0-mtec">Uimarannat</dct:title>
+    <dct:spatial rdf:resource="https://sws.geonames.org/2707608"/>
+    <dct:title xml:lang="et-t-sv-t0-mtec">Supelrand</dct:title>
+    <dct:description xml:lang="en">Data on public bathing places in. Information about geographical location, equipment and more as well as unique identifiers to link the bathing area to the Swedish Marine and Water Authority's register and Wikidata.</dct:description>
+    <rdf:type rdf:resource="http://entryscape.com/terms/ServedByDataService"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:title xml:lang="da-t-sv-t0-mtec">Badeområder</dct:title>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dct:description xml:lang="et-t-sv-t0-mtec">Andmed avalike supelrandade kohta. Teave geograafilise asukoha, seadmete jms ja kordumatute tunnuste kohta, et ühendada supluspiirkond Rootsi mere- ja veemajanduse ameti ja Wikidata registriga.</dct:description>
+    <dcat:keyword xml:lang="en">Bathing</dcat:keyword>
+    <dct:title xml:lang="nl-t-sv-t0-mtec">Badzones</dct:title>
+    <dct:description xml:lang="uk-t-sv-t0-mtec">Дані про громадські купальні зони. Інформація про географічне розташування, обладнання і т.д. та унікальні ідентифікатори для зв'язку зони купання з реєстром шведського агентства з морського та водного господарства та Вікідані.</dct:description>
+    <dct:title xml:lang="hr-t-sv-t0-mtec">Kupališta</dct:title>
+    <dct:description xml:lang="de-t-sv-t0-mtec">Daten zu öffentlichen Badegebieten. Informationen über geografische Lage, Ausrüstung usw. und eindeutige Kennungen, um das Badegebiet mit dem Register der schwedischen Meeres- und Wasserwirtschaft und Wikidata zu verknüpfen.</dct:description>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2023-09-27</dct:issued>
+    <dct:description xml:lang="nl-t-sv-t0-mtec">Gegevens over openbare badzones. Informatie over geografische locatie, uitrusting, enz. en unieke identificatiecodes om het zwemgebied te koppelen aan het register van het Zweedse agentschap voor zee- en waterbeheer en Wikidata.</dct:description>
+    <dcat:distribution>
+      <j.0:ServiceDistribution rdf:about="http://data.europa.eu/88u/distribution/f6a8a410-9440-40f4-bca1-14372af4d668">
+        <foaf:page rdf:resource="https://swagger.entryscape.com/?url=https://catalog.harryda.se/rowstore/dataset/21cffcda-f0aa-471d-9cd3-4630669f6fb1/swagger"/>
+        <dct:conformsTo rdf:resource="https://catalog.harryda.se/rowstore/dataset/21cffcda-f0aa-471d-9cd3-4630669f6fb1/swagger"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://catalog.harryda.se/rowstore/dataset/21cffcda-f0aa-471d-9cd3-4630669f6fb1"/>
+        <dct:source rdf:resource="http://data.europa.eu/88u/distribution/814b5d1a-d83a-4f80-8fad-ba132322449d"/>
+        <dct:identifier>https://catalog.harryda.se/store/2/resource/49</dct:identifier>
+        <dct:format>application/json</dct:format>
+      </j.0:ServiceDistribution>
+    </dcat:distribution>
+    <dct:title xml:lang="sl-t-sv-t0-mtec">Kopališča</dct:title>
+  </dcat:Dataset>
+</rdf:RDF>
