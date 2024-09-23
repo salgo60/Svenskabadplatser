@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcatap="http://data.europa.eu/r5r/"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:j.0="http://entryscape.com/terms/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-catalog-trollhattan-se-store-1-resource-34">
+    <dct:description xml:lang="hu-t-sv-t0-mtec">A települési fürdőhelyekre vonatkozó adatok Västra Götaland régió előírásainak megfelelően. A koordinátarendszer WGS84. Egyedi azonosítóval ellátott információk, amelyek a fürdőterületet a svéd Tenger- és Vízgazdálkodási Ügynökséghez és a Wikidata-hoz kötik. További információk az önkormányzati fürdőhelyekről a honlapon: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dct:description xml:lang="en-t-sv-t0-mtec">Data on municipal bathing areas according to specification Region Västra Götaland. The coordinate system is WGS84. Information with unique identifiers to link the bathing area to the Swedish Agency for Marine and Water Management and Wikidata. More information about municipal bathing areas on the website: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dct:description xml:lang="mt-t-sv-t0-mtec">Data dwar iż-żoni muniċipali għall-għawm skont l-ispeċifikazzjoni tar-Reġjun Västra Götaland. Is-sistema ta’ koordinati hija WGS84. Informazzjoni b’identifikaturi uniċi biex iż-żona ta’ l-għawm tintrabat ma’ l-Aġenzija Żvediża għall-Ġestjoni tal-Baħar u ta’ l-Ilma u Wikidata. Aktar tagħrif dwar iż-żoni muniċipali għall-għawm fuq is-sit web: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser Data dwar iż-żoni muniċipali għall-għawm skont l-ispeċifikazzjoni tar-Reġjun Västra Götaland.
+Is-sistema ta’ koordinati hija WGS84.
+Informazzjoni b’identifikaturi uniċi biex iż-żona ta’ l-għawm tintrabat ma’ l-Aġenzija Żvediża għall-Ġestjoni tal-Baħar u ta’ l-Ilma u Wikidata.
+Aktar tagħrif dwar iż-żoni muniċipali għall-għawm fuq is-sit web:
+https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dct:title xml:lang="hu-t-sv-t0-mtec">Trollhättan település települési fürdőhelyei</dct:title>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:title xml:lang="sv">Kommunala badplatser inom Trollhättans kommun</dct:title>
+    <dct:title xml:lang="cs-t-sv-t0-mtec">Městské oblasti koupání v obci Trollhättan</dct:title>
+    <dcat:contactPoint>
+      <vcard:Organization rdf:about="https://catalog.trollhattan.se/store/1/resource/28">
+        <vcard:hasTelephone rdf:parseType="Resource">
+          <vcard:hasValue rdf:resource="tel:0520-496777"/>
+        </vcard:hasTelephone>
+        <vcard:fn>Samhällsbyggnadsförvaltningen</vcard:fn>
+        <vcard:hasAddress>
+          <vcard:Address>
+            <vcard:country-name>Sverige</vcard:country-name>
+            <vcard:locality>Trollhättan</vcard:locality>
+            <vcard:postal-code>46183</vcard:postal-code>
+            <vcard:street-address>Gärdhemsvägen 9</vcard:street-address>
+          </vcard:Address>
+        </vcard:hasAddress>
+        <vcard:hasEmail rdf:resource="mailto:samhallsbyggnad@trollhattan.se"/>
+      </vcard:Organization>
+    </dcat:contactPoint>
+    <dct:description xml:lang="el-t-sv-t0-mtec">Στοιχεία για τις δημοτικές κολυμβητικές περιοχές σύμφωνα με τις προδιαγραφές της περιφέρειας Västra Götaland. Το σύστημα συντεταγμένων είναι WGS84. Πληροφορίες με μοναδικά αναγνωριστικά στοιχεία για τη σύνδεση της κολυμβητικής περιοχής με τη σουηδική υπηρεσία διαχείρισης θαλάσσιων και υδάτων και με τα Wikidata. Περισσότερες πληροφορίες σχετικά με τις δημοτικές κολυμβητικές περιοχές διατίθενται στον δικτυακό τόπο: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dct:title xml:lang="pl-t-sv-t0-mtec">Gminne kąpieliska w gminie Trollhättan</dct:title>
+    <dct:description xml:lang="de-t-sv-t0-mtec">Angaben zu kommunalen Badegebieten nach Spezifikation Region Västra Götaland. Das Koordinatensystem ist WGS84. Informationen mit eindeutigen Kennungen zur Verknüpfung des Badegebiets mit der schwedischen Agentur für Meeres- und Wasserwirtschaft und Wikidata. Weitere Informationen zu kommunalen Badegebieten auf der Website: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dct:title xml:lang="mt-t-sv-t0-mtec">Żoni muniċipali għall-għawm fil-muniċipalità ta’ Trollhättan</dct:title>
+    <dct:description xml:lang="pt-t-sv-t0-mtec">Dados relativos às zonas balneares municipais de acordo com as especificações da Região Västra Götaland. O sistema de coordenadas é WGS84. Informações com identificadores únicos para ligar a zona balnear à Agência Sueca de Gestão Marinha e da Água e Wikidata. Para mais informações sobre as zonas balneares municipais, consultar o sítio Web: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser Dados relativos às zonas balneares municipais de acordo com as especificações da Região Västra Götaland.
+O sistema de coordenadas é WGS84.
+Informações com identificadores únicos para ligar a zona balnear à Agência Sueca de Gestão Marinha e da Água e Wikidata.
+Para mais informações sobre as zonas balneares municipais, consultar o sítio Web:
+https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dct:description xml:lang="lv-t-sv-t0-mtec">Dati par pašvaldības peldvietām saskaņā ar Västra Götaland reģiona specifikāciju. Koordinātu sistēma ir WGS84. Informācija ar unikāliem identifikatoriem, lai savienotu peldvietu ar Zviedrijas Jūras un ūdenssaimniecības aģentūru un Wikidata. Plašāka informācija par pašvaldības peldvietām mājas lapā: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dct:description xml:lang="da-t-sv-t0-mtec">Data for kommunale badeområder i henhold til specifikationerne Region Västra Götaland. Koordinatsystemet er WGS84. Oplysninger med entydige identifikatorer, der forbinder badeområdet med det svenske hav- og vandforvaltningsagentur og Wikidata. Yderligere oplysninger om de kommunale badeområder findes på webstedet: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/07de722a-467d-4afc-b594-b6cb82e0e962">
+        <dct:title xml:lang="ro-t-sv-t0-mtec">Zone municipale pentru scăldat GeoJSON</dct:title>
+        <dct:title xml:lang="it-t-sv-t0-mtec">Zone di balneazione municipali GeoJSON</dct:title>
+        <dct:title xml:lang="lv-t-sv-t0-mtec">Pašvaldības peldvietas GeoJSON</dct:title>
+        <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+        <dct:description xml:lang="nl-t-sv-t0-mtec">Gemeentelijke badzones in de gemeente Trollhättan in de vorm GeoJSON. Coördinatensysteem WGS84</dct:description>
+        <dct:description xml:lang="mt-t-sv-t0-mtec">Żoni muniċipali għall-għawm fil-muniċipalità ta’ Trollhättan fil-format GeoJSON. Sistema ta’ koordinati WGS84</dct:description>
+        <dct:identifier>https://catalog.trollhattan.se/store/1/resource/55</dct:identifier>
+        <dct:title xml:lang="hr-t-sv-t0-mtec">Komunalna kupališta GeoJSON</dct:title>
+        <dct:title xml:lang="pl-t-sv-t0-mtec">Miejskie kąpieliska GeoJSON</dct:title>
+        <dct:title xml:lang="mt-t-sv-t0-mtec">Żoni muniċipali għall-għawm GeoJSON</dct:title>
+        <dct:description xml:lang="hu-t-sv-t0-mtec">Trollhättan település települési fürdőhelyei GeoJSON formátumban. WGS84 koordinátarendszer</dct:description>
+        <dct:title xml:lang="bg-t-sv-t0-mtec">Общински зони за къпане GeoJSON</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-02-28</dct:issued>
+        <dct:description xml:lang="bg-t-sv-t0-mtec">Общински зони за къпане в община Trollhättan във формат GeoJSON. Координатна система WGS84</dct:description>
+        <dct:description xml:lang="es-t-sv-t0-mtec">Zonas de baño municipales en el municipio de Trollhättan en formato GeoJSON. Sistema de coordenadas WGS84</dct:description>
+        <dct:title xml:lang="fr-t-sv-t0-mtec">Zones de baignade municipales GeoJSON</dct:title>
+        <dct:title xml:lang="hu-t-sv-t0-mtec">Városi fürdőhelyek GeoJSON</dct:title>
+        <dct:description xml:lang="fr-t-sv-t0-mtec">Zones de baignade municipales dans la municipalité de Trollhättan au format GeoJSON. Système de coordonnées WGS84</dct:description>
+        <dct:description xml:lang="sl-t-sv-t0-mtec">Občinska kopalna območja v občini Trollhättan v formatu GeoJSON.
+Koordinatni sistem WGS84</dct:description>
+        <dct:title xml:lang="lt-t-sv-t0-mtec">Komunalinės maudyklos GeoJSON</dct:title>
+        <dct:description xml:lang="en-t-sv-t0-mtec">Municipal bathing areas in the municipality of Trollhättan in format GeoJSON. Coordinate system WGS84</dct:description>
+        <dcat:downloadURL>
+          <j.0:File rdf:about="https://catalog.trollhattan.se/store/1/resource/54">
+            <dct:title>badplats_json_thn.json</dct:title>
+          </j.0:File>
+        </dcat:downloadURL>
+        <dct:title xml:lang="sk-t-sv-t0-mtec">Obecné kúpacie priestory GeoJSON</dct:title>
+        <dcat:accessURL rdf:resource="https://catalog.trollhattan.se/store/1/resource/54"/>
+        <dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+        <dct:title xml:lang="da-t-sv-t0-mtec">Kommunale badeområder GeoJSON</dct:title>
+        <dct:description xml:lang="pl-t-sv-t0-mtec">Gminne kąpieliska w gminie Trollhättan w formacie GeoJSON.
+Układ współrzędnych WGS84</dct:description>
+        <dct:description xml:lang="ga-t-sv-t0-mtec">Limistéir snámha bhardasacha i mbardas Trollhättan san fhormáid GeoJSON. Córas WGS84 a chomhordú</dct:description>
+        <dct:description xml:lang="sk-t-sv-t0-mtec">Obecné kúpacie oblasti v obci Trollhättan vo formáte GeoJSON.
+Súradnicový systém WGS84</dct:description>
+        <dct:description xml:lang="da-t-sv-t0-mtec">Kommunale badeområder i Trollhättan kommune i formatet GeoJSON. Koordinatsystem WGS84</dct:description>
+        <dct:title xml:lang="pt-t-sv-t0-mtec">Zonas balneares municipais GeoJSON</dct:title>
+        <dct:title xml:lang="et-t-sv-t0-mtec">Munitsipaalsupelrannad GeoJSON</dct:title>
+        <dct:title xml:lang="uk-t-sv-t0-mtec">Муніципальні зони для купання GeoJSON</dct:title>
+        <dct:description xml:lang="el-t-sv-t0-mtec">Δημοτικές κολυμβητικές περιοχές του δήμου Trollhättan σε μορφή GeoJSON. Σύστημα συντεταγμένων WGS84</dct:description>
+        <dct:description xml:lang="pt-t-sv-t0-mtec">Zonas balneares municipais no município de Trollhättan em formato GeoJSON.
+Sistema de coordenadas WGS84</dct:description>
+        <dct:title xml:lang="sv">Kommunala badplatser GeoJSON</dct:title>
+        <dct:description xml:lang="lt-t-sv-t0-mtec">Savivaldybės maudymosi zonos Trollhättan savivaldybės formatu GeoJSON. Koordinačių sistema WGS84</dct:description>
+        <dct:description xml:lang="ro-t-sv-t0-mtec">Zonele municipale pentru scăldat din comuna Trollhättan în format GeoJSON.
+Sistem de coordonate WGS84</dct:description>
+        <dct:title xml:lang="es-t-sv-t0-mtec">Zonas de baño municipales GeoJSON</dct:title>
+        <dct:description xml:lang="sv">Kommunala badplatser i Trollhättans kommun i format GeoJSON. Koordinatsystem WGS84</dct:description>
+        <dct:description xml:lang="de-t-sv-t0-mtec">Kommunale Badegebiete in der Gemeinde Trollhättan im Format GeoJSON. Koordinatensystem WGS84</dct:description>
+        <dct:title xml:lang="en-t-sv-t0-mtec">Municipal bathing areas GeoJSON</dct:title>
+        <dct:description xml:lang="fi-t-sv-t0-mtec">Trollhättanin kunnan uimarantoja GeoJSON-muodossa. Koordinaattijärjestelmä WGS84</dct:description>
+        <dct:title xml:lang="cs-t-sv-t0-mtec">Městské koupaliště GeoJSON</dct:title>
+        <dct:description xml:lang="uk-t-sv-t0-mtec">Муніципальні купальні зони в муніципалітеті Trollhättan у форматі GeoJSON.
+Система координат WGS84</dct:description>
+        <dct:description xml:lang="it-t-sv-t0-mtec">Zone di balneazione municipali nel comune di Trollhättan in formato GeoJSON. Sistema di coordinate WGS84</dct:description>
+        <dct:title xml:lang="nl-t-sv-t0-mtec">Gemeentelijke badzones GeoJSON</dct:title>
+        <dct:description xml:lang="lv-t-sv-t0-mtec">Pašvaldības peldvietas Trollhättan pašvaldībā formātā GeoJSON. Koordinātu sistēma WGS84</dct:description>
+        <dct:description xml:lang="cs-t-sv-t0-mtec">Obecní oblasti koupání v obci Trollhättan ve formátu GeoJSON. Souřadnicový systém WGS84</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-02-28T13:35:55.099Z</dct:modified>
+        <adms:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+        <dct:title xml:lang="sl-t-sv-t0-mtec">Občinska kopališča GeoJSON</dct:title>
+        <dct:description xml:lang="hr-t-sv-t0-mtec">Općinska kupališta u općini Trollhättan u formatu GeoJSON. Koordinatni sustav WGS84</dct:description>
+        <dct:title xml:lang="el-t-sv-t0-mtec">Δημοτικές περιοχές κολύμβησης GeoJSON</dct:title>
+        <dct:description xml:lang="et-t-sv-t0-mtec">Linna supelrannad Trollhättani haldusüksuses formaadis GeoJSON. Koordinaatsüsteem WGS84</dct:description>
+        <dct:format>application/json</dct:format>
+        <dct:title xml:lang="ga-t-sv-t0-mtec">Limistéir shnámha chathrach GeoJSON</dct:title>
+        <dct:title xml:lang="de-t-sv-t0-mtec">Kommunale Badegebiete GeoJSON</dct:title>
+        <dct:title xml:lang="fi-t-sv-t0-mtec">Kunnalliset uimarannat GeoJSON</dct:title>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dct:description xml:lang="pl-t-sv-t0-mtec">Dane dotyczące gminnych kąpielisk zgodnie ze specyfikacją Region Västra Götaland. Układ współrzędnych to WGS84. Informacje z niepowtarzalnymi identyfikatorami łączące teren kąpielowy ze Szwedzką Agencją Gospodarki Morskiej i Wodnej oraz Wikidata. Więcej informacji o gminnych kąpieliskach na stronie internetowej: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser Dane dotyczące gminnych kąpielisk zgodnie ze specyfikacją Region Västra Götaland.
+Układ współrzędnych to WGS84.
+Informacje z niepowtarzalnymi identyfikatorami łączące teren kąpielowy ze Szwedzką Agencją Gospodarki Morskiej i Wodnej oraz Wikidata.
+Więcej informacji o gminnych kąpieliskach na stronie internetowej:
+https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dcat:keyword>Trollhättans Stad</dcat:keyword>
+    <dct:title xml:lang="el-t-sv-t0-mtec">Δημοτικές κολυμβητικές περιοχές του δήμου Trollhättan</dct:title>
+    <dct:description xml:lang="hr-t-sv-t0-mtec">Podaci o općinskim kupalištima prema specifikaciji Regija Västra Götaland. Koordinatni sustav je WGS84. Informacije s jedinstvenim identifikatorima za povezivanje kupališta sa Švedskom agencijom za morsko i vodno upravljanje i Wikidata. Više informacija o općinskim kupalištima na internetskoj stranici: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser Podaci o općinskim kupalištima prema specifikaciji Regija Västra Götaland.
+Koordinatni sustav je WGS84.
+Informacije s jedinstvenim identifikatorima za povezivanje kupališta sa Švedskom agencijom za morsko i vodno upravljanje i Wikidata.
+Više informacija o općinskim kupalištima na internetskoj stranici:
+https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dct:description xml:lang="ga-t-sv-t0-mtec">Sonraí maidir le limistéir snámha bhardasacha de réir na sonraíochta Réigiún Västra Götaland. Is é an córas comhordanáid WGS84. Faisnéis le sainaitheantóirí uathúla chun an limistéar snámha a nascadh le Gníomhaireacht na Sualainne um Bainistíocht Mara agus Uisce agus Wikidata. Tuilleadh eolais faoi limistéir snámha bhardasacha ar an suíomh gréasáin: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser Sonraí maidir le limistéir snámha bhardasacha de réir na sonraíochta Réigiún Västra Götaland.
+Is é an córas comhordanáid WGS84.
+Faisnéis le sainaitheantóirí uathúla chun an limistéar snámha a nascadh le Gníomhaireacht na Sualainne um Bainistíocht Mara agus Uisce agus Wikidata.
+Tuilleadh eolais faoi limistéir snámha bhardasacha ar an suíomh gréasáin:
+https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dct:title xml:lang="it-t-sv-t0-mtec">Zone di balneazione municipali nel comune di Trollhättan</dct:title>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a785d126-d2f4-43d9-aa87-65c3a66ebf84">
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2021-06-18</dct:issued>
+        <dct:title xml:lang="bg-t-sv-t0-mtec">Общински зони за къпане CSV</dct:title>
+        <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+        <dct:identifier>https://catalog.trollhattan.se/store/1/resource/36</dct:identifier>
+        <dct:title xml:lang="es-t-sv-t0-mtec">Zonas de baño municipales CSV</dct:title>
+        <dct:description xml:lang="pt-t-sv-t0-mtec">Zonas balneares municipais no município de Trollhättan em formato csv</dct:description>
+        <dct:title xml:lang="it-t-sv-t0-mtec">Zone di balneazione comunali CSV</dct:title>
+        <dct:description xml:lang="lv-t-sv-t0-mtec">Pašvaldības peldvietas Trollhättan pašvaldībā csv formātā</dct:description>
+        <dct:description xml:lang="ga-t-sv-t0-mtec">Limistéir snámha bhardasacha i mbardas Trollhättan i bhformáid csv</dct:description>
+        <dct:title xml:lang="en-t-sv-t0-mtec">Municipal bathing areas CSV</dct:title>
+        <dct:title xml:lang="sl-t-sv-t0-mtec">Občinska kopalna območja CSV</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-02-24T14:13:02.799Z</dct:modified>
+        <dct:description xml:lang="fi-t-sv-t0-mtec">Trollhättanin kunnan uimarannat csv-muodossa</dct:description>
+        <dct:title xml:lang="hr-t-sv-t0-mtec">Komunalna kupališta CSV</dct:title>
+        <dct:format>text/csv</dct:format>
+        <dcat:downloadURL>
+          <j.0:File rdf:about="https://catalog.trollhattan.se/store/1/resource/35">
+            <dct:title>badplats_csv_thn.csv</dct:title>
+            <dct:format>text/csv</dct:format>
+          </j.0:File>
+        </dcat:downloadURL>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
+        <dct:title xml:lang="pt-t-sv-t0-mtec">Zonas balneares municipais CSV</dct:title>
+        <dct:title xml:lang="sk-t-sv-t0-mtec">Obecné kúpaliská CSV</dct:title>
+        <dct:description xml:lang="ro-t-sv-t0-mtec">Zone municipale pentru scăldat în comuna Trollhättan în format csv</dct:description>
+        <dct:description xml:lang="de-t-sv-t0-mtec">Kommunale Badegebiete in der Gemeinde Trollhättan im csv-Format</dct:description>
+        <dct:description xml:lang="lt-t-sv-t0-mtec">Savivaldybės maudymosi zonos Trollhättan savivaldybėje csv formatu</dct:description>
+        <dct:title xml:lang="et-t-sv-t0-mtec">Munitsipaalsupelrannad CSV</dct:title>
+        <dct:title xml:lang="da-t-sv-t0-mtec">Kommunale badeområder CSV</dct:title>
+        <dct:title xml:lang="lv-t-sv-t0-mtec">Pašvaldības peldvietas CSV</dct:title>
+        <dct:title xml:lang="cs-t-sv-t0-mtec">Městské oblasti koupání CSV</dct:title>
+        <adms:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+        <dct:title xml:lang="nl-t-sv-t0-mtec">Gemeentelijke badzones CSV</dct:title>
+        <dct:title xml:lang="mt-t-sv-t0-mtec">Żoni muniċipali għall-għawm CSV</dct:title>
+        <dct:description xml:lang="mt-t-sv-t0-mtec">Żoni muniċipali għall-għawm fil-muniċipalità ta’ Trollhättan fil-format csv</dct:description>
+        <dct:description xml:lang="it-t-sv-t0-mtec">Zone di balneazione municipali nel comune di Trollhättan in formato csv</dct:description>
+        <dct:description xml:lang="bg-t-sv-t0-mtec">Общински зони за къпане в община Trollhättan във формат csv</dct:description>
+        <dct:title xml:lang="sv">Kommunala badplatser CSV</dct:title>
+        <dct:description xml:lang="uk-t-sv-t0-mtec">Муніципальні зони купання в муніципалітеті Trollhättan у форматі CSV</dct:description>
+        <dct:description xml:lang="sv">Kommunala badplatser i Trollhättans kommun i csv-format</dct:description>
+        <dct:description xml:lang="nl-t-sv-t0-mtec">Gemeentelijke badzones in de gemeente Trollhättan in csv-formaat</dct:description>
+        <dct:description xml:lang="sk-t-sv-t0-mtec">Obecné kúpacie oblasti v obci Trollhättan vo formáte csv</dct:description>
+        <dct:description xml:lang="cs-t-sv-t0-mtec">Městské oblasti koupání v obci Trollhättan ve formátu csv</dct:description>
+        <dct:title xml:lang="lt-t-sv-t0-mtec">Komunalinės maudyklos CSV</dct:title>
+        <dct:title xml:lang="fr-t-sv-t0-mtec">Zones de baignade municipales CSV</dct:title>
+        <dct:description xml:lang="fr-t-sv-t0-mtec">Zones de baignade municipales dans la municipalité de Trollhättan en format csv</dct:description>
+        <dct:description xml:lang="en-t-sv-t0-mtec">Municipal bathing areas in Trollhättan municipality in csv format</dct:description>
+        <dct:description xml:lang="pl-t-sv-t0-mtec">Gminne kąpieliska w gminie Trollhättan w formacie csv</dct:description>
+        <dct:description xml:lang="sl-t-sv-t0-mtec">Občinska kopalna območja v občini Trollhättan v formatu csv</dct:description>
+        <dct:title xml:lang="de-t-sv-t0-mtec">Kommunale Badegebiete CSV</dct:title>
+        <dct:description xml:lang="da-t-sv-t0-mtec">Kommunale badeområder i Trollhättan kommune i csv-format</dct:description>
+        <dct:title xml:lang="fi-t-sv-t0-mtec">Kunnalliset uimarannat CSV</dct:title>
+        <dct:title xml:lang="el-t-sv-t0-mtec">Δημοτικές κολυμβητικές περιοχές CSV</dct:title>
+        <dcat:accessURL rdf:resource="https://catalog.trollhattan.se/store/1/resource/35"/>
+        <dct:title xml:lang="pl-t-sv-t0-mtec">Miejskie kąpieliska CSV</dct:title>
+        <dct:description xml:lang="es-t-sv-t0-mtec">Zonas de baño municipales en el municipio de Trollhättan en formato csv</dct:description>
+        <dct:title xml:lang="ga-t-sv-t0-mtec">Limistéir shnámha chathrach CSV</dct:title>
+        <dct:title xml:lang="ro-t-sv-t0-mtec">Zonele municipale pentru scăldat CSV</dct:title>
+        <dct:title xml:lang="uk-t-sv-t0-mtec">Муніципальні зони купання CSV</dct:title>
+        <dct:title xml:lang="hu-t-sv-t0-mtec">Városi fürdőhelyek CSV</dct:title>
+        <dct:description xml:lang="hu-t-sv-t0-mtec">Városi fürdőhelyek Trollhättan település csv formátumban</dct:description>
+        <dct:description xml:lang="el-t-sv-t0-mtec">Δημοτικές κολυμβητικές περιοχές στο δήμο Trollhättan σε μορφή csv</dct:description>
+        <dct:description xml:lang="et-t-sv-t0-mtec">Linna supelrannad Trollhättani vallas csv formaadis</dct:description>
+        <dct:description xml:lang="hr-t-sv-t0-mtec">Komunalna kupališta u općini Trollhättan u CSV formatu</dct:description>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dct:description xml:lang="sk-t-sv-t0-mtec">Údaje o obecných oblastiach určených na kúpanie podľa špecifikácie Región Västra Götaland. Súradnicový systém je WGS84. Informácie s jedinečnými identifikátormi na prepojenie oblasti určenej na kúpanie so švédskou agentúrou pre hospodárenie s morskými a vodnými zdrojmi a s Wikidata. Viac informácií o mestských oblastiach určených na kúpanie nájdete na webovej stránke: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dct:title xml:lang="lv-t-sv-t0-mtec">Pašvaldības peldvietas Trollhättan pašvaldībā</dct:title>
+    <dct:title xml:lang="ro-t-sv-t0-mtec">Zonele municipale pentru scăldat din comuna Trollhättan</dct:title>
+    <dct:description xml:lang="nl-t-sv-t0-mtec">Gegevens over de gemeentelijke badzones volgens specificatie Regio Västra Götaland. Het coördinatensysteem is WGS84. Informatie met unieke identificatiemiddelen om de badzone te koppelen aan het Zweedse Agentschap voor marien en waterbeheer en Wikidata. Meer informatie over gemeentelijke badzones op de website: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dct:description xml:lang="et-t-sv-t0-mtec">Andmed munitsipaalsupelrandade kohta vastavalt spetsifikaadile Region Västra Götaland. Koordinaatide süsteem on WGS84. Teave kordumatute tunnustega supelranna sidumiseks Rootsi mere- ja veemajanduse ametiga ning Wikidataga. Lisateavet munitsipaalsupelrandade kohta leiate veebilehelt: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser Andmed munitsipaalsupelrandade kohta vastavalt spetsifikaadile Region Västra Götaland.
+Koordinaatide süsteem on WGS84.
+Teave kordumatute tunnustega supelranna sidumiseks Rootsi mere- ja veemajanduse ametiga ning Wikidataga.
+Lisateavet munitsipaalsupelrandade kohta leiate veebilehelt:
+https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dct:description xml:lang="it-t-sv-t0-mtec">Dati sulle zone di balneazione comunali secondo il disciplinare Regione Västra Götaland. Il sistema di coordinate è WGS84. Informazioni con identificatori univoci per collegare la zona di balneazione all'Agenzia svedese per la gestione marina e idrica e Wikidata. Maggiori informazioni sulle zone di balneazione comunali sul sito web: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dct:publisher>
+      <foaf:Agent rdf:about="https://catalog.trollhattan.se/store/1/resource/1">
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/LocalAuthority"/>
+        <foaf:mbox rdf:resource="mailto:trollhattans.stad@trollhattan.se"/>
+        <foaf:homepage rdf:resource="http://www.trollhattan.se"/>
+        <foaf:name>Trollhättans Stad</foaf:name>
+      </foaf:Agent>
+    </dct:publisher>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
+    <dct:title xml:lang="pt-t-sv-t0-mtec">Zonas balneares municipais no município de Trollhättan</dct:title>
+    <dct:title xml:lang="uk-t-sv-t0-mtec">Муніципальні купальні райони в муніципалітеті Trollhättan</dct:title>
+    <dcat:keyword xml:lang="sv">Trollhättan</dcat:keyword>
+    <dct:title xml:lang="bg-t-sv-t0-mtec">Общински зони за къпане в община Trollhättan</dct:title>
+    <dcat:landingPage rdf:resource="http://www.trollhattan.se"/>
+    <dct:title xml:lang="es-t-sv-t0-mtec">Zonas de baño municipales del municipio de Trollhättan</dct:title>
+    <dct:description xml:lang="bg-t-sv-t0-mtec">Данни за общинските зони за къпане съгласно спецификацията Region Västra Götaland. Координатната система е WGS84. Информация с уникални идентификатори за свързване на зоната за къпане с Шведската агенция за морско управление и управление на водите и Уикиданни. Повече информация за общинските зони за къпане на уебсайта: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser Данни за общинските зони за къпане съгласно спецификацията Region Västra Götaland.
+Координатната система е WGS84.
+Информация с уникални идентификатори за свързване на зоната за къпане с Шведската агенция за морско управление и управление на водите и Уикиданни.
+Повече информация за общинските зони за къпане на уебсайта:
+https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dct:title xml:lang="nl-t-sv-t0-mtec">Gemeentelijke badzones in de gemeente Trollhättan</dct:title>
+    <dct:title xml:lang="fr-t-sv-t0-mtec">Zones de baignade municipales dans la municipalité de Trollhättan</dct:title>
+    <dct:title xml:lang="de-t-sv-t0-mtec">Kommunale Badegebiete in der Gemeinde Trollhättan</dct:title>
+    <dct:description xml:lang="ro-t-sv-t0-mtec">Date privind zonele municipale pentru scăldat în conformitate cu specificațiile regiunii Västra Götaland. Sistemul de coordonate este WGS84. Informații cu identificatori unici pentru a lega zona pentru scăldat de Agenția suedeză pentru gestionarea marină și a apei și de Wikidata. Mai multe informații despre zonele municipale pentru scăldat sunt disponibile pe site-ul web: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser Date privind zonele municipale pentru scăldat în conformitate cu specificațiile regiunii Västra Götaland.
+Sistemul de coordonate este WGS84.
+Informații cu identificatori unici pentru a lega zona pentru scăldat de Agenția suedeză pentru gestionarea marină și a apei și de Wikidata.
+Mai multe informații despre zonele municipale pentru scăldat sunt disponibile pe site-ul web:
+https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dct:description xml:lang="sl-t-sv-t0-mtec">Podatki o občinskih kopalnih območjih po specifikaciji Regija Västra Götaland. Koordinatni sistem je WGS84. Informacije z enotnimi identifikatorji za povezavo kopalnega območja s švedsko agencijo za upravljanje morja in vode ter Wikidata. Več informacij o občinskih kopalnih območjih je na voljo na spletni strani: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dct:description xml:lang="fr-t-sv-t0-mtec">Données sur les zones de baignade municipales selon le cahier des charges Région Västra Götaland. Le système de coordonnées est WGS84. Informations avec des identifiants uniques pour relier la zone de baignade à l’Agence suédoise pour la gestion de la mer et de l’eau et Wikidata.
+Plus d’informations sur les zones de baignade municipales sur le site web:
+https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dct:description xml:lang="cs-t-sv-t0-mtec">Údaje o městských oblastech koupání podle specifikace regionu Västra Götaland. Souřadnicový systém je WGS84. Informace s jedinečnými identifikátory pro propojení oblasti koupání se švédskou agenturou pro mořské a vodní hospodářství a Wikidata. Více informací o městských koupališťách na webových stránkách: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dct:description xml:lang="fi-t-sv-t0-mtec">Tiedot kunnan uimarannoista eritelmän mukaan Västra Götanmaan alueella. Koordinaattijärjestelmä on WGS84. Tiedot, joissa on yksilölliset tunnisteet, joiden avulla uimaranta voidaan yhdistää Ruotsin meri- ja vesihuoltovirastoon ja Wikidataan. Lisätietoja kunnallisista uimarannoista Internet-sivuilla: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser Tiedot kunnan uimarannoista eritelmän mukaan Västra Götanmaan alueella.
+Koordinaattijärjestelmä on WGS84.
+Tiedot, joissa on yksilölliset tunnisteet, joiden avulla uimaranta voidaan yhdistää Ruotsin meri- ja vesihuoltovirastoon ja Wikidataan.
+Lisätietoja kunnallisista uimarannoista Internet-sivuilla:
+https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dct:description xml:lang="sv">Data över kommunala badplatser enligt specifikation Region Västra Götaland. Koordinatsystemet är WGS84. Information med bl a unika identifierare för att länka badplatsen till Hav- och vattenmyndighetens register samt Wikidata. Mer information om kommunala badplatser på hemsidan: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dct:title xml:lang="et-t-sv-t0-mtec">Linna supelrannad Trollhättani omavalitsusüksuses</dct:title>
+    <dct:title xml:lang="sl-t-sv-t0-mtec">Občinska kopalna območja v občini Trollhättan</dct:title>
+    <dct:title xml:lang="sk-t-sv-t0-mtec">Obecné kúpacie oblasti v obci Trollhättan</dct:title>
+    <dct:description xml:lang="es-t-sv-t0-mtec">Datos sobre las zonas de baño municipales según la especificación Región Västra Götaland. El sistema de coordenadas es WGS84. Información con identificadores únicos para vincular la zona de baño a la Agencia Sueca de Gestión Marina y del Agua y Wikidata. Más información sobre las zonas de baño municipales en el sitio web: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser Datos sobre las zonas de baño municipales según la especificación Región Västra Götaland.
+El sistema de coordenadas es WGS84.
+Información con identificadores únicos para vincular la zona de baño a la Agencia Sueca de Gestión Marina y del Agua y Wikidata.
+Más información sobre las zonas de baño municipales en el sitio web:
+https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dcat:keyword xml:lang="sv">Fritid</dcat:keyword>
+    <dcat:keyword xml:lang="sv">Bad</dcat:keyword>
+    <dct:title xml:lang="da-t-sv-t0-mtec">Kommunale badeområder i Trollhättan kommune</dct:title>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2021-06-18</dct:issued>
+    <dcat:keyword xml:lang="sv">Badplats</dcat:keyword>
+    <dct:title xml:lang="lt-t-sv-t0-mtec">Savivaldybės maudymosi zonos Trollhättan savivaldybėje</dct:title>
+    <dct:title xml:lang="hr-t-sv-t0-mtec">Komunalna kupališta u općini Trollhättan</dct:title>
+    <dct:spatial rdf:resource="http://sws.geonames.org/2667302"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dct:description xml:lang="lt-t-sv-t0-mtec">Duomenys apie komunalines maudyklas pagal specifikaciją Västra Götaland regione. Koordinačių sistema yra WGS84. Informacija su unikaliais identifikatoriais, skirta susieti maudymosi zoną su Švedijos jūrų ir vandens valdymo agentūra ir Wikidata. Daugiau informacijos apie savivaldybių maudymosi zonas rasite svetainėje: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser Duomenys apie komunalines maudyklas pagal specifikaciją Västra Götaland regione.
+Koordinačių sistema yra WGS84.
+Informacija su unikaliais identifikatoriais, skirta susieti maudymosi zoną su Švedijos jūrų ir vandens valdymo agentūra ir Wikidata.
+Daugiau informacijos apie savivaldybių maudymosi zonas rasite svetainėje:
+https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+    <dct:title xml:lang="fi-t-sv-t0-mtec">Trollhättanin kunnan uimarannat</dct:title>
+    <dct:title xml:lang="en-t-sv-t0-mtec">Municipal bathing areas in the municipality of Trollhättan</dct:title>
+    <dct:title xml:lang="ga-t-sv-t0-mtec">Limistéir snámha bhardasacha i mbardas Trollhättan</dct:title>
+    <dct:description xml:lang="uk-t-sv-t0-mtec">Дані про муніципальні райони купання відповідно до специфікації Регіон Västra Götaland. Система координат WGS84. Інформація з унікальними ідентифікаторами, що пов'язують зону купання зі Шведським агентством з управління морськими та водними ресурсами та Вікіданими. Більше інформації про муніципальні зони купання на сайті: https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser Дані про муніципальні райони купання відповідно до специфікації Регіон Västra Götaland.
+Система координат WGS84.
+Інформація з унікальними ідентифікаторами, що пов'язують зону купання зі Шведським агентством з управління морськими та водними ресурсами та Вікіданими.
+Більше інформації про муніципальні зони купання на сайті:
+https://www.trollhattan.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/badplatser</dct:description>
+  </dcat:Dataset>
+</rdf:RDF>
