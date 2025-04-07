@@ -1,0 +1,41 @@
+# API dokumentation
+Denna dokumentation vänder sig till dig som arbetar i verksamheten som vill förstå hur detta API kan användas och till vad.
+
+## Vad kan jag använda detta API till?
+Vårt API för Badplatsen är till för dig som vill hämta information om badplatser i Sverige.
+
+## Vilken information kan jag få via detta API?
+Du ställer en fråga via API:et genom att fråga efter en badplats nutskod eller relaterad data. Som svar får du information om badplatsen som finns registrerad hos Havs- och vattenmyndigheten.
+
+
+
+| Information om en badvatten ändring innehåller | Exempel | Beskrivning |
+|------------|----------|----------|
+| changedAt | 2023-04-26T11:04:24Z | När ändringen skedde i UTC |
+| nutsCode | SE0441278000000146 | Badvattnets unik id  |
+| difference | newWater | Kort beskrivning av ändringen |
+
+
+## Hur får jag tillgång till detta API?
+- Du ansluter och testar. I testmiljön kan du säkerställa att du kan koppla upp dina applikationer mot API:et och att din applikation fungerar som det är tänkt.
+- När testerna är avklarade och verifierade får du därefter tillgång till produktionsmiljön.
+
+## Vilken teknik är detta API baserat på?
+Detta API är är en REST tjänst baserad på http och json. Kommunikation mot tjänsten krypteras via https.
+
+## Finns det en testmiljö
+Det finns en testmiljö där du kan testa din integration och säkerställa att den fungerar innan det är dags för produktion. Testdatat är oftast statiskt vilket innebär att det alltid är samma svar som returneras.
+
+## Vilken teknisk tillgänglighet har detta API?
+API:et är tillgängligt dygnet runt men det kan förekomma kortare avbrott vid servicefönster. Vi har support för dig under helgfria vardagar mellan 9–15.
+
+## Hur många anrop kan jag göra mot detta API?
+API:et är konfigurerat för att tillåta maximalt 1000 anrop per minut.
+
+## Hur kommer jag i kontakt med er om jag har frågor eller behöver hjälp?
+Om du har ytterligare frågor eller behöver hjälp är du välkommen att kontakta oss. Du når oss via mejl på itsupport@havochvatten.se.
+
+
+***
+***
+[Havs- och vattenmyndigheten](https://www.havochvatten.se)

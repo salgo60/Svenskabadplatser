@@ -1,0 +1,101 @@
+# Utvecklarguide
+Denna dokumentation vänder sig till dig som utvecklare som ska anpassa din applikation för att kunna använda detta API.
+
+## API Specifikation
+För att utforma REST API specifikationer använder myndigheten standarden [OpenAPI version 3](https://github.com/OAI/OpenAPI-Specification).
+API specifikationen kan användas för att generera kod till din applikation. Tips på verktyg för kodgenerering finns [här](https://openapi.tools). 
+
+### Förändringar 
+Ett API ska vara stabilt och alla ändringar som görs ska vara båkåtkompatibla. Om detta inte kan uppfyllas kommer en ny version av detta API att publiceras. Den tidigare versionen kommer sedan under kontrollerade former att avvecklas.
+
+#### Förbered applikationen på att kunna hantera bakåtkompatibla utökningar
+Applikationer som änvänder ett API ska vara robusta och vara förberedda för att kunna hantera bakåtkompatibla ändringar av ett API. Det innebär att:
+
+- Vara konservativa i anrop av ett API. Exempelvis ska inte data sättas utan att ha kontroll på dess längd.
+- Vara toleranta med okända egenskaper i meddelandet som kan behövas i ett efterföljande PUT anrop.
+- Vara förberedd på att x-extensible-enum kan leverera nya värden.
+- Vara förberedd att HTTP statuskoder kan returneras som inte finns angivna i API specifikationen. Standardhantering av koder ska bygga på exempelvis 1XX, 2XX, 3XX och 4XX enligt [RFC7231 sektion 6](https://www.rfc-editor.org/rfc/rfc7231#section-6).
+- Följ omdirigeringen när HTTP statuskod 301 returneras.
+
+#### Utfasning
+När ett API fasas ut kommer detta att synliggöras i API specifikationen samt att HTTP rubriker kommer att finnas med i svaret.
+
+Exempel på utfasningsinformation i en API specifikationen
+```
+/resurs:
+  get:
+    deprecated: true
+    description: This operation is deprecated and will be retired 2023-01-01. Instead use the operation getResourcById.
+```
+
+Exempel på utfasningsinformation i HTTP svaret
+```
+X-API-Deprecated: true
+X-API-Retire-Time: 2023-01-01T12:00:00
+```
+
+## Tekniska begränsningar
+API:et är konfigurerat för att tillåta maximalt 1000 anrop per minut. När denna nivå har uppnåts så returneras HTTP statuskod 429 "Too many requests".
+
+## Säkerhet
+Detta API är är en REST tjänst baserad på http och json. Kommunikation mot tjänsten krypteras via https.
+
+## Miljöer
+### Test
+| Funktion | URL |
+|----------|-----|
+|gateway|https://gw-test.havochvatten.se|
+|API|https://gw-test.havochvatten.se/external-public/bathing-waters/v2|
+|övervaka API:et|https://gw-test.havochvatten.se/external-public/bathing-waters/v2/operations/health-checks/readiness|
+
+### Produktion
+| Funktion | URL |
+|----------|-----|
+|gateway|https://gw.havochvatten.se|
+|API|https://gw.havochvatten.se/external-public/bathing-waters/v2|
+|övervaka API:et|https://gw.havochvatten.se/external-public/bathing-waters/v2/operations/health-checks/readiness|
+```
+
+## Övervakning
+#### sökväg /operations/health-checks/readiness
+
+För att säkerställa att api:et är tillgängligt finns det en resurs att anropa. Förväntat värde är "up" eller "down".
+Exempel på svar.
+```
+{
+  "readiness": {
+    "description": "Service is ready",
+    "state": "up"
+  }
+}
+```
+
+## Changelog
+#### sökväg changelogs/bathing-waters?filter=(changedAt ge 2024-08-15T23:00:00Z) and (isNew eq 'true') and (hasUpdatedCoords eq 'true') and (hasUpdatedName eq 'false') and (onlyLatest eq 'false') and (statusToFind eq 'active')
+
+För anropet finns frågeparametern 'filter' som i sin tur accepterar sex möjliga parametrar.
+
+Parameter namn   | Tillåtna operationer | Tillåtna värden      | Default värde | Beskrivning
+---------------- | -------------------- | -------------------- | ------------- | -----------
+changedAt        | ge                   | [YYYY-mm-DDThh:mm:ssZ, YYYY-mm-DDThh:mm:ss+hh:00] | dagens datum kl 00:00 (CET/CEST) | Datumet av första ändring som ska hämtas, enligt standarden RFC3339
+isNew            | eq, ne               | [true, false]        | true          | eq 'true' för att hämta nya badplatser. OBS! Parametern statusToFind påverkar vilka nya badplatser som returneras.
+                                                                               | -- Om statusToFind eq 'all' eller 'none' -> hämtas alla nya bad oavsett status
+                                                                               | -- Om statusToFind eq 'active'           -> hämtas nya bad med nuvarande statusen aktiv.
+                                                                               | -- Om statusToFind eq 'inactive'         -> hämtas nya bad med nuvarande statusen inaktiv.
+                                                                               |
+hasUpdatedCoords | eq, ne               | [true, false]        | true          | eq 'true' för att hämta badplatser med uppdaterade provtagningsplats-koordinator
+hasUpdatedName   | eq, ne               | [true, false]        | true          | eq 'true' för att hämta badplatser med uppdaterade namn
+onlyLatest       | eq, ne               | [true, false]        | true          | eq 'true' för att hämta bara den senaste ändringen för hasUpdatedCoords, hasUpdatedName and statusToFind 'all'.
+                                                                               | -- Dvs. om ändringar har förekommit under perioden, men de ändrade fälten har återställts till det värde som förekom vid `changedAt`, returneras inte ändringen. T.ex: någon badplats för vilken namnet vid 2023-01-01 var 'SommarStrand', där endast namnet har ändrats till 'SommarBad' under perioden fram till nu, men senare återställts till 'SommarStrand'. För anropet ..?filter=(changedAt ge 2023-01-01T22:00:00Z) and (onlyLatest eq true) filtreras ändringen i exemplet bort.
+                                                                               |
+statusToFind     | eq        | [active, inactive, all, none]   | all           | eq 'all' för att hämta alla statusändringar, både omaktiverade och avaktiverade badplatser. Samma badplats kan förekomma flera gånger i denna lista.
+                                                                               | eq 'none' för att utelämna information om badplats statusändringar.
+                                                                               | eq 'active' för att hämta nuvarande aktiva badplatser som har blivit omaktiverade fom changedAt datumet
+                                                                               | eq 'inactive' för att hämta nuvarande inaktiva badplatser som har blivit avaktiverade fom changedAt datumet
+
+## Kontakt och support
+Om du har ytterligare frågor eller behöver hjälp är du välkommen att kontakta oss. Du når oss via mejl på itsupport@havochvatten.se.
+
+***
+***
+[Havs- och vattenmyndigheten](https://www.havochvatten.se)

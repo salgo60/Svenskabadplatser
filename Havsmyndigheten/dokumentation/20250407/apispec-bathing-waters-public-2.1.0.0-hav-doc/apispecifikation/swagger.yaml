@@ -1,0 +1,1163 @@
+openapi: 3.0.1
+info:
+  title: bathing-waters-public
+  description: Public API for bathing waters and water data
+  termsOfService: https://www.havochvatten.se/data-kartor-och-rapporter/data-och-statistik/om-oppna-data-och-statistik/om-oppna-data-pa-havs--och-vattenmyndigheten.html
+  contact:
+    name: API support
+    url: https://www.havochvatten.se/
+    email: apisupport@havochvatten.se
+  version: 2.1.0
+  x-api-id: 8bd657e4-7bbb-463c-a140-dc47ee6034ac
+  x-audience: external-public
+externalDocs:
+  description: Homepage of the Badplatsen web application
+  url: https://www.havochvatten.se/badplatser-och-badvatten.html
+servers:
+  - url: https://{subdomain}.havochvatten.se/{applicationpath}/{version}
+    variables:
+      subdomain:
+        enum:
+          - gw-test
+          - gw
+        default: gw-test
+        description: Environments for the service
+      applicationpath:
+        default: external-public/bathing-waters
+        description: The application path for the service
+      version:
+        default: v2
+        description: The version
+tags:
+  - name: bathing-waters
+    description: Bathing waters methods
+  - name: operations
+    description: Different methods to support operation
+
+paths:
+
+  /bathing-waters:
+    get:
+      tags:
+        - bathing-waters
+      summary: Retrieves a list of all active bathing locations (includes all active advisories)
+      description: Retrieves a list of all active bathing locations (includes all active advisories)
+      operationId: getAllActiveWaters
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WatersAndAdvisories'
+        default:
+          $ref: '#/components/responses/GenericNon2xxResponses'
+      x-auth-type: None
+
+  /bathing-waters/{id}:
+    get:
+      tags:
+        - bathing-waters
+      summary: Retrieves a single bathing water (includes all active advisories)
+      parameters:
+        - name: id
+          in: path
+          description: The bathing water’s unique identifier
+          required: true
+          schema:
+            $ref: '#/components/schemas/BathingWaterId'
+      description: Retrieves a single bathing water
+      operationId: getBathingWater
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BathingWaterAndAdvisories'
+        default:
+          $ref: '#/components/responses/GenericNon2xxResponses'
+      x-auth-type: None
+
+  /bathing-waters/{id}/results:
+    get:
+      tags:
+        - bathing-waters
+      summary: Retrieves the monitoring results of a bathing water
+      parameters:
+        - name: id
+          in: path
+          description: The bathing water’s unique identifier
+          required: true
+          schema:
+            $ref: '#/components/schemas/BathingWaterId'
+      description: Retrieves the monitoring results of a single bathing water
+      operationId: getResultsByBathingWaterId
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Results'
+        default:
+          $ref: '#/components/responses/GenericNon2xxResponses'
+      x-auth-type: None
+
+  /bathing-waters/{id}/profiles:
+    get:
+      tags:
+        - bathing-waters
+      summary: Retrieves the bathing water profile of a bathing water
+      parameters:
+        - name: id
+          in: path
+          description: The bathing water’s unique identifier
+          required: true
+          schema:
+            $ref: '#/components/schemas/BathingWaterId'
+      description: Retrieves the bathing water profile data of a bathing water
+      operationId: getBathingWaterProfileById
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BathingWaterProfile'
+        default:
+          $ref: '#/components/responses/GenericNon2xxResponses'
+      x-auth-type: None
+
+  /bathing-waters/changelogs:
+    get:
+      tags:
+        - bathing-waters
+      summary: Retrieves a list of bathing water changes
+      parameters:
+        - name: filter
+          in: query
+          description: The filter query string to get changelog data based om six variables. See utvecklarguide documentation for a list of the variables.
+          required: false
+          schema:
+            type: string
+            format: ^[a-zA-Z0-9'() -:]*
+            example: "(changedAt ge 2018-02-15T00:00:00Z) and (isNew eq 'true')"
+      description: Retrieves a filtered list of bathing water changes based on query parameters beginning from the given date until now
+      operationId: getChanges
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Changes'
+        default:
+          $ref: '#/components/responses/GenericNon2xxResponses'
+      x-auth-type: None
+
+  /forecasts:
+    get:
+      tags:
+        - bathing-waters
+      summary: Retrieves a list of water temperature forecasts
+      parameters:
+        - in: query
+          name: bathingWaterId
+          description: Gets prognosis data for this given bathing water identifier.
+          schema:
+            $ref: '#/components/schemas/BathingWaterId'
+        - in: query
+          name: municId
+          description: Gets prognosis data for all bathing waters in the municipality found with this given municipality identifier.
+          schema:
+            $ref: '#/components/schemas/MunicipalityId'
+        - name: municName
+          in: query
+          description: Gets prognosis data for all bathing waters in the municipality found with this given municipality name.
+          schema:
+            type: string
+            example: 'Göteborg'
+      description: Retrieves a filtered list of water temperature forecasts by bathing water. If no parameters are given, then all waters with a prognosis are returned.
+      operationId: getForecast
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Forecasts'
+        default:
+          $ref: '#/components/responses/GenericNon2xxResponses'
+      x-auth-type: None
+
+  /operations/metadata:
+    get:
+      tags:
+        - operations
+      summary: Metadata of the API
+      description: Metadata of the API
+      operationId: getMetadata
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HavMetadataResponse'
+        default:
+          $ref: '#/components/responses/GenericNon2xxResponses'
+      x-auth-type: None
+
+  /operations/health-checks/readiness:
+    get:
+      tags:
+        - operations
+      summary: Operation for health-checks
+      description: A health check for readiness allows third party services to know if the application is ready to process requests or not
+      operationId: getHealthChecksReadiness
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HavHealthChecks'
+        default:
+          $ref: '#/components/responses/GenericNon2xxResponses'
+      x-auth-type: None
+
+components:
+  responses:
+
+    NoContent:
+      description: No content (204)
+
+    GenericNon2xxResponses:
+      description: |
+        301: Moved permanently <br/>
+        400: Bad request - Invalid request from client <br/>
+        401: Unauthorized <br/>
+        403: Forbidden <br/>
+        404: Not found - Requested resource not found <br/>
+        405: Method not allowed <br/>
+        406: Not acceptable <br/>
+        408: Request timeout <br/>
+        415: Unsupported media type <br/>
+        429: Too many requests <br/>
+        500: Internal server error <br/>
+        501: Not implemented <br/>
+        503: Service unavailable <br/>
+      content:
+        application/problem+json:
+          schema:
+            $ref: '#/components/schemas/HavErrorResponse'
+
+    Conflict:
+      description: '409: Conflict - The requested operation could not be performed due to a conflict'
+      content:
+        application/problem+json:
+          schema:
+            $ref: '#/components/schemas/HavErrorResponse'
+
+
+  schemas:
+
+    BathingWaterId:
+      description: A bathing water’s unique identifier
+      type: string
+      format: ^SE[A-Z0-9]{4}[0-9]{12}$
+      example: 'SE0441273000000001'
+
+    MunicipalityId:
+      type: integer
+      format: int32
+      minimum: 100
+      maximum: 3000
+      description: A municipality's identifier published by Statistiska centralbyrån (SCB)
+      example: 1440
+
+
+    Changes:
+      description: A list of logged changes
+      type: object
+      required:
+        - changes
+      properties:
+        changes:
+          type: array
+          items:
+            $ref: '#/components/schemas/LoggedChange'
+
+    Results:
+      description: A list of monitoring results
+      type: object
+      required:
+        - results
+      properties:
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/MonitoringResult'
+
+    Forecasts:
+      description: A list of forecasts by bathing water
+      type: object
+      required:
+        - forecasts
+      properties:
+        forecasts:
+          type: array
+          items:
+            $ref: '#/components/schemas/BathingWaterForecast'
+
+    WatersAndAdvisories:
+      description: A list of bathing waters including any related active advisories
+      type: object
+      required:
+        - watersAndAdvisories
+      properties:
+        watersAndAdvisories:
+          type: array
+          items:
+            $ref: '#/components/schemas/BathingWaterAndAdvisories'
+
+
+    LoggedChange:
+      description: 'A logged change on a bathing water'
+      type: object
+      required:
+        - changedAt
+        - bathingWaterId
+        - difference
+      properties:
+        changedAt:
+          type: string
+          format: date-time
+          description: 'Date and time when the change occurred'
+          example: '2017-07-21T17:32:28Z'
+        bathingWaterId:
+          $ref: '#/components/schemas/BathingWaterId'
+        difference:
+          type: string
+          description: 'What was changed'
+          example: 'newCoords'
+      example:
+        changedAt: '2024-07-21T17:32:28Z'
+        bathingWaterId: 'SE0441273000000001'
+        difference: 'newName'
+
+    BathingWaterAndAdvisories:
+      description: An active bathing water with its active advisories
+      type: object
+      required:
+        - bathingWater
+        - adviceAgainstBathing
+        - abnormalSituations
+      properties:
+        bathingWater:
+          $ref: '#/components/schemas/BathingWater'
+        adviceAgainstBathing:
+          type: array
+          items:
+            $ref: '#/components/schemas/AdviceAgainstBathing'
+        abnormalSituations:
+          type: array
+          items:
+            $ref: '#/components/schemas/AbnormalSituation'
+      example:
+        bathingWater:
+          name: 'Vattensjön'
+          id: 'SE0441273000000001'
+          euType: true
+          description: 'Large sandy beach with access to a toilet'
+          euMotive: 'About 100-200 bathers on average per day. Docks, outhouse, life saving equipment, emergency phone, trash cans are available. Cleaning by the roadworks department is carried out twice a week'
+          notEuMotive: 'Expected visitor count too low'
+          samplingPointPosition:
+            latitude: '13.7674095026078'
+            longitude: '56.4212500165633'
+          perimeterCoordinates:
+            - latitude: '13.7674095026078'
+              longitude: '56.4212500165633'
+            - latitude: '13.7624095026078'
+              longitude: '56.8212500165633'
+          municipality:
+            name: 'Ale'
+            contactInfo:
+              phone: '0379-52 60 13'
+              email: 'badvatten@ale.se'
+              url: 'www.ale.se'
+        adviceAgainstBathing:
+          - startsAt: '2021-07-29T06:39:14Z'
+            description: 'Above acceptable limits when testing'
+            typeId: 1
+            typeIdText: 'Swimming forbidden'
+        abnormalSituations:
+          - startsAt: '2021-07-29T06:39:14Z'
+            endsAt: '2021-07-31T22:00:00Z'
+            description: 'Storm Hans causing flooding'
+
+
+    AdviceAgainstBathing:
+      description: 'Advice put in place by the municipality to prevent bathers’ exposure to pollution'
+      type: object
+      required:
+        - startsAt
+        - description
+        - typeIdText
+        - typeId
+      properties:
+        startsAt:
+          type: string
+          format: date-time
+          description: 'Date when the advice against bathing takes effect'
+          example: '2021-07-29T06:39:14Z'
+        description:
+          type: string
+          description: 'Description and comments on the advice against bathing'
+          example: 'Above acceptable limit values when testing'
+        typeId:
+          type: integer
+          format: int32
+          description: 'Reason for advice against bathing.'
+          example: 1
+        typeIdText:
+          type: string
+          description: 'Reason for advice against bathing in plain text'
+          example: 'Swimming forbidden'
+      example:
+        startsAt: '2021-07-29T06:39:14Z'
+        description: 'Above acceptable limits when testing'
+        typeId: 1
+        typeIdText: 'Swimming forbidden'
+
+    AbnormalSituation:
+      description: 'An event or combination of events impacting on bathing water quality at the location concerned and not expected to occur on average more than once every four years'
+      type: object
+      required:
+        - startsAt
+        - description
+      properties:
+        startsAt:
+          type: string
+          format: date-time
+          description: 'Date when the abnormal situation takes effect'
+          example: '2021-07-29T06:39:14Z'
+        endsAt:
+          type: string
+          format: date-time
+          description: 'Date when the abnormal situation ends'
+          example: '2021-07-31T22:00:00Z'
+        description:
+          type: string
+          description: 'Description and comments on the abnormal situation'
+          example: 'Storm Hans causing flooding'
+      example:
+        startsAt: '2021-07-29T06:39:14Z'
+        endsAt: '2021-07-31T22:00:00Z'
+        description: 'Storm Hans causing flooding'
+
+    MonitoringResult:
+      description: 'Results from bathing water samples for Escherichia coli och intestinal enterococci, monitoring of cyanobacterial and algal blooms and monitoring of pollution'
+      type: object
+      properties:
+        algalId:
+          type: integer
+          format: int32
+          minimum: 3
+          maximum: 5
+          description: 'Results from visual inspection of bathing waters for algal blooms.'
+          example: 4
+        algalIdText:
+          type: string
+          description: 'Results from visual inspection of bathing waters for algal blooms, in plain text'
+          example: 'No bloom'
+        escherichiaColiCount:
+          type: integer
+          format: int32
+          description: 'The number of colonies of Escherichia coli grown per 100ml water sample, unit: cfu/100ml'
+          example: 20
+        escherichiaColiPrefix:
+          type: string
+          description: 'Sign indicating if the true value is less than, equal to or greater than the escherichiaColiCount, {”<”|”=”|”>”}'
+          example: '='
+        intestinalEnterococciCount:
+          type: integer
+          format: int32
+          description: 'The number of colonies of intestinal enterococci grown per 100ml water sample, unit: cfu/100ml'
+          example: 1
+        intestinalEnterococciPrefix:
+          type: string
+          description: 'Sign indicating if the true result is equal to, greater than or less than the intestinalEnterococciCountenteroValue, {”<”|”=”|”>”}'
+          example: '<'
+        takenAt:
+          type: string
+          format: date-time
+          description: 'Date the sample was taken'
+          example: '2022-06-24T22:00:00Z'
+        sampleAssessId:
+          type: integer
+          format: int32
+          minimum: 1
+          maximum: 4
+          description: 'Assessment for both indicator bacteria in bathing water sample.'
+          example: 1
+        sampleAssessIdText:
+          type: string
+          description: 'Assessment of both indicator bacteria in bathing water sample, in plain text'
+          example: 'Acceptable'
+        weatherId:
+          type: integer
+          format: int32
+          minimum: 1
+          maximum: 7
+          description: 'Weather at the time of sampling.'
+          example: 3
+        weatherIdText:
+          type: string
+          description: 'Weather at the time of sampling, in plain text'
+          example: 'Partly cloudy'
+        waterTemp:
+          type: string
+          description: 'Water temperature at the time of sampling, unit: °C'
+          example: '23'
+        sampleComplete:
+          type: boolean
+          description: 'True if sample contains results from both Escherichia coli and intestinal enterococci. False if sample contains result from only one indicator bacteria.'
+          example: true
+        escherichiaColiAssessId:
+          type: integer
+          format: int32
+          minimum: 1
+          maximum: 4
+          description: 'Assessment of Escherichia coli in bathing water sample.'
+          example: 1
+        escherichiaColiAssessIdText:
+          type: string
+          description: 'Assessment of Escherichia coli in bathing water sample, in plain text.'
+          example: 'Acceptable'
+        intestinalEnterococciAssessId:
+          type: integer
+          format: int32
+          minimum: 1
+          maximum: 4
+          description: 'Assessment of intestinal enterococci in bathing water sample.'
+          example: 1
+        intestinalEnterococciAssessIdText:
+          type: string
+          description: 'Assessment of intestinal enterococci in bathing water sample, in plain text.'
+          example: 'Acceptable'
+        pollutionTypeId:
+          type: integer
+          format: int32
+          description: 'Pollution found by visual inspection at the bathing water.'
+          example: 2
+        pollutionTypeIdText:
+          type: string
+          description: 'Pollution found by visual inspection at the bathing water, in plain text.'
+          example: 'Plast'
+        pollutionOtherText:
+          type: string
+          description: 'Description of other pollutant found by visual inspection, if not a common pollutant.'
+          example: 'Avföring från fåglar runt badplatsen'
+      example:
+        algalId: 4
+        algalIdText: 'No bloom'
+        escherichiaColiCount: 20
+        escherichiaColiPrefix: '='
+        intestinalEnterococciCount: 1
+        intestinalEnterococciPrefix: '<'
+        takenAt: '2023-06-25T22:00:00Z'
+        sampleAssessId: 1
+        sampleAssessIdText: 'Acceptable'
+        weatherId: 3
+        weatherIdText: 'Partly cloudy'
+        waterTemp: '23'
+        sampleComplete: true
+        escherichiaColiAssessId: 1
+        escherichiaColiAssessIdText: 'Acceptable'
+        intestinalEnterococciAssessId: 1
+        intestinalEnterococciAssessIdText: 'Acceptable'
+        pollutionTypeId: 2
+        pollutionTypeIdText: 'Plast'
+        pollutionOtherText: ''
+
+    BathingWaterProfile:
+      description: 'The profile indicates possible sources of pollution found in the catchment area(s) that affect the quality of the bathing water'
+      type: object
+      required:
+        - bathingWater
+      properties:
+        bathingWater:
+          $ref: '#/components/schemas/BathingWater'
+        algae:
+          type: boolean
+          description: 'True if the municipality assesses that there is a risk of spread of macroalgae (seaweed) or algal blooms, false if the municipality assesses that there is no such risk'
+          example: false
+        cyano:
+          type: boolean
+          description: 'True if the municipality assesses that there is a risk of cyano bacteria blooms, false if the municipality assesses that there is no such risk'
+          example: false
+        pollutionSources:
+          type: array
+          items:
+            $ref: '#/components/schemas/PollutionSource'
+          description: "An identification and assessment of causes of pollution that might affect bathing waters and impair bathers' health"
+        summary:
+          type: string
+          description: 'Description of the physical, geographical and hydrological characteristics of the bathing water and of other surface waters in the catchment area that could be a source of pollution.'
+          example: 'Big beach with access to toilets'
+        updateDetail:
+          $ref: '#/components/schemas/UpdateDetail'
+        supervisoryAuthority:
+          $ref: '#/components/schemas/SupervisoryAuthority'
+        administrativeAuthority:
+          $ref: '#/components/schemas/AdministrativeAuthority'
+        bathingSeason:
+          $ref: '#/components/schemas/BathingSeason'
+        lastFourClassifications:
+          type: array
+          items:
+            $ref: '#/components/schemas/Classification'
+          description: Bathing water quality classifications for the last four years
+      example:
+        bathingWater:
+          name: 'Vattensjön'
+          id: 'SE0441273000000001'
+          euType: true
+          description: 'Large sandy beach with access to a toilet'
+          euMotive: 'About 100-200 bathers on average per day. Docks, outhouse, life saving equipment, emergency phone, trash cans are available. Cleaning by the roadworks department is carried out twice a week'
+          notEuMotive: 'Expected visitor count too low'
+          samplingPointPosition:
+            latitude: '13.7674095026078'
+            longitude: '56.4212500165633'
+          perimeterCoordinates:
+            - latitude: '13.7674095026078'
+              longitude: '56.4212500165633'
+            - latitude: '13.7624095026078'
+              longitude: '56.8212500165633'
+          municipality:
+            name: 'Ale'
+            contactInfo:
+              phone: '0379-52 60 13'
+              email: 'badvatten@ale.se'
+              url: 'www.ale.se'
+          waterTypeId: 1
+          waterTypeIdText: 'Ocean'
+        algae: false
+        cyano: false
+        pollutionSources:
+          - riskLevel: 1
+            description: 'Storm water from 20-45 buildings'
+            name: 'Bird droppings'
+            frequency: 'Every spring when the birds return'
+            position:
+              latitude: '13.7674095026078'
+              longitude: '56.4212500165633'
+            proposedMeasures:
+              - description: 'Clean up droppings'
+                schedule: 'When needed'
+                responsible: 'Municipality'
+            implementedMeasures:
+              - description: 'New pump installed'
+                schedule: '2021-06-03'
+                responsible: 'Municipality'
+        summary: 'Big beach with access to toilets'
+        updateDetail:
+          schedule: '2026'
+          latestAt: '2022-01-12T23:00:00Z'
+          frequency: 'Every 4th year'
+          authoredBy: 'Sven Svensson'
+        supervisoryAuthority:
+          name: 'Environmental Management'
+          address: 'Box 11930, 404 39 Göteborg'
+          visitAddress: 'Gullbergs strandgata 15, 411 04 Göteborg'
+          phone: '0379-52 60 13'
+          email: 'miljoforvaltningen@lan.se'
+        administrativeAuthority:
+          name: 'Urban Environmental Administration'
+          address: 'Box 110, 404 39 Ale'
+          visitAddress: 'Gullbergs strandgata 14, 411 04 Ale'
+          phone: '0379-52 60 13'
+          email: 'stadsmiljo@ale.se'
+        bathingSeason:
+          startsAt: '2024-06-15T22:00:00Z'
+          endsAt: '2024-08-01T22:00:00Z'
+        lastFourClassifications:
+          - year: 2021
+            qualityClassId: 1
+            qualityClassIdText: 'Excellent Quality'
+          - year: 2022
+            qualityClassId: 1
+            qualityClassIdText: 'Excellent Quality'
+          - year: 2023
+            qualityClassId: 1
+            qualityClassIdText: 'Excellent Quality'
+          - year: 2024
+            qualityClassId: 1
+            qualityClassIdText: 'Excellent Quality'
+
+    BathingWaterForecast:
+      description: The forecast for a bathing water
+      type: object
+      properties:
+        bathingWaterId:
+          $ref: '#/components/schemas/BathingWaterId'
+        waterForecasts:
+          type: array
+          description: A list of water temperature forecasts
+          items:
+            $ref: '#/components/schemas/WaterTempForecast'
+      example:
+        bathingWaterId: 'SE0441273000000001'
+        waterForecasts:
+          - waterTemp: '15'
+            measHour: '12'
+          - waterTemp: '17'
+            measHour: '15'
+          - waterTemp: '18'
+            measHour: '18'
+
+    WaterTempForecast:
+      description: A forecast from Copernicus
+      type: object
+      properties:
+        waterTemp:
+          type: string
+          description: Water temperature [°C], for the time in measHour
+          example: '10'
+        measHour:
+          type: string
+          description: Time to which the forecast refers, hour in 24h format
+          example: '14'
+      example:
+        waterTemp: '15'
+        measHour: '12'
+
+
+    Measure:
+      description: Measures taken or to be taken if pollution occurs
+      type: object
+      properties:
+        description:
+          type: string
+          description: 'Description of measure to prevent, reduce or eliminate the causes of pollution'
+          example: 'Clean up seaweed'
+        schedule:
+          type: string
+          description: 'When the action is scheduled to be carried out or was carried out. Please note that this is free text and thus does not need to be a date'
+          example: 'As needed'
+        responsible:
+          type: string
+          description: 'Name of the organisation responsible for the measure'
+          example: 'Municipality'
+      example:
+        description: 'Clean up seaweed'
+        schedule: 'When needed'
+        responsible: 'Municipality'
+
+
+    PollutionSource:
+      description: "An identification and assessment of a cause of pollution that might affect bathing waters and impair bathers' health"
+      type: object
+      properties:
+        riskLevel:
+          type: integer
+          format: int32
+          description: 'The anticipated risk of frequency of the potential source of pollution. {1-2} 1=Hög, 2=Låg'
+          example: 2
+        description:
+          type: string
+          description: Description of the potential source of pollution
+          example: 'Storm water from 20-45 buildings'
+        name:
+          type: string
+          description: Name of potential source of pollution
+          example: 'Bird droppings'
+        frequency:
+          type: string
+          description: Description of the anticipated risk of frequency of the potential source of pollution
+          example: 'Dagvattenutlopp'
+        position:
+          $ref: '#/components/schemas/Coordinate'
+        proposedMeasures:
+          type: array
+          items:
+            $ref: '#/components/schemas/Measure'
+          description: List of proposed management measures to prevent, reduce or eliminate the causes of pollution
+        implementedMeasures:
+          type: array
+          items:
+            $ref: '#/components/schemas/Measure'
+          description: List of management measures implemented to prevent, reduce or eliminate the causes of pollution
+      example:
+        riskLevel: 1
+        description: 'Storm water from 20-45 buildings'
+        name: 'Bird droppings'
+        frequency: 'Every spring when the birds return'
+        position:
+          latitude: '13.7674095026078'
+          longitude: '56.4212500165633'
+        proposedMeasures:
+          - description: 'Clean up droppings'
+            schedule: 'When needed'
+            responsible: 'Municipality'
+        implementedMeasures:
+          - description: 'New pump installed'
+            schedule: '2021-06-03'
+            responsible: 'Municipality'
+
+    BathingSeason:
+      description: The period during which large numbers of bathers can be expected
+      type: object
+      properties:
+        startsAt:
+          type: string
+          format: date-time
+          description: First day of the bathing season
+          example: '2024-06-15T22:00:00Z'
+        endsAt:
+          type: string
+          format: date-time
+          description: Last day of the bathing season
+          example: '2024-08-01T22:00:00Z'
+      example:
+        startsAt: '2024-06-15T22:00:00Z'
+        endsAt: '2024-08-01T22:00:00Z'
+
+    UpdateDetail:
+      description: Details related to updates
+      type: object
+      properties:
+        schedule:
+          type: string
+          description: Time schedule for the next update
+          example: '2024'
+        latestAt:
+          type: string
+          format: date-time
+          description: Date of the most recent update
+          example: '2022-01-12T23:00:00Z'
+        frequency:
+          type: string
+          description: Planned update frequency
+          example: 'Every 4th year'
+        authoredBy:
+          type: string
+          description: Name of who authored the most recent update
+          example: 'Sven Svensson'
+      example:
+        schedule: '2026'
+        latestAt: '2022-01-12T23:00:00Z'
+        frequency: 'Every 4th year'
+        authoredBy: 'Sven Svensson'
+
+    BathingWater:
+      description: 'A bathing water where bathing water quality is monitored'
+      type: object
+      required:
+        - name
+        - id
+        - municipality
+      properties:
+        name:
+          type: string
+          description: The bathing water’s name
+          example: 'Vattensjön'
+        id:
+          $ref: '#/components/schemas/BathingWaterId'
+        euType:
+          type: boolean
+          description: True if it is an EU designated bathing site, false if it is other bathing water.
+          example: true
+        euMotive:
+          type: string
+          description: Basis for identifying the bathing water as an EU designated bathing water.
+          example: 'About 100-200 bathers on average per day. Docks, outhouse, life saving equipment, emergency phone, trash cans are available. Cleaning by the roadworks department is carried out twice a week.'
+        notEuMotive:
+          type: string
+          description: Basis for delisting EU designated bathing water.
+          example: 'Expected visitor count too low.'
+        description:
+          type: string
+          description: Information to the public of the location and facilities at the site.
+          example: 'Located 500 meters from the center and offers both beach and cliff bathing'
+        samplingPointPosition:
+          $ref: '#/components/schemas/Coordinate'
+        perimeterCoordinates:
+          type: array
+          description: List of coordinates that outline a polygon of the bathing water.
+          items:
+            $ref: '#/components/schemas/Coordinate'
+        municipality:
+          $ref: '#/components/schemas/Municipality'
+        waterTypeId:
+          type: integer
+          format: int32
+          description: 'Water body type.'
+          example: 1
+        waterTypeIdText:
+          type: string
+          description: 'Water body type, in plain text.'
+          example: 'Sjö'
+      example:
+        name: 'Vattensjön'
+        id: 'SE0441273000000001'
+        euType: true
+        description: 'Large sandy beach with access to a toilet'
+        euMotive: 'About 100-200 bathers on average per day. Docks, outhouse, life saving equipment, emergency phone, trash cans are available. Cleaning by the roadworks department is carried out twice a week'
+        notEuMotive: 'Expected visitor count too low'
+        samplingPointPosition:
+          latitude: '13.7674095026078'
+          longitude: '56.4212500165633'
+        perimeterCoordinates:
+          - latitude: '13.7674095026078'
+            longitude: '56.4212500165633'
+          - latitude: '13.7624095026078'
+            longitude: '56.8212500165633'
+        municipality:
+          name: 'Ale'
+          contactInfo:
+            phone: '0379-52 60 13'
+            email: 'badvatten@ale.se'
+            url: 'www.ale.se'
+        waterTypeId: 1
+        waterTypeIdText: 'Ocean'
+
+    Municipality:
+      type: object
+      description: 'The local authority and the smallest geographically defined administrative unit in Sweden, (sv: kommun)'
+      required:
+        - name
+      properties:
+        name:
+          type: string
+          description: Name of the municipality
+          example: 'Osby'
+        contactInfo:
+          $ref: '#/components/schemas/ContactInfo'
+      example:
+        name: 'Ale'
+        contactInfo:
+          phone: '0379-52 60 13'
+          email: 'badvatten@ale.se'
+          url: 'www.ale.se'
+
+    Coordinate:
+      type: object
+      description: 'The coordinates of a location using the World Geodetic System (WGS)'
+      required:
+        - latitude
+        - longitude
+      properties:
+        latitude:
+          type: string
+          pattern: ^(\+|-)?(?:90(?:(?:\.0{1,15})?)|(?:[0-9]|[1-8][0-9])(?:(?:\.[0-9]{1,15})?))$
+          description: 'Latitude in WGS 84 decimal degrees EPSG:4326'
+          example: '13.7674095026078'
+        longitude:
+          type: string
+          pattern: ^(\+|-)?(?:180(?:(?:\.0{1,15})?)|(?:[0-9]|[1-9][0-9]|1[0-7][0-9])(?:(?:\.[0-9]{1,15})?))$
+          description: 'Longitude in WGS 84 decimal degrees EPSG:4326'
+          example: '56.4212500165633'
+      example:
+        latitude: '13.7674095026078'
+        longitude: '56.4212500165633'
+
+    SupervisoryAuthority:
+      description: 'The authority at the municipality responsible for supervision of management of the bathing water.'
+      properties:
+        contactInfo:
+          $ref: '#/components/schemas/ContactInfo'
+      example:
+        name: 'Environmental Management'
+        address: 'Box 11930, 404 39 Göteborg'
+        visitAddress: 'Gullbergs strandgata 15, 411 04 Göteborg'
+        phone: '0379-52 60 13'
+        email: 'miljoforvaltningen@lan.se'
+
+    AdministrativeAuthority:
+      description: 'The authority at the municipality responsible for sampling the bathing water.'
+      properties:
+        contactInfo:
+          $ref: '#/components/schemas/ContactInfo'
+      example:
+        name: 'Urban Environment Administration'
+        address: 'Box 110, 404 39 Ale'
+        visitAddress: 'Gullbergs strandgata 14, 411 04 Ale'
+        phone: '0379-52 60 13'
+        email: 'stadsmiljo@ale.se'
+
+    ContactInfo:
+      description: Contact details of the relevant party
+      required:
+        - phone
+        - email
+      properties:
+        name:
+          type: string
+          description: Name
+          example: 'Johan Havsson'
+        address:
+          type: string
+          description: Post address
+          example: 'Box 11930, 404 39 Göteborg'
+        visitAddress:
+          type: string
+          description: Visiting address
+          example: 'Gullbergs strandgata 15, 411 04 Göteborg'
+        phone:
+          type: string
+          description: Telephone number
+          example: '0379-52 60 13'
+        email:
+          type: string
+          pattern: "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$"
+          description: Email address
+          example: 'badplatsen@hav.se'
+        url:
+          type: string
+          description: Website address
+          example: 'www.hav.se'
+      example:
+        name: 'Johan Havsson'
+        address: 'Box 11930, 404 39 Göteborg'
+        visitAddress: 'Gullbergs strandgata 15, 411 04 Göteborg'
+        phone: '0379-52 60 13'
+        email: 'badplatsen@hav.se'
+        url: 'www.hav.se'
+
+    Classification:
+      description: 'Bathing waters are classified according to quality status at the end of the bathing season. The classifications are put into effect the following year.'
+      type: object
+      required:
+        - year
+        - qualityClassId
+      properties:
+        year:
+          type: integer
+          format: int32
+          description: 'Classification year'
+          example: 2021
+        qualityClassId:
+          type: integer
+          format: int32
+          minimum: 0
+          maximum: 6
+          description: 'Bathing water quality status for the given classification year.'
+          example: 1
+        qualityClassIdText:
+          type: string
+          description: 'Bathing water quality status for the given classification year in plain text.'
+          example: 'Utmärkt kvalitet'
+      example:
+        year: 2022
+        qualityClassId: 1
+        qualityClassIdText: 'Excellent Quality'
+
+
+    HavErrorResponse:
+      type: object
+      required:
+        - code
+        - detail
+      properties:
+        id:
+          type: string
+          format: urn
+          pattern: ^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$
+          description: Unique id for identifying the error
+          example: bf14bf37-7bcc-4b39-828c-4145ad02615a
+        code:
+          type: integer
+          format: int32
+          minimum: 1
+          maximum: 1000000
+          exclusiveMaximum: true
+          description: An application specific error code
+          example: 15503
+        detail:
+          type: string
+          description: A human readable description of the error
+          example: Invalid value
+      example:
+        id: bf14bf37-7bcc-4b39-828c-4145ad02615a
+        code: 15503
+        detail: flagState has invalid value
+
+    HavHealthCheck:
+      type: object
+      required:
+        - description
+        - state
+      properties:
+        description:
+          type: string
+          description: The name of the service
+          example: Service A
+        state:
+          type: string
+          x-extensible-enum:
+            - up
+            - down
+          description: The state of the service
+          example: up
+      description: Object for health
+      example:
+        description: Service is ready
+        state: up
+
+    HavHealthChecks:
+      type: object
+      additionalProperties:
+        $ref: '#/components/schemas/HavHealthCheck'
+      description: List of objects for health
+      example:
+        readiness:
+          description: Service is ready
+          state: up
+        liveness:
+          description: Database connection
+          state: up
+
+    HavMetadataResponse:
+      type: object
+      required:
+        - apiName
+        - apiVersion
+        - apiReleasedAt
+        - apiDocumentation
+        - apiStatus
+      properties:
+        apiName:
+          type: string
+          description: The name of the API (same as OpenAPI title)
+          example : bathing-waters
+        apiVersion:
+          type: string
+          description: The version of the API (same as OpenAPI version)
+          example: 1.0.0
+        apiReleasedAt:
+          type: string
+          format: date-time
+          description: The date then API was published
+          example: '2022-03-28T12:00:00Z'
+        apiDocumentation:
+          type: string
+          description: A link to the documentation of the API
+          example: https://www.havochvatten.se
+        apiStatus:
+          type: string
+          x-extensible-enum:
+            - active
+            - deprecated
+            - retired
+          description: The status of the API
+          example: active
+      example:
+        apiName: bathing-waters-public
+        apiVersion:  2.0.0
+        apiReleasedAt: '2022-03-28T12:00:00Z'
+        apiDocumentation: https://www.havochvatten.se/data-kartor-och-rapporter/data-och-statistik/data-och-apier.html
+        apiStatus: active
+

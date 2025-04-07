@@ -1,0 +1,201 @@
+# Exempel
+
+## Metadata
+Metadata om api:et kan hämtas genom sökvägen / .
+
+### cURL
+Exempel på anrop.
+```
+curl --location 'https://gw-test.havochvatten.se/external-public/bathing-waters/v2'
+```
+
+Exempel på svar.
+```
+{
+    "apiName": "bathing-waters-api-public",
+    "apiVersion": "1.0.0",
+    "apiReleasedAt": "2024-03-30T10:00:00Z",
+    "apiDocumentation": "https://www.havochvatten.se/badplatser-och-badvatten.html",
+    "apiStatus": "active"
+}
+```
+
+***
+
+## Övervakning
+För att verifiera tillgängligheten kan anrop göras till /operations/health-checks/readiness
+
+### cURL
+Exempel på anrop.
+```
+curl --location 'https://gw-test.havochvatten.se/external-public/bathing-waters/v2/operations/health-checks/readiness'
+```
+
+Exempel på svar.
+```
+{
+    "description": "Service is ready",
+    "state": "up"
+}
+```
+
+***
+
+## Information om badplats ändringar
+Information om ändringar kan hämtas genom sökvägen /changelogs/bathing-waters.
+
+### cURL
+Exempel på anrop.
+```
+curl --location 'https://gw-test.havochvatten.se/external-public/bathing-waters/v2/changelogs/bathing-waters?filter=(changedAt ge 2024-08-15T22:00:00Z) and (isNew eq 'true') and (statusToFind eq 'all') and (hasUpdatedCoords eq 'false'), (hasUpdatedName eq 'false') and (onlyLatest eq 'false')
+```
+
+Exempel på svar.
+```
+[
+	{
+		"changedAt": "2023-04-26T11:04:24Z",
+		"difference": "isNew",
+		"nutsCode": "SE0A21440000006580"
+	},
+	{
+		"changedAt": "2024-04-10T06:04:21Z",
+		"difference": "reactivated",
+		"nutsCode": "SE0A21440000006600"
+	},
+	{
+		"changedAt": "2024-04-10T11:04:32Z",
+		"difference": "deactivated",
+		"nutsCode": "SE0A21440000006600"
+	},
+	...
+```
+
+***
+
+## Information om en badvattenprofil
+Information om badvattenprofiler kan hämtas genom sökvägen /bathing-water-profiles/{nutsCode}.
+
+### cURL
+Exempel på anrop.
+```
+curl --location 'https://gw-test.havochvatten.se/external-public/bathing-waters/v2/bathing-water-profiles/SE0A21440000001827'
+```
+
+Exempel på svar.
+```
+{
+	"administrativeAuthority": {
+		"address": "449 80 Alafors",
+		"email": "m.mangsson@ale.se",
+		"name": "Ale kommun",
+		"phone": "070707070",
+		"visitAddress": "Ledetvägen 6"
+	},
+	"algae": true,
+	"bathingSeason": {
+		"endsAt": "2024-08-19T22:00:00Z",
+		"startsAt": "2024-06-20T22:00:00Z"
+	},
+	"bathingWater": {
+		"description": "Mattias testar!",
+		"euMotive": "dfsdfsdfsdfsdfsdfs",
+		"euType": false,
+		"municipality": {
+			"contactInfo": {
+				"email": "alefritid@ale.se",
+				"phone": "0303030303",
+				"url": "www.ale.se"
+			},
+			"name": "Ale"
+		},
+		"name": "Hultasjön",
+		"notEuMotive": "asdasdasdasda",
+		"nutsCode": "SE0A21440000001827",
+		"perimeterCoordinates": [],
+		"samplingPointPosition": {
+			"latitude": "57.9367",
+			"longitude": "57.9367"
+		},
+		"waterTypeId": 3,
+		"waterTypeIdText": "Sjö"
+	},
+	"cyano": true,
+	"lastFourClassifications": [
+		{
+			"qualityClassId": 7,
+			"qualityClassIdText": "Klassificering pågår",
+			"year": 2023
+		},
+		{
+			"qualityClassId": 1,
+			"qualityClassIdText": "Utmärkt kvalitet",
+			"year": 2022
+		},
+		{
+			"qualityClassId": 1,
+			"qualityClassIdText": "Utmärkt kvalitet",
+			"year": 2021
+		},
+		{
+			"qualityClassId": 1,
+			"qualityClassIdText": "Utmärkt kvalitet",
+			"year": 2020
+		}
+	],
+	"pollutionSources": [
+		{
+			"description": "Pumpstation för kommunala spillvatten",
+			"frequency": "Vid kraftig regn",
+			"implementedMeasures": [],
+			"name": "Test McTest",
+			"position": {
+				"latitude": "57.9361",
+				"longitude": "12.2427"
+			},
+			"proposedMeasures": [],
+			"riskLevel": 1
+		},
+		{
+			"description": "Vattendrag som samlar vatten från bostadsområdet",
+			"frequency": "Varje sommar",
+			"implementedMeasures": [
+				{
+					"description": "Utförd åtgärd",
+					"responsible": "HaV"
+				}
+			],
+			"name": "Testing again",
+			"position": {
+				"latitude": "57.936091000000005",
+				"longitude": "12.24275"
+			},
+			"proposedMeasures": [
+				{
+					"description": "Åtgärd",
+					"responsible": "HaV"
+				}
+			],
+			"riskLevel": 1
+		}
+	],
+	"summary": "Hultasjön är en kommunal badsjö som inte är handikappsanpassad. En bajamaja ställs upp under badsäsong. Hundar är inte tillåtna badgäster.",
+	"supervisoryAuthority": {
+		"address": "449 80 Alafors",
+		"email": "miljo@ale.se",
+		"name": "Ale kommun Verksamhet miljö",
+		"phone": "030303030",
+		"visitAddress": "Ledetvägen 6"
+	},
+	"updateDetail": {
+		"authoredBy": "Test McTest",
+		"frequency": "Årlig uppdatering",
+		"latestAt": "2024-02-03T00:00:00Z",
+		"schedule": "Vid behov - test"
+	}
+}
+```
+
+***
+
+[Havs- och vattenmyndigheten](https://www.havochvatten.se)

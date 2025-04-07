@@ -1,0 +1,13 @@
+# Förändringslogg
+
+API version | Datum | Beskriving
+------------| ------| ----------
+1.0.0 | 2024-09-18 | Skapad
+2.0.0 | 2025-03-26 | Uppdaterade endpointerna så att de alltid returnerar ett json-objekt. La versionsnumret till url:n. Flyttade badvattenprofiler till /bathing-waters/{nutscode}/profiles och metadatan till /operations/metadata. Döpte om 'nutsCode' till 'bathingWaterId'. Uppdaterade Supervisory- och AdministrativeAuthority så de har egna objekt.
+2.1.0 | 2025-04-01 | Uppdaterade BathingWaterAndAdvisories objekt med att lägga till 'abnormalSituations' array.
+
+
+
+***
+***
+[Havs- och vattenmyndigheten](https://www.havochvatten.se)
